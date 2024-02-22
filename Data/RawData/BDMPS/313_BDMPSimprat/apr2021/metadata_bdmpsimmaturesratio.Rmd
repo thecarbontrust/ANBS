@@ -1,0 +1,27 @@
+
+## BDMPS Immatures Ratio {#bdmpsimmaturesratio}
+
+### Summary {-}
+The raw data that underpin the BDMPS. This dataset provide the ratio of immatures to pairs for each species.
+
+### Provenance {-}
+This dataset was derived by automatically converting the tables of appendices (Tables 1-69) from the  BDMPS report [@furness_2015] into to a CSV file, importing this into R, and then using an R script to extract the raw data that underpin the BDMPS calculations. This process is designed to separate out the raw data that underpin BDMPS from the derived values within it, and to put it into a format that is easily accessed by R, to enable the BDMPS calculations to be developed as a tool within the CEF, and to make future updating of the raw input data as straightforward as possible.
+
+### Terms of Use {-}
+These data are from published reports and are freely available to use, subject to standard copyright terms.
+
+### Data set attribution {-}
+You must cite: 
+
+
+#### Update information {-}
+
+
+### Supplemental information {-}
+These raw data are used by the BDMPS tool to produce apportioning percentages (usually, although not necessarily, for the non-breeding season)
+
+### Keywords {-}
+seabirds; spatial distribution; apportioning; non-breeding season; BDMPS
+
+----
+

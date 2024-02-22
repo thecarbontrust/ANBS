@@ -1,0 +1,73 @@
+```{r setup}
+knitr::opts_chunk$set(error=TRUE)
+```
+
+## Check that footprint map is within the boundaries of the BDMPS regions (EEZ)
+```{r footprintpolygon, eval=inputs$mode=="footprint"}
+
+
+# Check that fp.shp is entirely within the boundaries of the EEZ
+
+check.bound <- unlist(st_within(fp.shp, dat_bdmpsregions))
+  
+  if(is.na(sum(check.bound))){
+  msgBox("ERROR: Some or all of the footprint is outside the boundary of the UK EEZ so the ANBS tool will terminate.")
+  stop("ERROR: Some or all of the footprint is outside the boundary of the UK EEZ  so the ANBS tool will terminate.")
+    
+  stopparam <- TRUE
+  
+  }
+```
+
+
+## In map mode, assign the chosen BDMPS region as fp.shp, so that the apportioning is calculated over the whole region
+```{r bdmpsasfootprint, eval=inputs$mode=="map"}
+fp.shp <- dat_bdmpsregions[toupper(stringr::word(dat_bdmpsregions$Region, 1,2, sep=" "))==toupper(stringr::word(inputs$BDMPS.region, 1,2, sep=" ")),]
+
+```
+
+
+
+## Return message to user if the footprint spans over more than one BDMPS region, get user to choose region. 
+```{r footprintregion, eval=inputs$mode=="footprint"}
+
+
+# Identify which BDMPS region(s) the footprint is in
+fp_bdmps <- st_intersection(fp.shp,dat_bdmpsregions)
+
+  if(length(fp_bdmps$Region)>1){
+
+  inputs$BDMPS.region<- dlg_list(
+  choices= dat_bdmpsregions$Region,
+  preselect = NULL,
+  multiple = FALSE,
+  title = "The footprint is located in more than one BDMPS region. Please select which BDMPS region to assign the footprint to")$res
+  } else {
+     
+  inputs$BDMPS.region <- fp_bdmps$Region
+  }
+
+```
+
+
+
+## Calculate the area (in $km^2$) of the footprint and the area of BDMPS region
+```{r regionarea}
+
+# Calculate area of footprint
+fp.area <- st_area(fp.shp)
+fp.areakm2 <- as.numeric(fp.area)/(1000*1000)
+
+```
+
+
+
+# Calculate area of BDMPS regions
+```{r bsmpsarea}
+
+bdmps.area <- as.matrix(st_area(dat_bdmpsregions))
+rownames(bdmps.area) <- dat_bdmpsregions$Region
+colnames(bdmps.area) <- "area"
+
+```
+

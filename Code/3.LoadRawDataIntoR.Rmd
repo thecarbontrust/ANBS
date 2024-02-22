@@ -1,0 +1,138 @@
+
+
+# Overview
+This document imports the data required for the ORJIP Apportioning in the Non-Breeding Season Tool (ANBS), which are not user-specified (although some of them can be modified). Where required, it manipulates the data and outputs files to be used in the tool.
+
+```{r setup}
+knitr::opts_chunk$set(error=TRUE)
+```
+
+  
+## BDMPS regions
+```{r loaddatbdmpsregions}
+
+dat_bdmpsregions <- read_shpfiles(dspathn = file.path("../Data/RawData/BDMPS/BDMPSRegions"),
+                                      verpathn = "jan2023",
+                                      dname = "BDMPS_Regions")
+```
+
+
+## SPA coordinates
+```{r loaddatcoords}
+dat_coords <- read_spacoords()
+# Transform SPA coordinates from ESPG:3035 (the CEF projection) to WGS 1984 Lambert Azimuthal EqArea North Pole (Lila/AppSAS projection)
+dat_coords_reproject <- process_transform.coords(fromcrs="epsg:3035", tocrs="+proj=laea +lat_0=90 +lon_0=0 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs",coord1=dat_coords$fltxy.E, coord2=dat_coords$fltxy.N)
+dat_coords <- cbind(dat_coords, dat_coords_reproject)
+
+```
+
+
+## Check that all SPAs in BDMPS appear in SPA coordinate data
+```{r loadmatch}
+
+if(all(! is.na(match(dat_bdmpsspatdist$SPACODE[dat_bdmpsspatdist$SPACODE != ""], dat_coords$SITECODE)))){## TRUE == good
+  paste0("All BDMPS site codes match SPA coordinate data") } else {
+    
+  msgBox("ERROR: Some BDMPS site codes do not match coordinate data so the ANBS tool will terminate. Check the data from BDMPS and SPA files.")
+    stop("ERROR: Some BDMPS site codes do not match coordinate data so the ANBS tool will terminate. Check the data from BDMPS and SPA files.")
+    
+    stopparam <- TRUE
+   
+  }
+  
+```
+
+
+## UK map
+```{r loadukmap}
+UKmap <- read_shpfiles(dspathn = file.path("../Data/RawData/UKMap"),
+                                      verpathn = "jan2023",
+                                      dname = "UKmap_LAEA")
+```
+
+
+## Footprint map
+```{r loadfp}
+if(inputs$mode=="footprint"){
+
+  footprint2 <- strsplit(gsub("\\\\", "/", inputs$footprint),"/")
+  
+  fp.dspathn <- paste0(footprint2[[1]][1:(length(footprint2[[1]])-2)],collapse="/") 
+  fp.verpathn <- footprint2[[1]][length(footprint2[[1]])-1]
+  fp.dname <- substr(footprint2[[1]][length(footprint2[[1]])],1,nchar(footprint2[[1]][length(footprint2[[1]])])-4)
+  
+  
+  fp.shp <- read_shpfiles(dspathn = file.path(fp.dspathn),
+                                      verpathn = fp.verpathn,
+                                      dname = fp.dname)
+  
+  fp.shp = st_transform(fp.shp, "+proj=laea +lat_0=90 +lon_0=0 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs")
+  
+    if(length(st_geometry(fp.shp)[[1]])>1){
+    msgBox("ERROR: The footprint has more than one polygon in it so the ANBS tool will terminate.")
+    stop("ERROR: The footprint has more than one polygon in it so the ANBS tool will terminate.")
+    
+    stopparam <- TRUE
+    }
+
+  
+}
+```
+
+
+
+## GLS tracked colonies
+```{r loadtracked, eval=inputs$BDMPS.uncertainty>1}
+
+trackedcols <- subset(read_csvfile(dspathn = file.path("../Data/RawData"),
+                                   verpathn = "UD",
+                                   dname = "TrackedColoniesFromUDs"),Species==inputs$species)
+trackedcols <- subset(trackedcols,SampleSize>1)
+
+# Only select one season for razorbill
+if(inputs$species=="Razorbill"){
+  trackedcols <- trackedcols[stringr::word(trackedcols$Season,1)==stringr::word(inputs$season,1),]
+}
+
+stringr::word(trackedcols$Season,1)
+stringr::word(inputs$season,1)
+  
+trackedcols_reproject <- process_transform.coords(fromcrs="epsg:4326", tocrs="+proj=laea +lat_0=90 +lon_0=0 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs",coord1=trackedcols$X, coord2=trackedcols$Y)
+trackedcols <- cbind(trackedcols, trackedcols_reproject)
+trackedcols <- merge(trackedcols,dat_spalist[c("SITE_NAME","SITE_CODE")], by="SITE_NAME")
+names(trackedcols)[names(trackedcols) == 'SITE_CODE'] <- 'SITECODE'
+  
+```
+
+
+## Geolocator-based UDs 
+
+For GU, import months Aug-Feb (1:2,8:12), which represents "non-breeding season (August to February)" in bdmpsprop
+For RA, import months Aug-Oct (8:10) & Jan-Mar (1:3), which represents "migration seasons (August to October; and January to March)"
+        import months Nov and Dec (11:12), which represents "winter (November and December)"    
+
+```{r loadcols, eval=inputs$BDMPS.uncertainty>1}
+
+colony <- trackedcols$Colony
+
+tic()
+  for(i in 1:length(colony)){
+  assign(paste0("ud.",inputs$species,trackedcols$SITECODE[i]), read_uds(dspathn = file.path("../Data/RawData/UD"),
+                                      verpathn = "RasterDens_SpColMolter",
+                                      species=inputs$species,
+                                      month=inputs$months,
+                                      colony=colony[i])) 
+  }
+toc()
+  
+
+```
+
+
+## Cost distance transition layer
+```{r loadcostgrid}
+costgrid <- read_rds(dspathn = file.path("../Data/ProcessedData"),
+                                      verpathn = "DistancetoColony",
+                                      dname = "TransitionCostGrid")
+
+```

@@ -1,0 +1,440 @@
+SHORT_CODE,Species,Population,Poptype,Pairs,Most.recent.count
+AC,Arctic Skua,Fair Isle,UK SPA pop,19,2013
+AC,Arctic Skua,Faroe,Overseas pop,750,2012
+AC,Arctic Skua,Fennoscandia,Overseas pop,8000,1990s
+AC,Arctic Skua,Fetlar,UK SPA pop,83,2002
+AC,Arctic Skua,Foula,UK SPA pop,35,2013
+AC,Arctic Skua,High Arctic tundra,Overseas pop,50000,1990s
+AC,Arctic Skua,Hoy,UK SPA pop,12,2010
+AC,Arctic Skua,Iceland,Overseas pop,7500,1990s
+AC,Arctic Skua,Papa Westray,UK SPA pop,22,2012
+AC,Arctic Skua,Rousay,UK SPA pop,37,2010
+AC,Arctic Skua,UK non-SPA North Sea colonies,UK non-SPA pop,450,2000*
+AC,Arctic Skua,UK non-SPA western colonies,UK non-SPA pop,200,2000*
+AC,Arctic Skua,West Westray,UK SPA pop,27,2010
+AE,Arctic Tern,Auskerry,UK SPA pop,750,2013
+AE,Arctic Tern,Baltic States,Overseas pop,8000,1990s
+AE,Arctic Tern,Coquet Island,UK SPA pop,1224,2013
+AE,Arctic Tern,Fair Isle,UK SPA pop,29,2013
+AE,Arctic Tern,Farne Islands,UK SPA pop,1921,2013
+AE,Arctic Tern,Faroe,Overseas pop,7600,2012
+AE,Arctic Tern,Fennoscandia,Overseas pop,131000,1990s
+AE,Arctic Tern,Fetlar,UK SPA pop,21,2012
+AE,Arctic Tern,Forth Islands,UK SPA pop,265,2012
+AE,Arctic Tern,Foula,UK SPA pop,20,2013
+AE,Arctic Tern,Ireland,Overseas pop,2500,2000
+AE,Arctic Tern,Mousa,UK SPA pop,18,2013
+AE,Arctic Tern,Outer Ards,UK SPA pop,60,2013
+AE,Arctic Tern,Papa Stour,UK SPA pop,1172,2000
+AE,Arctic Tern,Papa Westray,UK SPA pop,176,2011
+AE,Arctic Tern,Pentland Firth Islands,UK SPA pop,0,2007
+AE,Arctic Tern,Rousay,UK SPA pop,60,2006
+AE,Arctic Tern,Strangford Lough,UK SPA pop,164,2013
+AE,Arctic Tern,Sumburgh Head,UK SPA pop,203,2000
+AE,Arctic Tern,UK North Sea non-SPA colonies,UK non-SPA pop,26000,2000
+AE,Arctic Tern,UK western non-SPA colonies,UK non-SPA pop,15000,2000
+AE,Arctic Tern,West Westray,UK SPA pop,500,2009
+AE,Arctic Tern,Ynys Feurig; Cemlyn Bay; Skerries,UK SPA pop,550,2011
+PU,Atlantic Puffin,Canna and  Sanday,UK SPA pop,945,1999
+PU,Atlantic Puffin,Cape Wrath,UK SPA pop,1602,2000
+PU,Atlantic Puffin,Coquet Island,UK SPA pop,12344,2013
+PU,Atlantic Puffin,East Caithness Cliffs,UK SPA pop,274,1999
+PU,Atlantic Puffin,Fair Isle,UK SPA pop,10706,2012
+PU,Atlantic Puffin,Farne Islands,UK SPA pop,39962,2013
+PU,Atlantic Puffin,Faroe,Overseas pop,550000,2012
+PU,Atlantic Puffin,Flamborough and  Filey,UK SPA pop,958,2008
+PU,Atlantic Puffin,Flannan Isles,UK SPA pop,15600,2001
+PU,Atlantic Puffin,Forth Islands,UK SPA pop,62231,2008-10
+PU,Atlantic Puffin,Foula,UK SPA pop,22500,2000
+PU,Atlantic Puffin,France,Overseas pop,257,2000
+PU,Atlantic Puffin,Hermaness; Saxavord,UK SPA pop,23661,2002
+PU,Atlantic Puffin,Hoy,UK SPA pop,3500,2000
+PU,Atlantic Puffin,Ireland,Overseas pop,20000,2000
+PU,Atlantic Puffin,Mingulay and  Berneray,UK SPA pop,3126,2009
+PU,Atlantic Puffin,North Caithness Cliffs,UK SPA pop,976,2000
+PU,Atlantic Puffin,North Rona and  Sula Sgeir,UK SPA pop,5442,2001
+PU,Atlantic Puffin,Norway,Overseas pop,1750000,2000
+PU,Atlantic Puffin,Noss,UK SPA pop,802,2007
+PU,Atlantic Puffin,Rathlin Island,UK SPA pop,695,2011
+PU,Atlantic Puffin,Shiant Isles,UK SPA pop,65170,2000
+PU,Atlantic Puffin,Skomer and Skokholm,UK SPA pop,24114,2013
+PU,Atlantic Puffin,St Kilda,UK SPA pop,142264,2000
+PU,Atlantic Puffin,Sule Skerry and  Sule Stack,UK SPA pop,59471,1998
+PU,Atlantic Puffin,UK N Sea non-SPA colonies,UK non-SPA pop,35000,2000
+PU,Atlantic Puffin,UK western non-SPA colonies,UK non-SPA pop,45000,2000
+KI,Black-legged Kittiwake,Ailsa Craig,UK SPA pop,489,2013
+KI,Black-legged Kittiwake,Buchan Ness to Collieston,UK SPA pop,12542,2007
+KI,Black-legged Kittiwake,Calf of Eday,UK SPA pop,747,2006
+KI,Black-legged Kittiwake,Canna and  Sanday,UK SPA pop,820,2013
+KI,Black-legged Kittiwake,Cape Wrath,UK SPA pop,10344,2000
+KI,Black-legged Kittiwake,Copinsay,UK SPA pop,666,2012
+KI,Black-legged Kittiwake,East Caithness Cliffs,UK SPA pop,40410,1999
+KI,Black-legged Kittiwake,Fair Isle,UK SPA pop,771,2013
+KI,Black-legged Kittiwake,Farne Islands,UK SPA pop,3443,2013
+KI,Black-legged Kittiwake,Faroe,Overseas pop,200000,2012
+KI,Black-legged Kittiwake,Flamborough and Filey,UK SPA pop,37617,2008
+KI,Black-legged Kittiwake,Flannan Isles,UK SPA pop,1392,1998
+KI,Black-legged Kittiwake,Forth Islands,UK SPA pop,3100,2013
+KI,Black-legged Kittiwake,Foula,UK SPA pop,327,2013
+KI,Black-legged Kittiwake,Fowlsheugh,UK SPA pop,9337,2012
+KI,Black-legged Kittiwake,France,Overseas pop,4000,2010
+KI,Black-legged Kittiwake,Germany,Overseas pop,6000,2010
+KI,Black-legged Kittiwake,Handa,UK SPA pop,1872,2013
+KI,Black-legged Kittiwake,Hermaness; Saxavord,UK SPA pop,391,2009
+KI,Black-legged Kittiwake,Hoy,UK SPA pop,397,2007
+KI,Black-legged Kittiwake,Ireland,Overseas pop,20000,2000
+KI,Black-legged Kittiwake,Marwick Head,UK SPA pop,526,2013
+KI,Black-legged Kittiwake,Mingulay and  Berneray,UK SPA pop,2228,2009
+KI,Black-legged Kittiwake,North Caithness Cliffs,UK SPA pop,10150,2000
+KI,Black-legged Kittiwake,North Colonsay and  Western Cliffs,UK SPA pop,5563,2000
+KI,Black-legged Kittiwake,North Rona and  Sula Sgeir,UK SPA pop,1253,2012
+KI,Black-legged Kittiwake,Norway,Overseas pop,700000,2010
+KI,Black-legged Kittiwake,Noss,UK SPA pop,507,2010
+KI,Black-legged Kittiwake,Rathlin Island,UK SPA pop,7922,2011
+KI,Black-legged Kittiwake,Rousay,UK SPA pop,1764,2009
+KI,Black-legged Kittiwake,Rum,UK SPA pop,788,2000
+KI,Black-legged Kittiwake,Russia,Overseas pop,140000,2000
+KI,Black-legged Kittiwake,Shiant Isles,UK SPA pop,549,2008
+KI,Black-legged Kittiwake,Skomer; Skokholm; Middleholm,UK SPA pop,1045,2013
+KI,Black-legged Kittiwake,St Abbs Head to Fast Castle,UK SPA pop,3403,2013
+KI,Black-legged Kittiwake,St Kilda,UK SPA pop,957,2008
+KI,Black-legged Kittiwake,Sumburgh Head,UK SPA pop,210,2013
+KI,Black-legged Kittiwake,Troup; Pennan and  Lions Heads,UK SPA pop,14896,2007
+KI,Black-legged Kittiwake,UK North Sea non-SPA colonies,UK non-SPA pop,70000,2000*
+KI,Black-legged Kittiwake,UK Western non-SPA colonies,UK non-SPA pop,30000,2000*
+KI,Black-legged Kittiwake,West Westray,UK SPA pop,12055,2007
+GU,Common Guillemot,Ailsa Craig SPA,UK SPA pop,5247,2013
+GU,Common Guillemot,Buchan Ness to Collieston Coast SPA,UK SPA pop,12928,2007
+GU,Common Guillemot,Calf of Eday SPA,UK SPA pop,6300,2006
+GU,Common Guillemot,Canna and  Sanday SPA,UK SPA pop,3913,1999
+GU,Common Guillemot,Cape Wrath SPA,UK SPA pop,27359,2000
+GU,Common Guillemot,Copinsay SPA,UK SPA pop,5607,2012
+GU,Common Guillemot,East Caithness Cliffs SPA,UK SPA pop,106500,1999
+GU,Common Guillemot,Fair Isle SPA,UK SPA pop,13066,2010
+GU,Common Guillemot,Farne Islands SPA,UK SPA pop,33532,2013
+GU,Common Guillemot,Faroe Islands,Overseas pop,100000,c2000
+GU,Common Guillemot,Flamborough and Filey Coast SPA,UK SPA pop,39641,2008
+GU,Common Guillemot,Flannan Isles SPA,UK SPA pop,9807,1999
+GU,Common Guillemot,Forth Islands SPA,UK SPA pop,14674,2011
+GU,Common Guillemot,Foula SPA,UK SPA pop,16615,2007
+GU,Common Guillemot,Fowlsheugh SPA,UK SPA pop,30100,2012
+GU,Common Guillemot,Germany and Denmark,Overseas pop,5000,2005
+GU,Common Guillemot,Handa SPA,UK SPA pop,37993,2011
+GU,Common Guillemot,Hermaness; Saxavord and  Valla Field SPA,UK SPA pop,4620,2009
+GU,Common Guillemot,Hoy SPA,UK SPA pop,6300,2007
+GU,Common Guillemot,Marwick Head SPA,UK SPA pop,11097,2012
+GU,Common Guillemot,Mingulay and  Berneray SPA,UK SPA pop,13527,2009
+GU,Common Guillemot,North Caithness Cliffs SPA,UK SPA pop,47000,2000
+GU,Common Guillemot,North Colonsay and western cliffs SPA,UK SPA pop,13500,2000
+GU,Common Guillemot,North Rona and  Sula Sgeir SPA,UK SPA pop,5000,2012
+GU,Common Guillemot,North Sea UK non-SPA populations,UK non-SPA pop,147000,2000
+GU,Common Guillemot,Norway,Overseas pop,100000,c2000
+GU,Common Guillemot,Noss SPA,UK SPA pop,14783,2009
+GU,Common Guillemot,Rathlin Island SPA,UK SPA pop,87398,2011
+GU,Common Guillemot,Rousay SPA,UK SPA pop,6200,2009
+GU,Common Guillemot,Rum SPA,UK SPA pop,1644,2000
+GU,Common Guillemot,Shiant Isles SPA,UK SPA pop,5148,2008
+GU,Common Guillemot,Skomer and  Skokholm SPA,UK SPA pop,16300,2013
+GU,Common Guillemot,St Abbs Head to Fast Castle SPA,UK SPA pop,22103,2013
+GU,Common Guillemot,St Kilda SPA,UK SPA pop,15700,1999
+GU,Common Guillemot,Sule Skerry and  Sule Stack SPA,UK SPA pop,7633,1998
+GU,Common Guillemot,Sumburgh SPA,UK SPA pop,4762,2010
+GU,Common Guillemot,Troup; Pennan and  Lions Heads SPS,UK SPA pop,10938,2007
+GU,Common Guillemot,UK North Sea non-SPA populations,UK non-SPA pop,147000,2000
+GU,Common Guillemot,UK West coast non-SPA populations,UK non-SPA pop,79000,2000
+GU,Common Guillemot,West coast UK non-SPA populations,UK non-SPA pop,79000,2000
+GU,Common Guillemot,West Westray SPA,UK SPA pop,33900,2007
+CN,Common Tern,Baltic States,Overseas pop,12750,1990s
+CN,Common Tern,Breydon Water,UK SPA pop,92,2013
+CN,Common Tern,Carlingford Lough,UK SPA pop,119,2013
+CN,Common Tern,Coquet Island,UK SPA pop,1041,2013
+CN,Common Tern,Cromarty Firth,UK SPA pop,68,2010
+CN,Common Tern,Dungeness to Pett Level,UK SPA pop,79,2013
+CN,Common Tern,Farne Islands,UK SPA pop,94,2013
+CN,Common Tern,Finland,Overseas pop,50000,1990s
+CN,Common Tern,Forth Islands,UK SPA pop,26,2011
+CN,Common Tern,Foulness,UK SPA pop,25,2008
+CN,Common Tern,Germany and  Denmark,Overseas pop,10000,1990s
+CN,Common Tern,Glas Eileanan,UK SPA pop,22,2012
+CN,Common Tern,Imperial Dock Lock,UK SPA pop,818,2010
+CN,Common Tern,Inner Moray Firth,UK SPA pop,0,2013
+CN,Common Tern,Ireland,Overseas pop,2700,2000
+CN,Common Tern,Larne Lough,UK SPA pop,231,2013
+CN,Common Tern,Lough Neagh and  Lough Beg,UK SPA pop,78,2013
+CN,Common Tern,Netherlands,Overseas pop,19000,1990s
+CN,Common Tern,North Norfolk Coast,UK SPA pop,198,2012
+CN,Common Tern,Norway,Overseas pop,15000,1990s
+CN,Common Tern,Poole Harbour,UK SPA pop,163,2013
+CN,Common Tern,Ribble and  Alt Estuaries,UK SPA pop,111,2008
+CN,Common Tern,Solent and  Southampton Water,UK SPA pop,280,2007
+CN,Common Tern,Strangford Lough,UK SPA pop,352,2013
+CN,Common Tern,Sweden,Overseas pop,22000,1990s
+CN,Common Tern,The Dee Estuary,UK SPA pop,165,2013
+CN,Common Tern,The Wash,UK SPA pop,221,2013
+CN,Common Tern,UK North Sea non-SPA colonies,UK non-SPA pop,5500,2000
+CN,Common Tern,UK western non-SPA colonies,UK non-SPA pop,2100,2000
+CN,Common Tern,Ynys Feurig; Cemlyn Bay and  Skerries,UK SPA pop,178,2011
+CN,Common Tern,Ythan Estuary; Sands of Forvie,UK SPA pop,4,2010
+SA,European Shag,Buchan Ness to Collieston,UK SPA pop,331,2007
+SA,European Shag,Canna and  Sanday,UK SPA pop,255,2013
+SA,European Shag,East Caithness Cliffs,UK SPA pop,1056,1999
+SA,European Shag,Fair Isle,UK SPA pop,204,2013
+SA,European Shag,Farne Islands,UK SPA pop,582,2013
+SA,European Shag,Forth Islands,UK SPA pop,850,2013
+SA,European Shag,Foula,UK SPA pop,200,2013
+SA,European Shag,Hermaness; Saxavord,UK SPA pop,41,2002
+SA,European Shag,Ireland,Overseas pop,2000,2000
+SA,European Shag,Isles of Scilly,UK SPA pop,1296,2006
+SA,European Shag,Mingulay and  Berneray,UK SPA pop,115,2009
+SA,European Shag,Shiant Islands,UK SPA pop,506,1999
+SA,European Shag,St Abbs Head to Fast Castle,UK SPA pop,160,2011
+SA,European Shag,Sule Skerry and  Sule Stack,UK SPA pop,200,2011
+SA,European Shag,UK NW N Sea non-SPA,UK non-SPA pop,6000,2000
+SA,European Shag,UK SW N Sea non-SPA,UK non-SPA pop,500,2000
+SA,European Shag,UK Wales and  SW E non-SPA,UK non-SPA pop,1500,2000
+SA,European Shag,UK West of Scotland non-SPA,UK non-SPA pop,7000,2000
+SA,European Shag,UK West of Scotld non-SPA,UK non-SPA pop,7000,2000
+GB,Great Black-backed Gull,Barents Sea,Overseas pop,33000,1990s*
+GB,Great Black-backed Gull,Calf of Eday,UK SPA pop,281,2006
+GB,Great Black-backed Gull,Copinsay,UK SPA pop,218,2010
+GB,Great Black-backed Gull,East Caithness Cliffs,UK SPA pop,175,1999
+GB,Great Black-backed Gull,Faroe,Overseas pop,1000,2012
+GB,Great Black-backed Gull,Hoy,UK SPA pop,60,2011
+GB,Great Black-backed Gull,Ireland,Overseas pop,2000,2000
+GB,Great Black-backed Gull,Isles of Scilly,UK SPA pop,901,2006
+GB,Great Black-backed Gull,North Rona and  Sula Sgeir,UK SPA pop,191,2012
+GB,Great Black-backed Gull,UK North Sea non-SPA colonies,UK non-SPA pop,5000,2000
+GB,Great Black-backed Gull,UK western non-SPA colonies,UK non-SPA pop,9000,2000
+CA,Great Cormorant,Abberton Reservoir,UK SPA pop,216,2005
+CA,Great Cormorant,Calf of Eday,UK SPA pop,181,2012
+CA,Great Cormorant,Denmark,Overseas pop,40000,1990s
+CA,Great Cormorant,East Caithness Cliffs,UK SPA pop,52,2013
+CA,Great Cormorant,Farne Islands,UK SPA pop,87,2013
+CA,Great Cormorant,Forth Islands,UK SPA pop,80,2013
+CA,Great Cormorant,France,Overseas pop,1500,1990s
+CA,Great Cormorant,Ireland,Overseas pop,4100,2000
+CA,Great Cormorant,Netherlands,Overseas pop,20000,1990s
+CA,Great Cormorant,Puffin Island Wales,UK SPA pop,448,2013
+CA,Great Cormorant,Sheep Island NI,UK SPA pop,112,2013
+CA,Great Cormorant,UK non-SPA NW N S,UK non-SPA pop,1200,2000
+CA,Great Cormorant,UK non-SPA SW N S,UK non-SPA pop,2200,2000
+CA,Great Cormorant,UK non-SPA W Scotland,UK non-SPA pop,2570,2000
+CA,Great Cormorant,UK non-SPA Wales SW E,UK non-SPA pop,1750,2000
+NX,Great Skua,Fair Isle,UK SPA pop,266,2013
+NX,Great Skua,Faroe,Overseas pop,500,2012
+NX,Great Skua,Fetlar,UK SPA pop,585,2002
+NX,Great Skua,Foula,UK SPA pop,1657,2007
+NX,Great Skua,Handa,UK SPA pop,135,2013
+NX,Great Skua,Hermaness; Saxavord,UK SPA pop,979,2013
+NX,Great Skua,Hoy,UK SPA pop,1346,2010
+NX,Great Skua,Iceland,Overseas pop,5400,1980s
+NX,Great Skua,Norway,Overseas pop,360,2010
+NX,Great Skua,Noss,UK SPA pop,465,2013
+NX,Great Skua,Ronas Hill; North Roe,UK SPA pop,189,2002
+NX,Great Skua,St Kilda,UK SPA pop,181,2012
+NX,Great Skua,UK Non-SPA North Sea colonies,UK non-SPA pop,3000,2000
+NX,Great Skua,UK Non-SPA western colonies,UK non-SPA pop,100,2000
+HG,Herring Gull,Ailsa Craig,UK SPA pop,129,2013
+HG,Herring Gull,Alde-Ore Estuary,UK SPA pop,800,2006
+HG,Herring Gull,Barents Sea,Overseas pop,126000,2000
+HG,Herring Gull,Buchan Ness to Collieston,UK SPA pop,3114,2010
+HG,Herring Gull,Canna and  Sanday,UK SPA pop,63,2011
+HG,Herring Gull,East Caithness Cliffs,UK SPA pop,3393,1999
+HG,Herring Gull,Faroe,Overseas pop,1500,2012
+HG,Herring Gull,Flamborough and  Filey Coast,UK SPA pop,495,2010
+HG,Herring Gull,Forth Islands,UK SPA pop,2827,2005-09
+HG,Herring Gull,Fowlsheugh,UK SPA pop,259,2012
+HG,Herring Gull,Ireland,Overseas pop,5000,2000
+HG,Herring Gull,Morecambe Bay,UK SPA pop,1734,2012
+HG,Herring Gull,Rathlin Island,UK SPA pop,28,2011
+HG,Herring Gull,St Abbs Head/ Fast Castle,UK SPA pop,239,2013
+HG,Herring Gull,Troup; Pennan and  Lions,UK SPA pop,1597,2007
+HG,Herring Gull,UK North Sea non-SPA cols,UK non-SPA pop,65000,2000
+HG,Herring Gull,UK western non-SPA cols,UK non-SPA pop,50000,2000
+LB,Lesser Black-backed Gull,Ailsa Craig,UK SPA pop,183,2010
+LB,Lesser Black-backed Gull,Alde-Ore Estuary,UK SPA pop,640,2012
+LB,Lesser Black-backed Gull,Bowland Fells,UK SPA pop,4575,2008-12
+LB,Lesser Black-backed Gull,Denmark,Overseas pop,4400,1990s
+LB,Lesser Black-backed Gull,Faroe,Overseas pop,9000,2012
+LB,Lesser Black-backed Gull,Forth Islands,UK SPA pop,1608,2005-09
+LB,Lesser Black-backed Gull,Iceland,Overseas pop,25000,1990s
+LB,Lesser Black-backed Gull,Ireland,Overseas pop,3800,2000
+LB,Lesser Black-backed Gull,Isles of Scilly,UK SPA pop,3400,2006
+LB,Lesser Black-backed Gull,Lough Neagh and  L. Beg,UK SPA pop,493,2000
+LB,Lesser Black-backed Gull,Lough Neagh and  Lough Beg,UK SPA pop,493,2000
+LB,Lesser Black-backed Gull,Morcambe Bay,UK SPA pop,4987,2012
+LB,Lesser Black-backed Gull,Netherlands,Overseas pop,80000,2012
+LB,Lesser Black-backed Gull,Norway,Overseas pop,30000,1990s
+LB,Lesser Black-backed Gull,Rathlin Island,UK SPA pop,107,2011
+LB,Lesser Black-backed Gull,Ribble and  Alt Estuaries,UK SPA pop,8267,2012
+LB,Lesser Black-backed Gull,Skokholm; Skomer; Mholm,UK SPA pop,9640,2013
+LB,Lesser Black-backed Gull,Sweden,Overseas pop,18000,1990s
+LB,Lesser Black-backed Gull,UK North Sea non-SPA,UK non-SPA pop,13000,2000
+LB,Lesser Black-backed Gull,UK North Sea non-SPA cols,UK non-SPA pop,13000,2000
+LB,Lesser Black-backed Gull,UK Western non-SPA colonies,UK non-SPA pop,40000,2000
+LB,Lesser Black-backed Gull,UK Western non-SPA cols,UK non-SPA pop,40000,2000
+AF,Little Tern,Alde-Ore Estuary,UK SPA pop,0,2009
+AF,Little Tern,Benacre to Easton Bavents,UK SPA pop,45,2011
+AF,Little Tern,Blackwater Estuary,UK SPA pop,99,2000
+AF,Little Tern,Chesil Beach,UK SPA pop,19,2011
+AF,Little Tern,Chichester Harbour,UK SPA pop,60,2011
+AF,Little Tern,Colne Estuary,UK SPA pop,0,2011
+AF,Little Tern,Dungeness to Pett Level,UK SPA pop,11,2013
+AF,Little Tern,Firth of Tay and  Eden Estuary,UK SPA pop,1,2007
+AF,Little Tern,Foulness,UK SPA pop,0,2005
+AF,Little Tern,Gibraltar point,UK SPA pop,12,2011
+AF,Little Tern,Great Yarmouth North Denes,UK SPA pop,5,2011
+AF,Little Tern,Hamford Water,UK SPA pop,45,2011
+AF,Little Tern,Humber Flats; Marshes and  Coast,UK SPA pop,29,2011
+AF,Little Tern,Ireland,Overseas pop,200,2000
+AF,Little Tern,Lindisfarne,UK SPA pop,8,2011
+AF,Little Tern,Medway Estuary and  Marshes,UK SPA pop,18,2009
+AF,Little Tern,Minsmere-Walberswick,UK SPA pop,30,2010
+AF,Little Tern,Monach Isles,UK SPA pop,2,2001
+AF,Little Tern,Morecambe Bay,UK SPA pop,62,2011
+AF,Little Tern,North Norfolk Coast,UK SPA pop,409,2011
+AF,Little Tern,Northumbria Coast,UK SPA pop,38,2000
+AF,Little Tern,Pagham Harbour,UK SPA pop,6,2011
+AF,Little Tern,Solent and  Southampton Water,UK SPA pop,0,2007
+AF,Little Tern,South Uist Machair and  Lochs,UK SPA pop,17,2002
+AF,Little Tern,Teesmouth and  Cleveland Est,UK SPA pop,84,2011
+AF,Little Tern,The Dee Estuary,UK SPA pop,126,2011
+AF,Little Tern,The Wash,UK SPA pop,0,2009
+AF,Little Tern,UK N Sea and  Channel non-SPA colonies,UK non-SPA pop,360,2000
+AF,Little Tern,UK western non-SPA colonies,UK non-SPA pop,200,2000
+AF,Little Tern,Ythan Estuary; Sands of Forvie,UK SPA pop,40,2013
+MX,Manx Shearwater,Aberdaron Coast and  Bardsey,UK SPA pop,16183,2001
+MX,Manx Shearwater,Faroe,Overseas pop,25000,2012
+MX,Manx Shearwater,Iceland,Overseas pop,8500,1990s
+MX,Manx Shearwater,Ireland,Overseas pop,32600,2000
+MX,Manx Shearwater,Rum,UK SPA pop,120000,2001
+MX,Manx Shearwater,Skomer; Skokholm and  Middleh,UK SPA pop,350000,2011
+MX,Manx Shearwater,St Kilda,UK SPA pop,4802,1999
+MX,Manx Shearwater,UK non-SPA colonies,UK non-SPA pop,4000,2000
+F.,Northern Fulmar,Buchan Ness to Collieston,UK SPA pop,1367,2007
+F.,Northern Fulmar,Calf of Eday,UK SPA pop,1842,2002
+F.,Northern Fulmar,Cape Wrath,UK SPA pop,2115,2000
+F.,Northern Fulmar,Copinsay,UK SPA pop,1630,2008
+F.,Northern Fulmar,East Caithness Cliffs,UK SPA pop,14202,1999
+F.,Northern Fulmar,Fair Isle,UK SPA pop,29649,2011
+F.,Northern Fulmar,Faroe,Overseas pop,600000,1990s
+F.,Northern Fulmar,Fetlar,UK SPA pop,8912,2000
+F.,Northern Fulmar,Flamborough and  Filey Coast,UK SPA pop,878,2008
+F.,Northern Fulmar,Flannan Isles,UK SPA pop,7328,1998
+F.,Northern Fulmar,Forth Islands,UK SPA pop,832,2010
+F.,Northern Fulmar,Foula,UK SPA pop,19758,2007
+F.,Northern Fulmar,Fowlsheugh,UK SPA pop,193,2009
+F.,Northern Fulmar,Handa,UK SPA pop,1870,2012
+F.,Northern Fulmar,Hermaness; Saxavord,UK SPA pop,7000,2011
+F.,Northern Fulmar,Hoy,UK SPA pop,19586,2007
+F.,Northern Fulmar,Iceland,Overseas pop,1000000,2008
+F.,Northern Fulmar,Mingulay and  Berneray,UK SPA pop,9046,2009
+F.,Northern Fulmar,North Caithness Cliffs,UK SPA pop,14250,2000
+F.,Northern Fulmar,North Rona and  Sula Sgeir,UK SPA pop,5000,2012
+F.,Northern Fulmar,Norway,Overseas pop,386000,1990s
+F.,Northern Fulmar,Noss,UK SPA pop,5248,2011
+F.,Northern Fulmar,Rathlin Island,UK SPA pop,1518,2011
+F.,Northern Fulmar,Rousay,UK SPA pop,1030,2009
+F.,Northern Fulmar,Shiant Isles,UK SPA pop,4387,1999
+F.,Northern Fulmar,St Kilda,UK SPA pop,66055,1999
+F.,Northern Fulmar,Sumburgh Head,UK SPA pop,233,2009
+F.,Northern Fulmar,Troup; Pennan and  Lions Heads,UK SPA pop,1795,2007
+F.,Northern Fulmar,UK North Sea non-SPA,UK non-SPA pop,129000,2000
+F.,Northern Fulmar,UK Western non-SPA,UK non-SPA pop,97000,2000
+F.,Northern Fulmar,West Westray,UK SPA pop,677,2007
+GX,Northern Gannet,Ailsa Craig,UK SPA pop,27130,2004
+GX,Northern Gannet,Fair Isle,UK SPA pop,3924,2013
+GX,Northern Gannet,Faroe,Overseas pop,2500,2012
+GX,Northern Gannet,Flamborough and  Filey,UK SPA pop,11061,2012
+GX,Northern Gannet,Forth Islands,UK SPA pop,55482,2009
+GX,Northern Gannet,Germany,Overseas pop,632,2013
+GX,Northern Gannet,Grassholm,UK SPA pop,39292,2009
+GX,Northern Gannet,Hermaness; Saxavord,UK SPA pop,24353,2008
+GX,Northern Gannet,Iceland,Overseas pop,28500,2010
+GX,Northern Gannet,Ireland,Overseas pop,36000,2004
+GX,Northern Gannet,North Rona and  Sula Sgeir,UK SPA pop,9225,2004
+GX,Northern Gannet,Norway,Overseas pop,4500,2010
+GX,Northern Gannet,Noss,UK SPA pop,9767,2008
+GX,Northern Gannet,St Kilda,UK SPA pop,59622,2004
+GX,Northern Gannet,Sule Skerry and  Sule Stack,UK SPA pop,4675,2004
+GX,Northern Gannet,UK North Sea non-SPA colonies,UK non-SPA pop,6000,2004
+GX,Northern Gannet,UK North Sea non-SPA cols,UK non-SPA pop,6000,2004
+GX,Northern Gannet,UK western non-SPA colonies,UK non-SPA pop,5000,2004
+GX,Northern Gannet,UK western non-SPA cols,UK non-SPA pop,4500,2004
+RA,Razorbill,Cape Wrath,UK SPA pop,2090,2000
+RA,Razorbill,Denmark; Finland; Sweden,Overseas pop,16000,1990s
+RA,Razorbill,East Caithness Cliffs,UK SPA pop,12500,1999
+RA,Razorbill,Fair Isle,UK SPA pop,915,2010
+RA,Razorbill,Faroe,Overseas pop,4500,2012
+RA,Razorbill,Flamborough and  Filey,UK SPA pop,10001,2008
+RA,Razorbill,Flannan Islands,UK SPA pop,1051,1998
+RA,Razorbill,Forth Islands,UK SPA pop,2625,2012
+RA,Razorbill,Foula,UK SPA pop,375,2007
+RA,Razorbill,Fowlsheugh,UK SPA pop,3524,2012
+RA,Razorbill,France,Overseas pop,25,2000
+RA,Razorbill,Handa,UK SPA pop,5165,2010
+RA,Razorbill,Iceland,Overseas pop,315400,2008
+RA,Razorbill,Ireland,Overseas pop,17000,2000
+RA,Razorbill,Mingulay and  Berneray,UK SPA pop,10111,2009
+RA,Razorbill,North Caithness Cliffs,UK SPA pop,1700,2000
+RA,Razorbill,North Rona and  Sula Sgeir,UK SPA pop,1089,1998
+RA,Razorbill,Norway,Overseas pop,30300,1990s
+RA,Razorbill,Rathlin Island,UK SPA pop,15393,2011
+RA,Razorbill,Russia,Overseas pop,3500,1990s
+RA,Razorbill,Shiants,UK SPA pop,4248,2008
+RA,Razorbill,Skomer and  Skokholm,UK SPA pop,6001,2013
+RA,Razorbill,St Abbs to Fast Castle,UK SPA pop,1219,2013
+RA,Razorbill,St Kilda,UK SPA pop,1700,1999
+RA,Razorbill,Troup; Pennan and  Lions,UK SPA pop,1743,2007
+RA,Razorbill,UK North Sea non-SPA colonies,UK non-SPA pop,10000,2000
+RA,Razorbill,UK Western non-SPA colonies,UK non-SPA pop,10000,2000
+RA,Razorbill,West Westray,UK SPA pop,550,2007
+RH,Red-throated Diver,Caithness and  Sutherland,UK SPA pop,46,2006
+RH,Red-throated Diver,Fennoscandia,Overseas pop,5500,1990s
+RH,Red-throated Diver,Foula,UK SPA pop,12,2013
+RH,Red-throated Diver,Greenland,Overseas pop,1000,1990s
+RH,Red-throated Diver,Hermaness; Saxavord,UK SPA pop,16,2013
+RH,Red-throated Diver,Hoy,UK SPA pop,60,2007
+RH,Red-throated Diver,Lewis Peatlands,UK SPA pop,80,2006
+RH,Red-throated Diver,Mointeach Scadabhaigh,UK SPA pop,17,2006
+RH,Red-throated Diver,Non-SPA UK North Sea,UK non-SPA pop,600,2005
+RH,Red-throated Diver,Non-SPA UK western,UK non-SPA pop,310,2005
+RH,Red-throated Diver,Orkney Mainland Moors,UK SPA pop,28,2007
+RH,Red-throated Diver,Otterswick and  Graveland,UK SPA pop,25,2006
+RH,Red-throated Diver,Ronas Hill; North Roe,UK SPA pop,50,2006
+RH,Red-throated Diver,Rum,UK SPA pop,11,2013
+RS,Roseate Tern,Coquet Island,UK SPA pop,78,2011
+RS,Roseate Tern,Farne Islands,UK SPA pop,0,2011
+RS,Roseate Tern,Forth Islands,UK SPA pop,3,2005-09
+RS,Roseate Tern,Germany; Netherlands; Belgium,Overseas pop,3,2010
+RS,Roseate Tern,Ireland,Overseas pop,750,2010
+RS,Roseate Tern,Larne Lough,UK SPA pop,0,2011
+RS,Roseate Tern,North Norfolk Coast,UK SPA pop,0,2010
+RS,Roseate Tern,Solent and  Southampton Water,UK SPA pop,0,2009
+RS,Roseate Tern,UK North Sea non-SPA colonies,UK non-SPA pop,3,2010
+RS,Roseate Tern,UK western non-SPA colonies,UK non-SPA pop,0,2010
+RS,Roseate Tern,Ynys Feurig; Cemlyn Bay and  Skerries,UK SPA pop,0,2011
+TE,Sandwich Tern,Alde-Ore Estuary,UK SPA pop,2,2009
+TE,Sandwich Tern,Belgium,Overseas pop,1550,2000
+TE,Sandwich Tern,Carlingford Lough,UK SPA pop,0,2013
+TE,Sandwich Tern,Chichester and  Langstone Harb,UK SPA pop,6,2013
+TE,Sandwich Tern,Coquet Island,UK SPA pop,670,2013
+TE,Sandwich Tern,Denmark,Overseas pop,4500,1990s
+TE,Sandwich Tern,Duddon Estuary,UK SPA pop,1,2012
+TE,Sandwich Tern,Farne Islands,UK SPA pop,824,2013
+TE,Sandwich Tern,Forth Islands,UK SPA pop,0,2013
+TE,Sandwich Tern,Foulness,UK SPA pop,0,2006
+TE,Sandwich Tern,Germany,Overseas pop,9700,1990s
+TE,Sandwich Tern,Ireland,Overseas pop,1800,2000
+TE,Sandwich Tern,Larne Lough,UK SPA pop,257,2013
+TE,Sandwich Tern,Loch of Strathbeg,UK SPA pop,0,2013
+TE,Sandwich Tern,Morecambe Bay,UK SPA pop,1,2011
+TE,Sandwich Tern,Netherlands,Overseas pop,14500,1990s
+TE,Sandwich Tern,North Norfolk Coast,UK SPA pop,4135,2012
+TE,Sandwich Tern,Norway and  Sweden,Overseas pop,700,1990s
+TE,Sandwich Tern,Solent and  Southampton Water,UK SPA pop,0,2008
+TE,Sandwich Tern,Strangford Lough,UK SPA pop,771,2012
+TE,Sandwich Tern,UK North Sea non-SPA colonies,UK non-SPA pop,3500,2000
+TE,Sandwich Tern,UK Western non-SPA colonies,UK non-SPA pop,1500,2000
+TE,Sandwich Tern,Ynys Feurig; Cemlyn Bay,UK SPA pop,0,2009
+TE,Sandwich Tern,Ythan Estuary,UK SPA pop,565,2013

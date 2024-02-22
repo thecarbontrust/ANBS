@@ -1,0 +1,31 @@
+
+```{r, report-runfiles, echo=FALSE}
+source_rmd = function(file, ...) {
+  tmp_file = tempfile(fileext=".R")
+  on.exit(unlink(tmp_file), add = TRUE)
+  knitr::purl(file, output=tmp_file)
+  source(file = tmp_file, ...)
+}
+```
+
+```{r sourcefiles, echo=FALSE}
+  source_rmd("1.Setup.rmd")
+  source_rmd("2.UserInterface.rmd")
+  source_rmd("3.LoadRawDataIntoR.rmd")
+  source_rmd("5.CalculateDistancesFromTrackedToSPAColonies.rmd")
+  source_rmd("6.IdentifyingBDMPSRegionAndAreaOfFootprint.rmd")
+  source_rmd("7.Apportioning.rmd")
+  source_rmd("8.VisualisingOutputs-MapModeColonyMaps.rmd")
+  source_rmd("8.VisualisingOutputs-FootprintModeColonyMaps.rmd")
+  source_rmd("8.VisualisingOutputs-RAGMap.rmd")
+
+```
+
+```{r report-sourcefiles, echo=FALSE}
+if(inputs$mode=="footprint" & inputs$dist.thresh>1){render("9.Report-FootprintGLS.rmd", output_file=paste0(inputs$title, ".pdf"))}
+if(inputs$mode=="map" & inputs$dist.thresh>1){render("9.Report-MapGLS.rmd", output_file=paste0(inputs$title, ".pdf"))}
+if(inputs$mode=="footprint" & inputs$dist.thresh==0){render("9.Report-FootprintBDMPS.rmd", output_file=paste0(inputs$title, ".pdf"))}
+if(inputs$mode=="map" & inputs$dist.thresh==0){render("9.Report-MapBDMPS.rmd", output_file=paste0(inputs$title, ".pdf"))}
+```
+
+

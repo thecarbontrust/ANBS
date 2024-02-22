@@ -1,0 +1,55 @@
+```{r setup}
+knitr::opts_chunk$set(error=TRUE)
+```
+
+# Create a bounding box for this part of the analysis
+```{r costdistcoords}
+
+xmin <- round(min(c(dat_coords$t.coorddx, trackedcols$t.coordx)) - 200000,0)
+xmax <- round(max(c(dat_coords$t.coorddx, trackedcols$t.coordx)) + 300000,0)
+ymin <- round(min(c(dat_coords$t.coorddy, trackedcols$t.coordy)) - 400000,0)
+ymax <- round(max(c(dat_coords$t.coorddy, trackedcols$t.coordy)) + 200000,0)
+xmin; xmax; ymin; ymax
+
+```
+
+# Create a land/sea mask with a spatial extent larger than the placement of all of the colonies (tracked + SPAs) 
+```{r costdistmask}
+
+# Building the objects for the comparison
+rastermap <- rast(xmin=xmin, xmax=xmax, ymin=ymin, ymax=ymax, crs="ESRI:102017", resolution=1000)  # extend the raster beyond the coastline
+
+rastermap[] <- 1 # change all rastermap values to 1
+
+landseaMap <- terra::rasterize(UKmap, rastermap, mask=T, background=0) # Overlay & cookie cut the UK map to the rastermap
+landseaMap[ is.na(landseaMap) ] <- 0    # Setting NAs to 0
+
+#Write to file
+writeRaster(landseaMap,paste0(file.path("../Data/ProcessedData/DistancetoColony/landSeaMask.tif")), NAflag=-9999, overwrite=TRUE)
+
+#Load in from file
+#landseaMap <- terra::rast(paste0(file.path("../Data/ProcessedData/DistancetoColony/landSeaMask.tif"))) 
+
+#Temporarily use this version from raster. When updating to all terra code, use the line above
+landseaMap <- raster(paste0(file.path("../Data/ProcessedData/DistancetoColony/landSeaMask.tif"))) 
+
+# Change land values from 1 to 10000
+landseaMap[landseaMap==1] <- 100
+#Change sea values from 0 to 1
+landseaMap[landseaMap==0] <- 1
+```
+
+ 
+# Build a costgrid to use for calculating distance by sea
+```{r costdistcostgrid}
+#costgrid <- costgrid.for.dist(landseaMap)
+costgrid <- transition(landseaMap, function(x) 1/mean(x), 16)
+# save transition layer as an r document
+terra::saveRDS(costgrid, file.path("../Data/ProcessedData/DistancetoColony/TransitionCostGrid.rds"))
+
+# read in transition layer
+costgrid <- readRDS(paste0(file.path("../Data/ProcessedData/DistancetoColony/TransitionCostGrid.rds")))
+
+```
+
+

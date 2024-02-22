@@ -1,0 +1,7 @@
+Field Name,Description,Unit
+SPAcode,"Short code for the SPA, as provided in the JNCC SPA site data",Text
+SPAname,"Full name of the SPA, as provided in the JNCC SPA site data",Text
+SMP,Logical value (TRUE or FALSE) indicating whether the SPA is in the SMP dataset,Logical
+BDMPS,Logical value (TRUE or FALSE) indicating whether the SPA is in the BDMPS dataset,Logical
+CEF.desig,Logical value (TRUE or FALSE) indicating whether,Logical
+CEF.function,CEF functionality for this SPA,Text

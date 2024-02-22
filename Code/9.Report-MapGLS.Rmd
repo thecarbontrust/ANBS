@@ -1,0 +1,218 @@
+---
+title: "`r inputs$title`"
+author: "`r inputs$authors`"
+date: "`r format(Sys.Date(), '%d %B %Y')`"
+always_allow_html: yes
+header-includes: 
+ - \usepackage{longtable}
+ - \usepackage{pdflscape}
+ - \usepackage{float}
+ - \usepackage{setspace}\onehalfspacing
+ - \usepackage{indentfirst}
+ - \usepackage{booktabs}
+ - \usepackage{array}
+ - \usepackage{multirow}
+ - \usepackage{wrapfig}
+ - \usepackage{colortbl}
+ - \usepackage{tabu}
+ - \usepackage{threeparttable}
+ - \usepackage{threeparttablex}
+ - \usepackage[normalem]{ulem}
+ - \usepackage{makecell}
+ - \usepackage{xcolor}
+ - \usepackage{caption}
+ - \floatplacement{figure}{H} 
+output:
+  pdf_document:
+    citation_package: natbib
+    highlight: tango
+    latex_engine: lualatex
+    df_print: kable
+mainfont: Calibri
+#monofont: Courier
+fontsize: 12pt
+geometry: margin=1in
+linkcolor: blue
+documentclass: article
+citecolor: magenta
+urlcolor: blue
+params:
+  date_format: '%d %m %Y'
+---
+
+```{r titleauthors, echo=FALSE}
+knitr::opts_chunk$set(error=TRUE)
+
+options(knitr.table.format = "latex")
+
+#prints errors in red
+knit_hooks$set(error= function (x, options) {
+  x<-xfun:::split_lines(x)
+  sprintf('\\color{red}  %s \\newline \\color{black}', x) })
+```
+
+
+<!-- Report for map mode GLS colonies -->
+
+
+
+# Summary
+
+This report presents the apportioning of `r inputs$longspecies` in the UK in the `r inputs$season` for the `r inputs$BDMPS.region` BDMPS region. The number of `r tolower(inputs$species)`s was estimated to be `r all.cols$cbirdout[nrow(all.cols)]` with numbers in brackets the lower and upper 95% confidence intervals. The total bird density within the BDMPS region was estimated to be `r all.cols$cbirdkmout[nrow(all.cols)]` km$^{-2}$. In total, `r length(which(all.cols$source=="BDMPS"))` BDMPS colonies and `r length(which(all.cols$source!="BDMPS"))` colonies that used geolocator-based utilisation distributions contributed to the apportioning calculations.
+
+The accompanying User Guide to this tool describes the methods used to estimate bird metrics within the footprint, and a full description of the geolocator (GLS) data is available in the WP3 report associated with this project. Briefly, tracked colonies are defined as those colonies where `r `tolower(inputs$species)`s were tracked using geolocator (GLS) tags and so a utilisation distribution could be estimated to characterise space use in the non-breeding season. Untracked colonies are defined as those colonies that were within the user-defined distance threshold of `r inputs$dist.thresh` km of at least one tracked colony, calculated using at-sea distance. Based on the assumption that colonies that are nearer are more similar, utilisation distributions for untracked colonies were derived using weightings based on distance from tracked colonies. Tracked colonies that were closer to an untracked colony have a higher weighting than tracked colonies that are further away. Finally, if no tracked colonies are within `r inputs$dist.thresh` km of an untracked colony, BDMPS is used to calculate apportioning for the untracked colony (defined as a BDMPS colony).   
+
+Table \ref{tab:sample} shows all tracked colonies and the number of geolocator tags that were successfully retrieved over three seasons between 2018 and 2021.
+
+
+```{r report-samplesize, echo=FALSE}
+bb <- trackedcols[,c("SITE_NAME","SITECODE","SampleSize")]
+kable(bb, 
+      col.names=c("Colony","UK SPA code", "Sample size"),
+      caption="\\label{tab:sample} Geolocator tag sample sizes for tracked colonies", 
+      longtable=TRUE, 
+      row.names =FALSE, 
+      booktabs = T) %>%
+  kable_styling(latex_options = c("HOLD_position", "repeat_header"))%>% 
+  row_spec(0,bold=TRUE)
+
+```
+
+
+# User inputs
+
+Table \ref{tab:inputs1} shows the user-defined inputs to the analysis.
+
+```{r report-userinputs, warning=FALSE, echo=FALSE}
+
+aa <- data.frame(
+  desc=c("Species","Mode","BDMPS uncertainty scalar","Distance threshold (km)","Season","Months","BDMPS Region"),
+  param=c(inputs$species, inputs$mode, inputs$BDMPS.uncertainty, inputs$dist.thresh, inputs$season, paste(month.name[inputs$months],sep=" ", collapse=", "),inputs$BDMPS.region)
+  
+)
+
+kable(aa, 
+      col.names=c("Parameter description","Parameter value"),
+      caption="\\label{tab:inputs1} Input parameter values for ANBS tool run", 
+      longtable=TRUE, 
+      row.names =FALSE, 
+      booktabs = TRUE) %>%
+  kable_styling(latex_options = c("HOLD_position", "repeat_header"))%>% 
+  row_spec(0,bold=TRUE)
+
+```
+
+
+Table \ref{tab:inputs2} shows colonies that are defined from the BDMPS populations and the size (number of pairs of breeding adults) of each population, whether a UK SPA, aggregate of UK non-SPA colonies, or aggregate of overseas colonies. In the ANBS tool, the number of pairs of breeding adults can be changed for any colony as part of the inputs so the table shows the population estimates used in the analysis.
+
+```{r report-userpop, warning=FALSE, echo=FALSE}
+
+ab <- data.frame(inputs$Population,inputs$Pairs.est)
+
+kable(ab, 
+      col.names=c("Colony or population", "Estimated pairs of breeding adults"),
+      caption="\\label{tab:inputs2} Input parameter values for ANBS tool run", 
+      longtable=TRUE, 
+      row.names =FALSE, 
+      booktabs = T) %>%
+  kable_styling(latex_options = c("HOLD_position", "repeat_header"))%>% 
+  row_spec(0,bold=TRUE) %>%
+  column_spec(column=2, width='1.5in')
+```
+
+
+# Results
+
+## Apportioning tables
+
+Table \ref{tab:app} shows the colonies and populations used in the apportioning calculations for the area of the `r inputs$BDMPS.region` BDMPS region. 
+
+
+```{r report-apptable, warning=FALSE, echo=FALSE}
+
+ac <- data.frame(all.cols[,c("Population","source","birdout","birdkmout","appout")])
+ac$Population[ac$source=="BDMPS"] <- paste0(ac$Population[ac$source=="BDMPS"],"*")
+
+kable(ac[,c(1,3:5)], 
+      col.names=c("Colony or population", "Number of adults (95% CIs)", "Adults per sq. km (95% CIs)","Proportion of adults (95% CIs)"),
+      caption=paste0("\\label{tab:app} Colonies or populations used in the apportioning calculations, showing the number of adults, adults per sq. km, and proportion of adults from each colony or population, all with 95\\% CIs. (*) denotes a BDMPS colony or population. All other colonies are either GLS tracked or untracked"), 
+      longtable=TRUE, 
+      row.names=FALSE,
+      booktabs = T) %>%
+  kable_styling(latex_options = c("HOLD_position", "repeat_header", "scale_down"))%>% 
+  row_spec(0,bold=TRUE) %>%
+  column_spec(column=1:4, width='1.5in')
+
+```
+
+
+Table \ref{tab:cumapp} shows the colonies and populations used in the cumulative apportioning calculations for the area of the `r inputs$BDMPS.region` BDMPS region. 
+
+
+```{r report-cumapptable, warning=FALSE, echo=FALSE}
+
+ad <- data.frame(all.cols[,c("Population","source","cbirdout","cbirdkmout","cappout")])
+ad$Population[ac$source=="BDMPS"] <- paste0(ad$Population[ac$source=="BDMPS"],"*")
+
+kable(ad[,c(1,3:5)], 
+      col.names=c("Colony or population", "Cumulative number of adults (95% CIs)", "Cumulative adults per sq. km (95% CIs)", "Cumulative proportion of adults"),
+      caption=paste0("\\label{tab:cumapp} Colonies or populations used in the apportioning calculations, showing the cumulative number of adults (95\\% CIs), cumulative adults per sq. km (95\\% CIs), and cumulative proprtion of adults. (*) denotes a BDMPS colony or population. All other colonies are either GLS tracked or untracked"), 
+      longtable=TRUE, 
+      row.names=FALSE,
+      booktabs = T) %>%
+      kable_styling(latex_options = c("HOLD_position", "repeat_header", "scale_down"))%>% 
+   row_spec(0,bold=TRUE)%>%
+  column_spec(column=1:4, width='1.5in')
+
+```
+
+
+
+## RAG status
+
+Fig. \ref{fig:ragmap} shows colonies that contribute to the final apportioning in the analysis. Some colonies were further than the distance threshold (`r inputs$dist.thresh` km) from any tracked colony. For these colonies, BDMPS apportioning was used (red circles). Colonies that were within the distance threshold (`r inputs$dist.thresh` km) from one of more tracked colony had their utilisation distributions derived from those tracked colonies (amber). Tracked colonies were listed in the BDMPS data as UK SPAs contributing to the apportioning (green). Tracked colonies listed in the BDMPS data as UK non-SPAs for `r inputs$longspecies` were used in the apportioning through contributing to the utilisation distributions of untracked colonies (light green).
+
+```{r report-ragmap, echo=FALSE, fig.cap="\\label{fig:ragmap} RAG status map showing colonies used in the analysis. Red = BDMPS, Amber = GLS untracked, Green = GLS tracked, Light Green = GLS tracked non-SPA", fig.height=6, fig.width=6}
+
+include_graphics('colonymapRAG.png')
+#colonymapRAG
+```
+
+
+## Apportioning maps
+
+Fig. \ref{fig:colmap} shows the user-defined selected GLS `r if(nrow(select.cols)==1){"colony"}else{"colonies"}` `r paste0(select.cols$Population, sep=" ", collapse=", ")` that contribute to the apportioning of `r tolower(inputs$species)` in the `r inputs$season` for the `r inputs$BDMPS.region` BDMPS region. For the purposes of visualisation, the spatial extent of the bird density maps was slightly reduced.
+
+```{r report-colmap, results="asis", echo=FALSE, fig.pos='H', fig.align='center', fig.cap=paste0("\\label{fig:colmap} Maps showing selected colonies. The utilisation distributions are shown for estimated population mean (L), lower 95\\% CI (C), and upper 95\\% CI (R). Bird density can be interpreted as the expected number of adult breeding birds per 10 sq. km"), out.width = "110%"}
+
+
+for(i in 1:nrow(select.cols)){
+
+  include_graphics(paste0('mapmodecolony', i, '.png'))
+   #print(get(paste0("mapmodecolony", i)))
+   cat("\n")
+
+}
+
+```
+
+
+
+# Caveats and limitations
+
+-   Currently, only adult breeding birds are considered within the apportioning calculation. Immature birds and non-breeding adults are not considered in this iteration of the ANBS tool.
+-   Tracked colonies that were not listed in the BDMPS data as UK SPAs for `r inputs$longspecies` (Fig. \ref{fig:ragmap}), were used in the apportioning calculations by contributing part of their utilisation distributions to untracked colonies within the distance threshold (`r inputs$dist.thresh` km). However, those tracked colonies were not in themselves included in the apportioning calculations, in order to avoid double counting since they are assumed to be included within the aggregations of UK non-SPA colonies listed in BDMPS. Therefore, they do not appear in Tables \ref{tab:app} and \ref{tab:cumapp}.
+
+
+# Apppendix
+
+## System information used in the analysis
+
+The information below shows the system information used in the analysis including the version of R, platform, locale, and packages with version numbers.
+
+```{r report-info, echo=FALSE}
+pander(sessionInfo())
+```
+
+
+

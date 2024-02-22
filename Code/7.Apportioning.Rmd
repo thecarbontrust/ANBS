@@ -1,0 +1,337 @@
+```{r setup}
+knitr::opts_chunk$set(error=TRUE)
+```
+
+# Getting populations sizes from the inputs
+```{r populationsize}
+#Create a list of colonies by SPA code and their population sizes being used in the tool. 
+
+popsize <- as.data.frame(inputs[c("Pairs.est", "SPACODE", "Population")])
+```
+
+
+
+# GLS apportioning
+There are three sets of colonies: tracked (which had a suitable number of birds tagged at the colony), untracked (which had none or too few birds tagged on the colony but are within the distance threshold of at least one tracked colony), and untracked BDMPS (which no birds were tagged and are outside the distance threshold of any tracked colony). Each colony is scaled to population size to obtain the predicted number of birds per grid cell. As the grid cells are 10km x 10km, the resulting number can be interpreted as the expected number of birds per $km^2$. 
+
+Calculating the mean and uncertainty for the UK SPA (tracked and untracked) colonies by scaling up to population level, then taking the mean and standard deviation over the footprint for each colony and summing them. 
+
+```{r glspop, eval=inputs$BDMPS.uncertainty>1}
+
+# Get a list of tracked and untracked colonies
+gls.col.pop <- data.frame(SPACODE=c(trackedcols$SITECODE,rownames(untrackedcols)))
+gls.col.pop <- merge(gls.col.pop, popsize, by='SPACODE', all.x=TRUE)
+
+
+```
+
+
+There are some colonies that are tracked but which do not appear in the BDMPS as they are not SPA colonies for the specified species. An example of this is for guillemots at Puffin Island. These guillemots were tracked and their UDs were used to create simulations for untracked colonies. However, Puffin Island is an SPA for Fulmar, Manx Shearwater, Storm Petrel, Lesser Black-Backed Gulls, Razorbill, and Puffin, not Guillemot so there is not a corresponding population estimate for guillemot at this SPA in the BDMPS. Therefore, these colonies will not contribute to the population-level estimates in the analysis. 
+
+```{r glsspa, eval=inputs$BDMPS.uncertainty>1}
+gls.col.pop <- na.omit(gls.col.pop)
+```
+
+
+### Extracting the UK SPA UD distributions in the specified footprint
+```{r glsspa2, eval=inputs$BDMPS.uncertainty>1}
+
+# Extracts the raster cells (over all layers or RasterStack) that intersect the spatial object.
+# Returns an array with each item of the list as a matrix for each colony
+
+SPAcodes <- gls.col.pop$SPACODE
+
+# Calculate a list of all usage within the footprint for each UK SPA colony 
+fp.uds <- lapply(SPAcodes, function(i) process_rasterextraction(get(paste0("ud.",inputs$species,i)),fp.shp)) 
+#names(fp.uds) <- SPAcodes
+
+# Change to an array
+fp.udsarr <- array(as.numeric(unlist(fp.uds)),dim=c(dim(fp.uds[[1]])[1],dim(fp.uds[[1]])[2],length(fp.uds)))
+
+# Calculate the sum of the usage within the footprint (summing up all cells by colony and simulation)
+fp.uds_rowsums <- t(sapply(1:dim(fp.udsarr)[3], function(i) colSums(fp.udsarr[,,i],na.rm=TRUE)))
+
+
+```
+
+
+### Calculate the standard deviation over all UK SPA colonies (tracked + untracked), transforming the standard deviations using logit (so that they are all between 0 and 1). This is to estimate the BDMPS uncertainty 
+```{r glssd, eval=inputs$BDMPS.uncertainty>1}
+
+# Two ways to take sd of GLS colonies - firstly, take the sd of each colony (this is at a footprint level)
+#sdlogit_gls <- sapply(fp.uds_rowsums, function(i) sd(logit(i)), simplify=TRUE)
+
+# Or take the sd across all colonies (this is at a footprint level)
+#sdlogit_gls <- sd(logit(c(as.numeric(unlist(fp.uds_rowsums)))))
+
+# Take the median of the sd of the logit, calculated by colony over 100 simulations
+sdlogit_gls <- median(apply(logit(fp.uds_rowsums),1,sd))
+
+```
+
+
+### Create data frame to show GLS (tracked and untracked) attributes
+```{r glssum, eval=inputs$BDMPS.uncertainty>1}
+# Select colonies that are the correct species code, season, BDMPS region, and are present in the UK SPA code (i.e. the tracked and untracked colonies)
+gls.cols <- subset(dat_bdmpsspatdist, 
+       Speccode==inputs$spcode & 
+       Season==inputs$season & 
+       toupper(stringr::word(dat_bdmpsspatdist$Area, 1,2, sep=" "))==toupper(stringr::word(inputs$BDMPS.region, 1,2, sep=" ")) & 
+       (SPACODE %in% SPAcodes))
+
+
+# Merge the colonies on population
+gls.cols <- merge(gls.cols, gls.col.pop[,c("SPACODE","Pairs.est")], by="SPACODE", all.x=TRUE)
+# Label tracked and untracked colonies
+
+gls.cols$source <- "GLS untracked"
+gls.cols$source[gls.cols$SPACODE %in% trackedcols$SITECODE] <- "GLS tracked"
+
+
+# Reorder columns
+gls.cols <- gls.cols[,c("Population","SPACODE","Speccode","Species","Season","Area","Propn.adults","Propn.immatures","Pairs.est","source")]
+gls.cols$fpud <- ""
+```
+
+
+
+
+
+
+# BDMPS apportioning
+
+### Select BDMPS colonies (those that are not in the UK SPAs) and calculate estimated populations in the footprint
+```{r bdmpscols}
+
+
+# Select colonies that are the correct species code, season, BDMPS region, and are not present in the UK SPA code (i.e. the tracked and untracked colonies)
+  
+  # Conditional statement for selecting all colonies if BDMPS-only is selected by user (inputs$BDMPS.uncertainty=0)
+  if(inputs$BDMPS.uncertainty==0){
+    
+    
+  bdmps.cols <- subset(dat_bdmpsspatdist, 
+       Speccode==inputs$spcode & 
+       Season==inputs$season & 
+       toupper(stringr::word(dat_bdmpsspatdist$Area, 1,2, sep=" "))==toupper(stringr::word(inputs$BDMPS.region, 1,2, sep=" ")))
+    
+  } else {
+
+  bdmps.cols <- subset(dat_bdmpsspatdist, 
+       Speccode==inputs$spcode & 
+       Season==inputs$season & 
+       toupper(stringr::word(dat_bdmpsspatdist$Area, 1,2, sep=" "))==toupper(stringr::word(inputs$BDMPS.region, 1,2, sep=" ")) & 
+       (!SPACODE %in% SPAcodes))
+  }
+
+
+# Some colonies have proportion of adults = 0. These need to be removed from the analysis as they will not contribute any usage, and the analysis
+# gives unexpected results if they are in there.
+bdmps.cols <- bdmps.cols[bdmps.cols$Propn.adults!=0,]
+
+# Other colonies have a proportion of adults = 1, and this will cause problems in the probability estimation (tending to infinity). Changes these colonies to a proportion = 0.99999
+bdmps.cols$Propn.adults[bdmps.cols$Propn.adults==1] <- 0.99999
+
+
+# Calculate the footprint utilisation distribution based on the proportion of time that adults birds spend in the BDMPS region multiplied by the footprint area divided by the area of the BDMPS region
+bdmps.cols$fpud <- bdmps.cols$Propn.adults * (as.numeric(fp.area) / bdmps.area[toupper(stringr::word(rownames(bdmps.area), 1,2, sep=" "))==toupper(stringr::word(inputs$BDMPS.region, 1,2, sep=" ")),])
+
+
+
+# Now that the utilisation distributions have been calculated, reset the proportion of adults back to 1
+bdmps.cols$Propn.adults[bdmps.cols$Propn.adults==0.99999] <- 1
+
+
+
+# Merge the BDMPS colonies on population
+bdmps.cols <- merge(bdmps.cols,popsize[,c("Pairs.est", "Population")], by="Population", all.x=TRUE)
+bdmps.cols$source <- "BDMPS"
+
+# Reorder columns
+bdmps.cols <- bdmps.cols[,c("Population","SPACODE","Speccode","Species","Season","Area","Propn.adults","Propn.immatures","Pairs.est","source","fpud")]
+
+```
+
+
+### Estimating uncertainty for BDMPS colonies
+To estimate uncertainty for the BDMPS colonies, scale up the GLS standard deviation by the BDMPS multiplier specified in the user inputs
+```{r bdmpssd, eval=inputs$BDMPS.uncertainty>1}
+sd_bdmps <- inputs$BDMPS.uncertainty*sdlogit_gls
+
+```
+
+
+Generate simulations from a normal distribution using number of simulations as 100, the sd as the BDMPS standard deviation, and the mean as the BDMPS utilisation distribution estimates. The result in inverse logged. This gives a distribution between 0 and 1. 
+```{r bdmpsprob, eval=inputs$BDMPS.uncertainty>1}
+p.bdmps <- t(apply(t(t(logit(as.numeric(bdmps.cols$fpud)))), 1, function(x,y,nsim){ilogit(rnorm(nsim,x,y))}, y = sd_bdmps, nsim=100))
+```
+
+
+
+# Gather together GLS and BDMPS colonies to calculate apportioning
+
+Merge GLS and BDMPS colony attributes
+```{r mergecols, eval=inputs$BDMPS.uncertainty>1}
+all.cols <- rbind(gls.cols, bdmps.cols)
+
+```
+
+
+Merge colony and simulation information for GLS and BDMPS
+```{r mergesims, eval=inputs$BDMPS.uncertainty>1}
+# Appended BDMPS to GLS colonies 
+all.simtime <- rbind(fp.uds_rowsums, p.bdmps)
+
+```
+
+Calculate apportioning for each simulation by colony
+```{r calcapp, eval=inputs$BDMPS.uncertainty>1}
+
+# Scaling up to population level by multiplying each colony/simulation by adult population count * 2 (for breeding pair)
+v <- all.cols$Pairs.est * 2
+all.simbirds <- all.simtime * v[row(all.simtime)]
+
+# plot(c(all.simbirds[1:31,]))
+# points(c(all.simbirds[32:38,]), col="red")
+
+# #birds per sq. km
+all.simbirdskm <- all.simbirds / fp.areakm2
+
+
+# Dividing each of the 100 simulations by the sum of the columns to get the apportioning for each colony by simulation
+all.simapp <- all.simbirds / colSums(all.simbirds)[col(all.simbirds)]
+
+
+```
+
+
+Calculate relevant metrics
+```{r calcmetrics, eval=inputs$BDMPS.uncertainty>1}
+
+# Time spent in fp by colony
+all.cols$timeinfpmean <- apply(all.simtime, 1, mean)
+all.cols$timeinfpCIlow <- apply(all.simtime, 1, function(i) quantile(i, probs=c(0.025)))
+all.cols$timeinfpCIhigh <- apply(all.simtime, 1, function(i) quantile(i, probs=c(0.975)))
+
+
+# Calculate #birds in footprint per colony
+all.cols$birds <- apply(all.simbirds, 1, mean)
+all.cols$birdsCIlow <- apply(all.simbirds, 1, function(i) quantile(i, probs=c(0.025)))
+all.cols$birdsCIhigh <- apply(all.simbirds, 1, function(i) quantile(i, probs=c(0.975)))
+
+
+# Calculate #birds per km2 per colony
+all.cols$birdskm <- apply(all.simbirdskm, 1, mean)
+all.cols$birdskmCIlow <- apply(all.simbirdskm, 1, function(i) quantile(i, probs=c(0.025)))
+all.cols$birdskmCIhigh <- apply(all.simbirdskm, 1, function(i) quantile(i, probs=c(0.975)))
+
+
+# Calculate apportioning proportions by colony
+all.cols$appmean <- apply(all.simapp, 1, mean)
+all.cols$appCIlow <- apply(all.simapp, 1, function(i) quantile(i, probs=c(0.025)))
+all.cols$appCIhigh <- apply(all.simapp, 1, function(i) quantile(i, probs=c(0.975)))
+
+
+all.cols <-all.cols[order(-all.cols$appmean),]
+
+
+# Take cumulative totals of total birds
+all.cols$cbirds <- cumsum(all.cols$birds)
+all.cols$cbirdsCIlow <- cumsum(all.cols$birdsCIlow)
+all.cols$cbirdsCIupp <- cumsum(all.cols$birdsCIhigh)
+
+# Take cumulative totals of birds per sq. km
+all.cols$cbirdskm <- cumsum(all.cols$birdskm)
+all.cols$cbirdskmCIlow <- cumsum(all.cols$birdskmCIlow)
+all.cols$cbirdskmCIhigh <- cumsum(all.cols$birdskmCIhigh)
+
+# Take cumulative totals of apportioning proportions
+all.cols$cappmean <- cumsum(all.cols$appmean)
+all.cols$cappCIlow <- cumsum(all.cols$appCIlow)
+all.cols$cappCIhigh <- cumsum(all.cols$appCIhigh)
+
+
+# Gather mean, lower and upper CIs together
+all.cols$timeout <- paste0(round(all.cols$timeinfpmean,5), " (", round(all.cols$timeinfpCIlow,5), ", ", round(all.cols$timeinfpCIhigh,5), ")")
+all.cols$birdout <- paste0(round(all.cols$birds,1), " (", round(all.cols$birdsCIlow,1), ", ", round(all.cols$birdsCIhigh,1), ")")
+all.cols$birdkmout <- paste0(round(all.cols$birdskm,3), " (", round(all.cols$birdskmCIlow,3), ", ", round(all.cols$birdskmCIhigh,3), ")")
+all.cols$appout <- paste0(round(all.cols$appmean,3), " (", round(all.cols$appCIlow,3), ", ", round(all.cols$appCIhigh,3), ")")
+
+all.cols$cbirdout <- paste0(round(all.cols$cbirds,1), " (", round(all.cols$cbirdsCIlow,1), ", ", round(all.cols$cbirdsCIupp,1), ")")
+all.cols$cbirdkmout <- paste0(round(all.cols$cbirdskm,2), " (", round(all.cols$cbirdskmCIlow,2), ", ", round(all.cols$cbirdskmCIhigh,2), ")")
+# all.cols$cappout <- paste0(round(all.cols$cappmean,2), " (", round(all.cols$cappCIlow,2), ", ", round(all.cols$cappCIhigh,2), ")")
+
+# all.cols$cbirdout <- round(all.cols$cbirds,1)
+# all.cols$cbirdkmout <- round(all.cols$cbirdskm,2)
+all.cols$cappout <- round(all.cols$cappmean,2)
+
+#saveRDS(all.cols, file="ColoniesUsedInAnalysis.Rds")
+#all.cols <- readRDS("ColoniesUsedInAnalysis.Rds")
+```
+
+
+
+
+
+
+
+# Calculate apportioning for BDMPS-only
+For BDMPS-only calculations, no confidence intervals are estimated
+
+Calculate relevant metrics in the same form as GLS/BDMPS combined
+```{r, eval=inputs$BDMPS.uncertainty==0}
+
+all.cols <- bdmps.cols
+
+# Time spent in fp by colony
+all.cols$timeinfpmean <- all.cols$fpud
+
+
+# Calculate #birds in footprint per colony
+all.cols$birds <- all.cols$fpud * all.cols$Pairs.est * 2
+
+
+# Calculate #birds per km2 per colony
+all.cols$birdskm <- all.cols$birds / fp.areakm2
+
+
+# Calculate apportioning proportions by colony
+w <- sum(all.cols$birds,na.rm=TRUE)
+all.cols$appmean <- all.cols$birds / w
+
+
+
+
+all.cols <-all.cols[order(-all.cols$appmean),]
+
+
+# Take cumulative totals of total birds
+all.cols$cbirds <- cumsum(all.cols$birds)
+
+
+# Take cumulative totals of birds per sq. km
+all.cols$cbirdskm <- cumsum(all.cols$birdskm)
+
+
+# Take cumulative totals of apportioning proportions
+all.cols$cappmean <- cumsum(all.cols$appmean)
+
+
+# Gather mean, lower and upper CIs together
+all.cols$timeout <- round(all.cols$timeinfpmean,5)
+all.cols$birdout <- round(all.cols$birds,1)
+all.cols$birdkmout <- round(all.cols$birdskm,3)
+all.cols$appout <- round(all.cols$appmean,3)
+
+all.cols$cbirdout <- round(all.cols$cbirds,1)
+all.cols$cbirdkmout <- round(all.cols$cbirdskm,2)
+all.cols$cappout <- round(all.cols$cappmean,2)
+
+#saveRDS(all.cols, file="ColoniesUsedInAnalysis.Rds")
+#all.cols <- readRDS("ColoniesUsedInAnalysis.Rds")
+
+
+
+```
+
+

@@ -1,0 +1,46 @@
+
+## SPA coordinates {#spacoordinates}
+
+### Summary {-}
+The Cumulative Effects Framework (CEF), uses a list of seabird colonies or SPAs including coordinates representing their locations. Within the CEF, the SPA coordinates are given by a single point and all distances and flights are measured from this point. Where possible, the point location is taken from the SPA Site Details dataset (derived from Natura 2000 [@na_website_nd]) but some have been amended for this dataset. The distance by sea and flight path calculations require the point to be located in a grid cell designated as 'sea', so where the default point is in a 'land' cell, the SPA point has been moved to the nearest sea location. See CEF Documentation for further details.  
+
+### Provenance {-}
+The dataset was created initially from dataset 'SPA Site Details' (see Section 2.8). After comparison with the CEF spatial grid (see Section 6.3), points that were located in a 'land' cell were relocated to a 'sea' cell. Details of this are process are given in the CEF documentation.  
+
+### Terms of Use {-}
+Tbc
+
+### Data set attribution {-}
+You must cite: 
+
+### Versions Available {-}
+```{r spacoordinates, echo=FALSE, message=FALSE, warning=FALSE, paged.print=TRUE, results='asis'}
+library(readr)
+library(knitr)
+vers <- readr::read_csv('/data/DataStore/02_Colony/207_SPAcoords/vers_spacoordinates.csv', show_col_types = FALSE)
+knitr::kable(vers)
+
+```
+
+#### Update information {-}
+* july22 - Draft version
+
+#### Data Store Location {-}
+* Section: 02_Colony
+* Folder: 207_SPAcoords
+* Default version: july22
+
+### Field Descriptions for version july22 {-}
+```{r spacoordinatesfields, echo=FALSE, message=FALSE, warning=FALSE, paged.print=TRUE, results='asis'}
+fields <- readr::read_csv('/data/DataStore/02_Colony/207_SPAcoords/july22/fields_spacoordinates.csv', show_col_types = FALSE)
+knitr::kable(fields)
+
+```
+
+### Supplemental information {-}
+
+### Keywords {-}
+SPA , coordinates, location
+
+----
+

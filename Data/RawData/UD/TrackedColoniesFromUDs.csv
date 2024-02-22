@@ -1,0 +1,33 @@
+SITE_NAME,Colony,Species,X,Y,Season,SeasonMonths,SampleSize
+Canna and Sanday,Canna,Guillemot,-6.53946814,57.05722145,non-breeding season,Aug-Feb,69
+North Colonsay and Western Cliffs,Colonsay,Guillemot,-6.20671283,56.06960658,non-breeding season,Aug-Feb,52
+East Caithness Cliffs,East Caithness,Guillemot,-3.55513381,58.15623369,non-breeding season,Aug-Feb,78
+Fair Isle,Fair Isle,Guillemot,-1.62600313,59.53396867,non-breeding season,Aug-Feb,20
+Farne Islands,Farnes,Guillemot,-1.62929412,55.62915598,non-breeding season,Aug-Feb,1
+Foula,Foula,Guillemot,-2.07062128,60.13720737,non-breeding season,Aug-Feb,13
+Forth Islands,Isle of May,Guillemot,-2.55283199,56.18631032,non-breeding season,Aug-Feb,68
+Ynys Seiriol / Puffin Island,Puffin Island,Guillemot,-4.02581645,53.31884991,non-breeding season,Aug-Feb,6
+Treshnish Isles,Treshnish,Guillemot,-6.42799234,56.4862651,non-breeding season,Aug-Feb,33
+Buchan Ness to Collieston Coast,Whinnyfold,Guillemot,-1.87290666,57.39732331,non-breeding season,Aug-Feb,82
+Canna and Sanday,Canna,Razorbill,-6.53946814,57.05722145,migration seasons,Aug-Oct; Jan-Mar,22
+North Colonsay and Western Cliffs,Colonsay,Razorbill,-6.20671283,56.06960658,migration seasons,Aug-Oct; Jan-Mar,1
+East Caithness Cliffs,East Caithness,Razorbill,-3.55513381,58.15623369,migration seasons,Aug-Oct; Jan-Mar,24
+Fair Isle,Fair Isle,Razorbill,-1.62600313,59.53396867,migration seasons,Aug-Oct; Jan-Mar,13
+Farne Islands,Farnes,Razorbill,-1.62929412,55.62915598,migration seasons,Aug-Oct; Jan-Mar,5
+Foula,Foula,Razorbill,-2.07062128,60.13720737,migration seasons,Aug-Oct; Jan-Mar,1
+Forth Islands,Isle of May,Razorbill,-2.55283199,56.18631032,migration seasons,Aug-Oct; Jan-Mar,21
+Pentland Firth Islands,Orkney,Razorbill,-2.95215231,58.79449812,migration seasons,Aug-Oct; Jan-Mar,18
+Shiant Isles,Shiants,Razorbill,-6.35499672,57.89716322,migration seasons,Aug-Oct; Jan-Mar,13
+Treshnish Isles,Treshnish,Razorbill,-6.42799234,56.4862651,migration seasons,Aug-Oct; Jan-Mar,13
+Buchan Ness to Collieston Coast,Whinnyfold,Razorbill,-1.87290666,57.39732331,migration seasons,Aug-Oct; Jan-Mar,13
+Canna and Sanday,Canna,Razorbill,-6.53946814,57.05722145,winter,Nov-Dec,22
+North Colonsay and Western Cliffs,Colonsay,Razorbill,-6.20671283,56.06960658,winter,Nov-Dec,1
+East Caithness Cliffs,East Caithness,Razorbill,-3.55513381,58.15623369,winter,Nov-Dec,24
+Fair Isle,Fair Isle,Razorbill,-1.62600313,59.53396867,winter,Nov-Dec,13
+Farne Islands,Farnes,Razorbill,-1.62929412,55.62915598,winter,Nov-Dec,5
+Foula,Foula,Razorbill,-2.07062128,60.13720737,winter,Nov-Dec,1
+Forth Islands,Isle of May,Razorbill,-2.55283199,56.18631032,winter,Nov-Dec,21
+Pentland Firth Islands,Orkney,Razorbill,-2.95215231,58.79449812,winter,Nov-Dec,18
+Shiant Isles,Shiants,Razorbill,-6.35499672,57.89716322,winter,Nov-Dec,13
+Treshnish Isles,Treshnish,Razorbill,-6.42799234,56.4862651,winter,Nov-Dec,13
+Buchan Ness to Collieston Coast,Whinnyfold,Razorbill,-1.87290666,57.39732331,winter,Nov-Dec,13

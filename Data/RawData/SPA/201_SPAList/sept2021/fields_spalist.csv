@@ -1,0 +1,11 @@
+Field Name,Description,Unit
+SITE_CODE,"Two letter, 7 digit code uniquely identifying the SPA",Text
+SITE_NAME,Common name for the site,Text
+CEF.include,Y' indicates if this is a site that will be used by the CEF,Text
+Marine.only,Y' indicates where a site is entirely marine,Text
+Altnames.sufficient,Alternative look-up name used by some datasets or reports,Text
+Altnames.SPApolys,Alternative look-up name used by some datasets or reports,Text
+Altnames.SMP,Alternative look-up name used by some datasets or reports,Text
+Altnames.Productivity,Alternative look-up name used by some datasets or reports,Text
+Altnames.BDMPS,Alternative look-up name used by some datasets or reports,Text
+Altnames.FR,Alternative look-up name used by some datasets or reports,Text

@@ -1,0 +1,8 @@
+Field Name,Description,Unit
+Speccode,Species code (two letter BTO code),Text
+Species,Full species name,Text
+Population,Name of the population,Text
+Season,Name of the season,Text
+Area,Name of the area of sea,Text
+Propn.adults,Proportion of the adult breeding birds from this population that are within this 'area' within this 'season',Proportion
+Propn.immatures,Proportion of the immature birds from this population that are within this 'area' within this 'season',Proportion

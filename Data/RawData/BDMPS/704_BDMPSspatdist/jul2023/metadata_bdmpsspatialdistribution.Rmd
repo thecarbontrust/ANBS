@@ -1,0 +1,47 @@
+
+## BDMPS Spatial Distribution {#bdmpsspatialdistribution}
+
+### Summary {-}
+The raw data that underpin the BDMPS. This file provides estimates of the connectivity of these colonies to broad areas of sea that surround the UK.
+
+### Provenance {-}
+This dataset was derived by automatically converting the tables of appendices (Tables 1-69) from the  BDMPS report [@furness_2015] into to a CSV file, importing this into R, and then using an R script to extract the raw data that underpin the BDMPS calculations. This process is designed to separate out the raw data that underpin BDMPS from the derived values within it, and to put it into a format that is easily accessed by R, to enable the BDMPS calculations to be developed as a tool within the CEF, and to make future updating of the raw input data as straightforward as possible.
+
+### Terms of Use {-}
+These data are from published reports and are freely available to use, subject to standard copyright terms.
+
+### Data set attribution {-}
+You must cite: 
+
+### Versions Available {-}
+```{r bdmpsspatialdistribution, echo=FALSE, message=FALSE, warning=FALSE, paged.print=TRUE, results='asis'}
+library(readr)
+library(knitr)
+vers <- readr::read_csv('/data/DataStore/07_Distributions/704_BDMPSspatdist/vers_bdmpsspatialdistribution.csv', show_col_types = FALSE)
+knitr::kable(vers)
+
+```
+
+#### Update information {-}
+
+
+#### Data Store Location {-}
+* Section: 07_Distributions
+* Folder: 704_BDMPSspatdist
+* Default version: apr2021
+
+### Field Descriptions for version apr2021 {-}
+```{r bdmpsspatialdistributionfields, echo=FALSE, message=FALSE, warning=FALSE, paged.print=TRUE, results='asis'}
+fields <- readr::read_csv('/data/DataStore/07_Distributions/704_BDMPSspatdist/apr2021/fields_bdmpsspatialdistribution.csv', show_col_types = FALSE)
+knitr::kable(fields)
+
+```
+
+### Supplemental information {-}
+These raw data are used by the BDMPS tool to produce apportioning percentages (usually, although not necessarily, for the non-breeding season)
+
+### Keywords {-}
+seabirds; spatial distribution; apportioning; non-breeding season; BDMPS
+
+----
+

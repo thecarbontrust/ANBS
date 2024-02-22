@@ -1,0 +1,24 @@
+Field Name,Description,Unit
+SITECODE,The ID for the site (UK plus 7 digits),Text
+CEF.include,Flag (logical) to indicate if this SPA is included in the Cumulative Effects Framework,Text
+Marine,Flag (logical) to indicate if this SPA has been designated as marine only.,Text
+Longitude,The longitude for the SPA polygon allocated central point,degrees
+Latitude,The latitude for the SPA polygon allocated central point,degrees
+dat.CELLNO,The cell number for the CEF default grid (EPSG:4326) that contains the SPA allocated central point,Unitless
+dat.ATSEA,Flag (logical) to indicate if the SPA central point falls in a sea-based grid cell (EPSG:4326),Text
+flt.LONG,The longitude for the SPA polygon allocated flight start point,degrees
+flt.LAT,The latitude for the SPA polygon allocated flight start point,degrees
+flt.CELLNO,The cell number for the CEF default grid (EPSG:4326) that contains the SPA flight start point,Unitless
+flt.ATSEA,Flag (logical) to indicate if the SPA flight start point falls in a sea-based grid cell (EPSG:4326),Text
+flt.DIST,The distance between the SPA central point and the flight start point,km
+flt.near,Flag (logical) to indicate if the SPA central point and the flight start  point are in neighbouring cells,Text
+datxy.E,The x coordinate for the SPA polygon allocated central point (EPSG:3035),m
+datxy.N,The y coordinate for the SPA polygon allocated central point (EPSG:3035),m
+datxy.CELLNO,The cell number for the CEF default grid (EPSG:3035) that contains the SPA allocated central point,Unitless
+datxy.ATSEA,Flag (logical) to indicate if the SPA central point falls in a sea-based grid cell (EPSG:3035),Text
+fltxy.E,The x coordinate for the SPA polygon allocated flight start point (EPSG:3035),m
+fltxy.N,The y coordinate for the SPA polygon allocated flight start point (EPSG:3035),m
+fltxy.CELLNO,The cell number for the CEF default grid (EPSG:3035) that contains the SPA flight start point,Unitless
+fltxy.ATSEA,Flag (logical) to indicate if the SPA flight start point falls in a sea-based grid cell (EPSG:3035),Text
+fltxy.DIST,The distance between the SPA central point and the flight start point (EPSG:3035),m
+fltxy.near,Flag (logical) to indicate if the SPA central point and the flight start  point are in neighbouring cells (EPSG:3035),Text

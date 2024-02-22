@@ -1,0 +1,147 @@
+SPAcode,SPAname,SMP,BDMPS,CEF.desig,CEF.function
+UK9009141,Abberton Reservoir,TRUE,TRUE,FALSE,Include in normal way
+UK9003091,Ailsa Craig,TRUE,TRUE,TRUE,Include in normal way
+UK9009112,Alde-Ore Estuary,FALSE,TRUE,TRUE,Check SMP
+UK9013061,Anglesey Terns / Morwenoliaid Ynys Môn,TRUE,FALSE,TRUE,Include but no NB apportioning
+UK9002381,Auskerry,TRUE,TRUE,FALSE,Include in normal way
+UK9014091,Bae Caerfyrddin/ Carmarthen Bay,FALSE,FALSE,TRUE,Include as marine-only SPA
+UK9020101,Belfast Lough,FALSE,FALSE,TRUE,Include as marine-only SPA
+UK9020290,Belfast Lough Open Water,FALSE,FALSE,FALSE,Include as marine-only SPA
+UK9009291,Benacre to Easton Bavents,TRUE,TRUE,FALSE,Include in normal way
+UK9009171,Benfleet and Southend Marshes,FALSE,FALSE,FALSE,Include as marine-only SPA
+UK9009245,Blackwater Estuary (Mid-Essex Coast Phase 4),TRUE,TRUE,TRUE,Include in normal way
+UK9020312,Bluemull and Colgrave Sounds,FALSE,FALSE,FALSE,Include as marine-only SPA
+UK9005151,Bowland Fells,TRUE,TRUE,FALSE,Include in normal way
+UK9009181,Breydon Water,TRUE,TRUE,TRUE,Include in normal way
+UK9002491,Buchan Ness to Collieston Coast,TRUE,TRUE,TRUE,Include in normal way
+UK9015011,Burry Inlet,FALSE,FALSE,FALSE,Include as marine-only SPA
+UK9002431,Calf of Eday,TRUE,TRUE,TRUE,Include in normal way
+UK9001431,Canna and Sanday,TRUE,TRUE,TRUE,Include in normal way
+UK9001231,Cape Wrath,TRUE,TRUE,TRUE,Include in normal way
+UK9020161,Carlingford Lough,TRUE,TRUE,TRUE,Include in normal way
+UK9010091,Chesil Beach and The Fleet,TRUE,TRUE,TRUE,Include in normal way
+UK9011011,Chichester and Langstone Harbours,TRUE,TRUE,TRUE,Include in normal way
+UK9020310,Coll and Tiree,FALSE,FALSE,FALSE,Include as marine-only SPA
+UK9009243,Colne Estuary (Mid-Essex Coast Phase 2),TRUE,TRUE,TRUE,Include in normal way
+UK9020291,Copeland Islands,TRUE,FALSE,FALSE,Include but no NB apportioning
+UK9002151,Copinsay,TRUE,TRUE,TRUE,Include in normal way
+UK9006031,Coquet Island,TRUE,TRUE,TRUE,Include in normal way
+UK9001623,Cromarty Firth,TRUE,TRUE,TRUE,Include in normal way
+UK9009244,Crouch and Roach Estuaries (Mid-Essex Coast Phase 3),FALSE,FALSE,FALSE,Include as marine-only SPA
+UK9009261,Deben Estuary,FALSE,FALSE,FALSE,Include as marine-only SPA
+UK9009242,Dengie (Mid-Essex Coast Phase 1),FALSE,FALSE,FALSE,Include as marine-only SPA
+UK9001622,Dornoch Firth and Loch Fleet,FALSE,FALSE,FALSE,Include as marine-only SPA
+UK9012091,Dungeness; Romney Marsh and Rye Bay,TRUE,FALSE,TRUE,Include but no NB apportioning
+UK9020284,Dyfi Estuary / Aber Dyfi,FALSE,FALSE,FALSE,Include as marine-only SPA
+UK9001182,East Caithness Cliffs,TRUE,TRUE,TRUE,Include in normal way
+UK9020311,East Mainland Coast; Shetland,FALSE,FALSE,FALSE,Include as marine-only SPA
+UK9002331,East Sanday Coast,FALSE,FALSE,FALSE,Include as marine-only SPA
+UK9010081,Exe Estuary,FALSE,FALSE,FALSE,Include as marine-only SPA
+UK9002091,Fair Isle,TRUE,TRUE,TRUE,Include in normal way
+UK9020323,Falmouth Bay to St Austell Bay,FALSE,FALSE,TRUE,Include as marine-only SPA
+UK9006021,Farne Islands,TRUE,TRUE,TRUE,Include in normal way
+UK9002031,Fetlar,TRUE,TRUE,TRUE,Include in normal way
+UK9004411,Firth of Forth,TRUE,FALSE,TRUE,Include but no NB apportioning
+UK9004121,Firth of Tay and Eden Estuary,TRUE,TRUE,TRUE,Include in normal way
+UK9006101,Flamborough and Filey Coast,TRUE,TRUE,TRUE,Include in normal way
+UK9001021,Flannan Isles,TRUE,TRUE,TRUE,Include in normal way
+UK9004171,Forth Islands,TRUE,TRUE,TRUE,Include in normal way
+UK9002061,Foula,TRUE,TRUE,TRUE,Include in normal way
+UK9009246,Foulness (Mid-Essex Coast Phase 5),TRUE,TRUE,TRUE,Include in normal way
+UK9002271,Fowlsheugh,TRUE,TRUE,TRUE,Include in normal way
+UK9008022,Gibraltar Point,TRUE,TRUE,TRUE,Include in normal way
+UK9013121,Glannau Aberdaron ac Ynys Enlli/ Aberdaron Coast and Bardsey Island,FALSE,FALSE,TRUE,Include as marine-only SPA
+UK9003211,Glas Eileanan,TRUE,TRUE,FALSE,Include in normal way
+UK9014041,Grassholm,TRUE,TRUE,TRUE,Include in normal way
+UK9009271,Great Yarmouth North Denes,TRUE,TRUE,FALSE,Include in normal way
+UK9020329,Greater Wash,FALSE,FALSE,TRUE,Include as marine-only SPA
+UK9003051,Gruinart Flats; Islay,FALSE,FALSE,FALSE,Include as marine-only SPA
+UK9009131,Hamford Water,TRUE,TRUE,TRUE,Include in normal way
+UK9001241,Handa,FALSE,TRUE,TRUE,Check SMP
+UK9002011,Hermaness; Saxa Vord and Valla Field,TRUE,TRUE,TRUE,Include in normal way
+UK9002141,Hoy,TRUE,TRUE,TRUE,Include in normal way
+UK9006111,Humber Estuary,TRUE,FALSE,TRUE,Include but no NB apportioning
+UK9004451,Imperial Dock Lock; Leith,TRUE,TRUE,FALSE,Include in normal way
+UK9003061,Inner Clyde Estuary,FALSE,FALSE,FALSE,Include as marine-only SPA
+UK9001624,Inner Moray Firth,TRUE,TRUE,TRUE,Include in normal way
+UK9020328,Irish Sea Front,FALSE,FALSE,TRUE,Include as marine-only SPA
+UK9020288,Isles of Scilly,TRUE,TRUE,FALSE,Include in normal way
+UK9020221,Killough Bay,FALSE,FALSE,FALSE,Include as marine-only SPA
+UK9020042,Larne Lough,TRUE,TRUE,TRUE,Include in normal way
+UK9001571,Lewis Peatlands,FALSE,TRUE,FALSE,Check SMP
+UK9006011,Lindisfarne,TRUE,TRUE,TRUE,Include in normal way
+UK9020294,Liverpool Bay / Bae Lerpwl,FALSE,FALSE,TRUE,Include as marine-only SPA
+UK9004111,Loch Leven,TRUE,FALSE,FALSE,Include but no NB apportioning
+UK9002211,Loch of Strathbeg,TRUE,TRUE,FALSE,Include in normal way
+UK9020031,Lough Foyle,FALSE,FALSE,FALSE,Include as marine-only SPA
+UK9020091,Lough Neagh and Lough Beg,TRUE,TRUE,FALSE,Include in normal way
+UK9002121,Marwick Head,TRUE,TRUE,TRUE,Include in normal way
+UK9012031,Medway Estuary and Marshes,TRUE,TRUE,TRUE,Include in normal way
+UK9005131,Mersey Estuary,FALSE,FALSE,FALSE,Include as marine-only SPA
+UK9020287,Mersey Narrows and North Wirral Foreshore,TRUE,FALSE,TRUE,Include but no NB apportioning
+UK9001121,Mingulay and Berneray,TRUE,TRUE,TRUE,Include in normal way
+UK9009101,Minsmere-Walberswick,TRUE,TRUE,TRUE,Include in normal way
+UK9001501,Mointeach Scadabhaigh,FALSE,TRUE,FALSE,Check SMP
+UK9004031,Montrose Basin,FALSE,FALSE,FALSE,Include as marine-only SPA
+UK9001625,Moray and Nairn Coast,FALSE,FALSE,FALSE,Include as marine-only SPA
+UK9020313,Moray Firth,FALSE,FALSE,FALSE,Include as marine-only SPA
+UK9020326,Morecambe Bay and Duddon Estuary,TRUE,TRUE,TRUE,Include in normal way
+UK9002361,Mousa,TRUE,TRUE,FALSE,Include in normal way
+UK9001181,North Caithness Cliffs,TRUE,TRUE,TRUE,Include in normal way
+UK9003171,North Colonsay and Western Cliffs,TRUE,TRUE,TRUE,Include in normal way
+UK9009031,North Norfolk Coast,TRUE,TRUE,TRUE,Include in normal way
+UK9001011,North Rona and Sula Sgeir,TRUE,TRUE,TRUE,Include in normal way
+UK9001051,North Uist Machair and Islands,FALSE,FALSE,FALSE,Include as marine-only SPA
+UK9020327,Northern Cardigan Bay / Gogledd Bae Ceredigion,FALSE,FALSE,TRUE,Include as marine-only SPA
+UK9020325,Northumberland Marine,FALSE,FALSE,TRUE,Include as marine-only SPA
+UK9006131,Northumbria Coast,FALSE,TRUE,TRUE,Check SMP
+UK9002081,Noss,TRUE,TRUE,TRUE,Include in normal way
+UK9002311,Orkney Mainland Moors,FALSE,TRUE,FALSE,Check SMP
+UK9002941,Otterswick and Graveland,FALSE,TRUE,FALSE,Check SMP
+UK9008041,Ouse Washes,TRUE,FALSE,FALSE,Include but no NB apportioning
+UK9020271,Outer Ards,TRUE,TRUE,TRUE,Include in normal way
+UK9020309,Outer Thames Estuary,TRUE,FALSE,TRUE,Include but no NB apportioning
+UK9012041,Pagham Harbour,TRUE,TRUE,TRUE,Include in normal way
+UK9002051,Papa Stour,TRUE,TRUE,FALSE,Include in normal way
+UK9002111,Papa Westray (North Hill and Holm),TRUE,TRUE,FALSE,Include in normal way
+UK9001131,Pentland Firth Islands,TRUE,TRUE,FALSE,Include in normal way
+UK9010111,Poole Harbour,TRUE,TRUE,TRUE,Include in normal way
+UK9011051,Portsmouth Harbour,FALSE,FALSE,FALSE,Include as marine-only SPA
+UK9002021,Ramna Stacks and Gruney,TRUE,FALSE,FALSE,Include but no NB apportioning
+UK9020011,Rathlin Island,TRUE,TRUE,TRUE,Include in normal way
+UK9005103,Ribble and Alt Estuaries,TRUE,TRUE,TRUE,Include in normal way
+UK9002371,Rousay,TRUE,TRUE,TRUE,Include in normal way
+UK9001341,Rum,TRUE,TRUE,TRUE,Include in normal way
+UK9020331,Seas off Foula,FALSE,FALSE,FALSE,Include as marine-only SPA
+UK9020332,Seas off St Kilda,FALSE,FALSE,FALSE,Include as marine-only SPA
+UK9015022,Severn Estuary,FALSE,FALSE,FALSE,Include as marine-only SPA
+UK9020021,Sheep Island,TRUE,TRUE,FALSE,Include in normal way
+UK9001041,Shiant Isles,TRUE,TRUE,TRUE,Include in normal way
+UK9014051,Skomer; Skokholm and the Seas off Pembrokeshire / Sgomer; Sgogwm a Moroedd Penfro,FALSE,FALSE,TRUE,Include as marine-only SPA
+UK9003032,Sléibhtean agus Cladach Thiriodh (Tiree Wetlands and Coast),FALSE,FALSE,FALSE,Include as marine-only SPA
+UK9020330,Solent and Dorset Coast,FALSE,FALSE,FALSE,Include as marine-only SPA
+UK9011061,Solent and Southampton Water,TRUE,TRUE,TRUE,Include in normal way
+UK9005012,Solway Firth,FALSE,FALSE,FALSE,Include as marine-only SPA
+UK9020318,Sound of Gigha,FALSE,FALSE,FALSE,Include as marine-only SPA
+UK9001082,South Uist Machair and Lochs,TRUE,TRUE,TRUE,Include in normal way
+UK9004271,St Abb's Head to Fast Castle,TRUE,TRUE,TRUE,Include in normal way
+UK9001031,St Kilda,TRUE,TRUE,TRUE,Include in normal way
+UK9009121,Stour and Orwell Estuaries,TRUE,FALSE,TRUE,Include but no NB apportioning
+UK9020111,Strangford Lough,TRUE,TRUE,TRUE,Include in normal way
+UK9002181,Sule Skerry and Sule Stack,TRUE,TRUE,TRUE,Include in normal way
+UK9002511,Sumburgh Head,TRUE,TRUE,TRUE,Include in normal way
+UK9010141,Tamar Estuaries Complex,FALSE,FALSE,FALSE,Include as marine-only SPA
+UK9006061,Teesmouth and Cleveland Coast,TRUE,TRUE,TRUE,Include in normal way
+UK9012021,Thames Estuary and Marshes,FALSE,FALSE,FALSE,Include as marine-only SPA
+UK9012071,Thanet Coast and Sandwich Bay,TRUE,FALSE,TRUE,Include but no NB apportioning
+UK9013011,The Dee Estuary,TRUE,TRUE,TRUE,Include in normal way
+UK9012011,The Swale,TRUE,FALSE,FALSE,Include but no NB apportioning
+UK9008021,The Wash,TRUE,TRUE,TRUE,Include in normal way
+UK9002811,Tips of Corsemaul and Tom Mor,TRUE,FALSE,FALSE,Include but no NB apportioning
+UK9013031,Traeth Lafan/ Lavan Sands; Conway Bay,FALSE,FALSE,FALSE,Include as marine-only SPA
+UK9003041,Treshnish Isles,TRUE,FALSE,FALSE,Include but no NB apportioning
+UK9002471,Troup; Pennan and Lion's Heads,TRUE,TRUE,TRUE,Include in normal way
+UK9020296,Upper Nene Valley Gravel Pits,TRUE,FALSE,FALSE,Include but no NB apportioning
+UK9020319,West Coast of the Outer Hebrides,FALSE,FALSE,FALSE,Include as marine-only SPA
+UK9002101,West Westray,TRUE,TRUE,TRUE,Include in normal way
+UK9002221,Ythan Estuary; Sands of Forvie and Meikle Loch,TRUE,TRUE,FALSE,Include in normal way

@@ -1,0 +1,24 @@
+
+## SPA List {#spalist}
+
+### Summary {-}
+Definitive list of SPAs to be included within the CEF, including names, codes, a summary of data availability (SMP and BDMPS) for each SPA, and an indication of how the SPA should be treated within the CEF tools
+
+### Provenance {-}
+This data was created by BioSS by using an R script to extract SPA sites names and codes from the file "uk-natura2000-2020-12-18-SPA-site-details.csv", and then matching these, by name, against SPAs in the JNCC SPA species designations and in the SMP and BDMPS data. This automated process provided a draft version of this file, indicating which SPAs are included in the CEF and how, but the final version was then created by JNCC by manually modifying this file, to adjust situations where the automated rules did not yield the best decision. This final step is not yet complete, so current rough draft version is just derived from the R script.
+
+### Terms of Use {-}
+NA
+
+### Data set attribution {-}
+You must cite: 
+
+
+#### Update information {-}
+
+
+### Keywords {-}
+seabirds; SPA; breeding colony; SMP; BDMPS
+
+----
+

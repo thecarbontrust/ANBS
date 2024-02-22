@@ -1,0 +1,7 @@
+Field Name,Description,Unit
+SHORT_CODE,Two-letter code used in the Cumulative Effects Framework code (CBC code for seabirds),Text
+Species,Full species name,Text
+Population,Name of the population,Text
+Poptype,"Type of population: e.g. UK SPA, UK non-SPA, or overseas",Text
+Pairs,Estimated number of breeding adults within the population,Count
+Most.recent.count,"The year associated with the value of ""pairs""",Year (or period of years)

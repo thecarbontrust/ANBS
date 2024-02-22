@@ -1,0 +1,4 @@
+Field Name,Description,Unit
+Speccode,Species code (two letter BTO code),Text
+Species,Full species name,Text
+Rat,Number of immature birds per breeding pair (i.e. ratio of immature birds to breeding pairs),Unit-free positive value

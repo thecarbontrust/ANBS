@@ -1,0 +1,226 @@
+```{r setup}
+knitr::opts_chunk$set(error=TRUE)
+```
+
+# Produce maps for colonies of interest for user inputs when the user has chosen map mode and GLS colonies
+
+This is for map mode (BDMPS-only is excluded)
+
+```{r mapplot, eval=inputs$mode=="map" & inputs$BDMPS.uncertainty>1, dev='png'}
+
+
+  # Define spatial extent of map
+  ext <-
+    SpatialPoints(cbind(c(-10, -10, 5, 5), c(49, 65, 65, 49)),
+                  proj4string = CRS("+proj=longlat +datum=WGS84 +no_defs"))
+  new.ext <-
+    spTransform(
+      ext,
+      CRS(
+        "+proj=laea +lat_0=90 +lon_0=0 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs"
+      )
+    )
+  
+  
+  # Load colonies
+  mapmode.cols <-
+    merge(
+      all.cols,
+      dat_coords[, c("SITECODE", "t.coordx", "t.coordy")],
+      by.x = "SPACODE",
+      by.y = "SITECODE",
+      all.x = TRUE
+    )
+  mapmode.cols$source[match(trackedcols$SITECODE, mapmode.cols$SPACODE)] <-
+    "GLS tracked"
+  
+  
+  # Get SPACODEs for selected colonies
+  select.cols <- mapmode.cols[mapmode.cols$Population %in% inputs$spapop, ]
+  
+  
+  # If any of the selected colonies are BDMPS, maps cannot be displayed as their UD is uniform over the entire spatial extent (of the BDMPS region). Therefore, exclude these colonies.
+  if (any(select.cols$source == "BDMPS")) {
+    tmp <- select.cols$Population[select.cols$source == "BDMPS"]
+    
+    if (length(tmp) == 1) {
+      
+      maptmp <- paste0(
+          "Colony ",
+          tmp,
+          " is outside of the specificed distance threshold. BDMPS is used for this colony so maps showing apportioning cannot be displayed."
+        )
+      
+      print(maptmp)
+      
+   
+    } else {
+      
+      maptmp <- paste0(
+          "Colonies ",
+          paste(tmp, sep = " ", collapse = ", "),
+          " are outside of the specificed distance threshold. BDMPS is used for these colonies so maps showing apportioning cannot be displayed."
+        )
+      
+      
+      print(maptmp)
+
+    }
+    
+  }
+  
+  # Only select tracked or untracked GLS colonies
+  select.cols <- select.cols[!(select.cols$source == "BDMPS"), ]
+  
+  
+  if (nrow(select.cols) >= 1) {
+    for (i in 1:nrow(select.cols)) {
+      # Colony population size (based on user inputs)
+      colony.popsize <- select.cols$Pairs.est[i]
+      
+      
+      # Error catching for SPACODEs that do not exist in the imported rasters
+      if(!exists((paste0("ud.", inputs$species, select.cols$SPACODE[i])))){ next }
+      
+    
+      # Get relevant raster UD
+      ras.x <- get(paste0("ud.", inputs$species, select.cols$SPACODE[i]))
+      
+      # *************************************************************************
+      # Calculating mean, upper and lower 95%CIs cell by cell over all simulations
+      # *************************************************************************
+      # Calculate lower 95%CI
+      mean.x <- crop(calc(ras.x, mean) * colony.popsize, new.ext)
+      
+      # Calculate lower 95%CI
+      low.x <-
+        crop(calc(
+          ras.x,
+          fun = function(x)
+            quantile(x, .025, na.rm = TRUE)
+        ) * colony.popsize,
+        new.ext)
+      
+      # Calculate upper 95% CI
+      upp.x <-
+        crop(calc(
+          ras.x,
+          fun = function(x)
+            quantile(x, .975, na.rm = TRUE)
+        ) * colony.popsize,
+        new.ext)
+      
+      s <- raster::brick(mean.x, low.x, upp.x)
+      
+      s.df <- as.data.frame(s, xy = TRUE)
+      s.min <- min(values(s), na.rm = T)
+      s.max <- max(values(s), na.rm = T)
+      
+      
+      # Plotting mean, lower and upper 95% CIs
+      meanplot <- ggplot() +
+        geom_raster(data = s.df, aes(x = x, y = y, fill = s.df[, 3])) +
+        scale_fill_viridis_c(limits = c(s.min, s.max)) +
+        theme(legend.position = "left") +
+        geom_sf(data = UKmap) +
+        coord_sf(xlim = bbox(s)[1, ], ylim = bbox(s)[2, ]) +
+        scale_x_discrete(expand = c(0, 0)) +
+        scale_y_discrete(expand = c(0, 0)) +
+        guides(color = guide_legend("Bird density")) +
+        labs(
+          title = "Mean",
+          x = "Longitude",
+          y = "Latitude",
+          fill = "Bird density"
+        ) +
+        theme(plot.title = element_text(hjust = 0.5)) +
+        theme(axis.text.y = element_text(
+          angle = 60,
+          vjust = 0.5,
+          hjust = 1
+        )) +
+        theme(axis.text.x = element_blank(), axis.text.y = element_blank()) +
+        ggsn::scalebar(
+          x.min = bbox(new.ext)[1],
+          x.max = bbox(new.ext)[3],
+          y.min = bbox(new.ext)[2],
+          y.max = bbox(new.ext)[4],
+          dist = 100,
+          transform = FALSE,
+          model = 'WGS84',
+          dist_unit = "km",
+          height = 0.01,
+          location = "bottomright",
+          st.bottom = FALSE,
+          st.size = 3,
+          st.color = "black"
+        ) +
+        theme(
+          legend.key.size = unit(0.3, 'cm'),
+          #change legend key size
+          legend.key.height = unit(1, 'cm'),
+          #change legend key height
+          legend.key.width = unit(0.6, 'cm'),
+          #change legend key width
+          legend.title = element_text(size = 12),
+          #change legend title font size
+          legend.text = element_text(size = 10)
+        ) #change legend text font size
+      
+      
+      lowplot <- ggplot() +
+        geom_raster(data = s.df, aes(x = x, y = y, fill = s.df[, 4])) +
+        scale_fill_viridis_c(limits = c(s.min, s.max)) +
+        theme(legend.position = "none") +
+        geom_sf(data = UKmap) +
+        coord_sf(xlim = bbox(s)[1, ], ylim = bbox(s)[2, ]) +
+        scale_x_discrete(expand = c(0, 0)) +
+        scale_y_discrete(expand = c(0, 0)) +
+        guides(color = guide_legend("Bird density")) +
+        labs(
+          title = "Lower 95% CI",
+          x = "Longitude",
+          y = "Latitude",
+          fill = "Bird density"
+        ) +
+        theme(plot.title = element_text(hjust = 0.5)) +
+        theme(axis.text.y = element_text(
+          angle = 60,
+          vjust = 0.5,
+          hjust = 1
+        )) +
+        theme(axis.text.x = element_blank(), axis.text.y = element_blank())
+      
+      
+      uppplot <- ggplot() +
+        geom_raster(data = s.df, aes(x = x, y = y, fill = s.df[, 5])) +
+        scale_fill_viridis_c(limits = c(s.min, s.max)) +
+        theme(legend.position = "none") +
+        geom_sf(data = UKmap) +
+        coord_sf(xlim = bbox(s)[1,], ylim = bbox(s)[2,]) +
+        scale_x_discrete(expand = c(0, 0)) +
+        scale_y_discrete(expand = c(0, 0)) +
+        guides(color = guide_legend("Bird density")) +
+        labs(title = "Upper 95% CI", x = "Longitude", y = "Latitude") +
+        theme(plot.title = element_text(hjust = 0.5)) +
+        theme(axis.text.y = element_text(
+          angle = 60,
+          vjust = 0.5,
+          hjust = 1
+        )) +
+        theme(axis.text.x = element_blank(), axis.text.y = element_blank())
+      
+      
+      allplots <- meanplot + lowplot + uppplot +
+        plot_annotation(title = paste0(select.cols$Population[i])) +
+        theme(plot.title = element_text(hjust = 0.6, size = 15))
+      
+      
+   #   assign(paste0("mapmodecolony", i), allplots)
+      #allplots
+      ggsave(paste0("mapmodecolony",i,".png"),plot=allplots, width=10.44, height=4.53, units="in", dpi=300, pointsize=5)
+      
+    }
+  }
+
+```

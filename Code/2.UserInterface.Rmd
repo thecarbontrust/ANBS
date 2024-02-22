@@ -1,0 +1,381 @@
+---
+title: "Apportioning in the non-breeding season"
+author: "BioSS and UKCEH"
+date: "03/02/2023"
+output:
+  html_notebook: default
+  html_document:
+    number_sections: yes
+  pdf_document: default
+subtitle: Interface
+---
+
+User input parameters to the apportioning in the non-breeding tool
+
+# User-specified inputs
+
+```{r interfacelist}
+inputs <- list()
+```
+
+
+## Title and authors
+```{r titleauthors}
+
+inputs$title<-dlg_input(message = "Enter report title",
+  default = "Apportioning in the non-breeding season")$res
+
+inputs$authors<-dlg_input(message = "Enter author list",
+  default = "UKCEH and BioSS")$res
+
+```
+
+
+## 1. Species
+
+Options are Common guillemot (Uria aalge) (GU) or Razorbill (Alca torda) (RA)
+
+```{r interfacespecies}
+###########SELECT.LIST############
+# Drop down list of "Guillemot" or "Razorbill"
+
+species<- dlg_list(
+  choices= c("Common guillemot (Uria aalge)","Razorbill (Alca torda)"),
+  preselect = NULL,
+  multiple = FALSE,
+  title = "Select species")$res
+
+ifelse(species=="Common guillemot (Uria aalge)", inputs$species<-"Guillemot", inputs$species<-"Razorbill")
+ifelse(species=="Common guillemot (Uria aalge)", inputs$longspecies<-"common guillemot", inputs$longspecies<-"razorbill")
+ifelse(inputs$species=="Guillemot",inputs$spcode<-"GU",inputs$spcode<-"RA")
+
+
+```
+
+# Read data 
+
+## SPA list
+
+```{r interfacedatspalist}
+dat_spalist <- process_spalist(read_spalist(cefinc = FALSE))
+```
+
+
+<!-- ## BDMPS immature-adult ratio -->
+
+<!-- ```{r interfacedatbdmpsimprat} -->
+<!-- dat_bdmpsimprat <- read_bdmpsimprat(spcode = inputs$spcode) -->
+<!-- ``` -->
+
+
+## BDMPS population sizes
+
+```{r interfacedatbdmpspopsizes}
+dat_bdmpspopsizes <- process_bdmpspopsizes(
+  read_bdmpspopsizes(spcode = inputs$spcode), spalist = dat_spalist)
+```
+
+
+## BDMPS spatial distributions
+```{r loaddatbdmpsspatdist}
+dat_bdmpsspatdist <- process_bdmpsspatdist(
+  read_bdmpsspatdist(spcode = inputs$spcode),
+  spalist = dat_spalist, bdmpspopsizes = dat_bdmpspopsizes)
+```  
+  
+
+## 2. Mode 
+
+Options are footprint [default] or map
+
+```{r interfacemode}
+# Drop down list of "footprint" or "map"
+inputs$mode<- dlg_list(
+  choices= c("footprint","map"),
+  preselect = "footprint",
+  multiple = FALSE,
+  title = "Select mode")$res
+
+```
+
+
+## 3. BDMPS region (map mode only)
+
+```{r interfacebdmpsregion}
+if(inputs$mode=="map"){
+# Drop down list of "UK Western waters" or "UK North Sea and Channel waters"
+inputs$BDMPS.region<- dlg_list(
+  choices= c("UK Western waters","UK North Sea and Channel waters"),
+  preselect = FALSE,
+  multiple = FALSE,
+  title = "Select BDMPS region of interest")$res
+}
+
+```
+
+## 4. BDMPS uncertainty scalar of GLS uncertainty
+
+Should be either 0 (which is a special case and means that the tool will output values that will match the current BDMPS tool) or greater than 1.
+
+```{r interfacebdmpsuncert}
+# Default is 1.5
+# Can be any value greater than 1
+# Or it can be 0, which means only use the BDMPS tool not the GLS maps
+inputs$BDMPS.uncertainty<-as.numeric(dlg_input(
+  message = "Enter a value for the BDMPS multiplier uncertainty - either 0 (only BDMPS will be used in the apportioning calculations) or greater than 1",
+  default = "1.5")$res)
+
+#pop warning message and re-enter values
+while(inputs$BDMPS.uncertainty <=1 & inputs$BDMPS.uncertainty!=0){
+  msgBox("Value needs to be greater than 1 or 0")
+  inputs$BDMPS.uncertainty<-as.numeric(dlg_input(
+    message = "Enter a value for the BDMPS uncertantity - either 0 (only BDMPS will be used in the apportioning calculations) or greater than 1",
+    default = "1.5")$res)
+}
+
+```
+
+
+## 5. Distance threshold 
+
+Default is 270km. Can be any non-negative value. If BDMPS uncertainty scalar = 0, distance threshold is set to 0.
+
+```{r interfacedist}
+# To add: no negative values
+# Default distance is set to 270km, the same as in Lila's ms
+# Values can be any positive (integer?)
+
+if(inputs$BDMPS.uncertainty==0) {
+  inputs$dist.thresh <- 0
+} else {
+  
+  inputs$dist.thresh<-as.numeric(dlg_input(
+    message = "Enter a value for the distance threshold (in km)",
+    default = "270")$res)
+  
+  while(inputs$dist.thresh <0){
+    msgBox("Value needs to be positive")
+    inputs$dist.thresh<-as.numeric(dlg_input(
+      message = "Enter a value for distance threshold (in km)",
+      default = "270")$res)
+  }# close while
+  
+}
+
+```
+
+
+## 6.Season
+
+Users specify which BDMPS season they want to use BDMPS values for.
+
+```{r interfaceseason}
+
+if(inputs$spcode=="GU"){
+  inputs$season <- dlg_list(
+    choices= c("non-breeding season (August to February)"),
+    preselect = "non-breeding season (August to February)",
+    multiple = FALSE,
+    title = "Select non-breeding season")$res
+}
+
+
+if(inputs$spcode=="RA"){
+  inputs$season <- dlg_list(
+    choices= c("migration seasons (August to October; and January to March)","winter (November and December)"),
+    preselect = "non-breeding season (August to February)",
+    multiple = FALSE,
+    title = "Select non-breeding season")$res
+}
+
+
+```
+
+
+## 7. Months
+
+Period to consider (set of months)
+
+```{r interfacemonths}
+
+if(inputs$BDMPS.uncertainty>1){
+  
+  months.data<-month.name[c(1:3,7:12)]
+  # The defaults should be related to the BDMPS season users have already chosen:
+  
+  if(inputs$spcode=="GU"){
+    default.months <- c(1:2,8:12)
+  } else if(inputs$season=="migration seasons (August to October; and January to March)") {
+    default.months <- c(1:3,8:10)
+  } else {
+    default.months <- c(11:12)}
+  
+  #Drop- down list of months (names)
+  # Put in option for users to keep defaults (same as BDMPS seasons) or select their own months
+  
+  tmp_month<-dlgMessage(message= paste0("Current months selected are: ", paste(month.name[default.months],sep=" ", collapse=", "),". Would you like to change this?"), type = "yesno")$res
+  
+  
+  if(tmp_month=="yes"){
+    
+    #manual month selection
+    monthname <- dlg_list(
+      choices= months.data,
+      preselect = month.name[default.months],
+      multiple = TRUE,
+      title = "Select month - please select at least 2 months")$res
+    
+    # Convert to numeric for the code
+    inputs$months <- match(monthname, month.name)
+    
+    # For GU, put in a warning if no months Aug-Feb are selected.
+    while(inputs$spcode=="GU" & any(!inputs$months %in% c(8:12,1:2))){
+      
+      temp_gu<-dlgMessage("WARNING: The months selected to include GLS data do not overlap with the non-breeding season (August to February). Do you want to continue?", type="yesno")$res
+      
+      if(temp_gu=="no"){
+        #manual month selection
+        monthname <- dlg_list(
+          choices= months.data,
+          preselect = month.name[default.months],
+          multiple = TRUE,
+          title = "Select month")$res
+        
+        # Convert to numeric for the code
+        inputs$months <- match(monthname, month.name)
+      } else { 
+        break} 
+    } #close if
+    
+    while(inputs$spcode=="RA" & any(!inputs$months %in% c(8:12,1:3)) & inputs$season=="migration seasons (August to October; and January to March)"){ 
+      
+      temp_ra_ms<-dlgMessage("WARNING: The months selected to include GLS data do not overlap with the migration seasons (August to October; and January to March). Do you want to continue?", type="yesno")$res
+      
+      if(temp_ra_ms=="no"){
+        
+        #manual month selection
+        monthname <- dlg_list(
+          choices= months.data,
+          preselect = month.name[default.months],
+          multiple = TRUE,
+          title = "Select month - please select at least 2 months")$res
+        
+        # Convert to numeric for the code
+        inputs$months <- match(monthname, month.name)
+      }else{ break }
+    }#close if
+    
+    while(inputs$spcode=="RA" & !any(inputs$months %in% c(11:12)) & inputs$season=="winter (November and December)"){ 
+      temp_ra_w<-dlgMessage("WARNING: The months selected to include GLS data do not overlap with the winter (November and December). Do you want to continue?", type="yesno")$res
+      
+      if(temp_ra_w=="no"){
+        
+        #manual month selection
+        monthname <- dlg_list(
+          choices= months.data,
+          preselect = month.name[default.months],
+          multiple = TRUE,
+          title = "Select month - please select at least 2 months")$res
+        # Convert to numeric for the code
+        inputs$months <- match(monthname, month.name)
+      } else { break }# close while
+    }#close if 
+    
+    #If users select 3 or less months, put in a warning that there is only a small amount of data to base the calculations on
+    while(length(monthname)<=3){
+      
+      tmp_length<-dlgMessage("WARNING: 3 or less months have been selected. This is a small amount of data to calculate averages on. Do you want to continue?",
+                             type="yesno")$res
+      
+      if(tmp_length=="no"){
+        monthname <- dlg_list(
+          choices= months.data,
+          preselect = monthname,
+          multiple = TRUE,
+          title = "Select month - please select at least 2 months")$res 
+      } else {break }
+    }#close if
+    
+    # Convert to numeric for the code
+    inputs$months <- match(monthname, month.name)
+    
+  }else{
+    inputs$months <-default.months
+  } #close if yes
+  
+}
+
+```
+
+
+## 8. Footprint of interest (in footprint mode) or colonies of interest (in map mode)
+
+```{r interfacefp}
+
+# If using footprint model, the user uploads a .shp file of their footprint. 
+if(inputs$mode=="footprint"){
+  msgBox("To upload a footprint file, it must have an .shp extension and not be located on a temporary drive")
+  inputs$footprint <- file.choose()
+  
+  while(!grepl("\\.shp$", inputs$footprint)){
+    msgBox("File needs to be .shp")
+    inputs$footprint <- file.choose()
+  }
+  
+  #Code the selected population (SPA) of interest by overlaying the footprint with map of SPAs and selecting them.
+  
+} else {
+  # or if using map mode, the user selects the populations of interest
+  # drop down list of SPAs (relating to the species)
+  inputs$spapop<- dlg_list(
+    choices= dat_bdmpsspatdist$Population[toupper(stringr::word(dat_bdmpsspatdist$Area, 1,2, sep=" "))==toupper(stringr::word(inputs$BDMPS.region, 1,2, sep=" ")) & dat_bdmpsspatdist$Season==inputs$season & !dat_bdmpsspatdist$SPACODE==""] ,
+    preselect = TRUE,
+    multiple = TRUE,
+    title = "Select colony or colonies of interest")$res
+  
+  
+}
+
+```
+
+
+# Input data that can be modified by users
+
+## 9. Population sizes
+
+One for each BDMPS population - take defaults from BDMPS population size data, but size can be changed by users [although names of populations cannot].
+
+```{r interfacepop}
+
+# Show all of the colonies and pairs(population sizes)
+
+tmp_editmessage <- dlgMessage("You can change the population estimates of the number of breeding adults in each colony. To do this, select and change the value of cells in the 'Pairs' column in the data that will be displayed in the next pop-up. Do not change any information in the 'Population' column.")
+
+table<-edit(dat_bdmpspopsizes[,c("Population", "Pairs")], edit.row.names=FALSE, title="Population estimates")
+
+while(any(table$Pairs<0)){
+  
+tmp_negativevalues <- dlgMessage("The population estimates of the number of breeding adults need to be positive. Please enter a positive value.")
+
+table<-edit(dat_bdmpspopsizes[,c("Population", "Pairs")], edit.row.names=FALSE, title="Population estimates")
+}
+
+while(!all(table$Pairs==dat_bdmpspopsizes$Pairs)){
+  
+  tmp_edit<-dlgMessage("WARNING: You have changed the population sizes. Do you want to continue?",
+                       type="yesno")$res
+  
+if(tmp_edit=="no" & !identical(table$Pairs, dat_bdmpspopsizes$Pairs)){
+    
+    table<-edit(dat_bdmpspopsizes[,c("Population", "Pairs")], edit.row.names=FALSE, title="Population estimates")
+    
+  }else{break}
+}#close if
+
+inputs$Population <- table$Population
+inputs$Pairs.est <- table$Pairs
+inputs$SPACODE <- dat_bdmpspopsizes$SPACODE
+
+```
+
+

@@ -1,0 +1,89 @@
+
+```{r setup}
+knitr::opts_chunk$set(error=TRUE)
+```
+
+## Calculate the distance by sea from each GLS colony to each SPA
+```{r distancedistocol, eval=inputs$BDMPS.uncertainty>1}
+
+
+dist <- dist.to.colony(costgrid=costgrid, fromCoords1=dat_coords$t.coordx, fromCoords2=dat_coords$t.coordy, toCoords1=trackedcols$t.coordx, toCoords2=trackedcols$t.coordy, fromNames=trackedcols$SITECODE, toNames=dat_coords$SITECODE)
+
+# Remove untracked colonies that are actually the same as some of the tracked colonies.
+dist <- dist[-which(rownames(dist) %in% colnames(dist)),]
+
+
+```
+
+For untracked colonies that are within the distance threshold of at least one tracked colony, their utilisation distributions are built from tracked colonies. Using the distance threshold as a maximum, distances from the untracked colony to tracked colonies are minused from the threshold. Tracked colonies above the distance threshold are not considered (and their distances are set to NA). The probabilities of the tracked colony are calculated by taking the (distance threshold - distance)/sum(distance threshold - each tracked colony distance). If no tracked colonies are within the distance threshold of an untracked colony, BDMPS is used to calculate apportioning for the untracked colony. 
+
+```{r distancena, eval=inputs$BDMPS.uncertainty>1}
+
+
+# Change all of the distances larger than the distance threshold to NA
+dist[dist > inputs$dist.thresh] <- NA
+  
+# distance threshold - distance from each colony
+dist2 <- as.matrix(inputs$dist.thresh-dist)
+  
+# Calculate probabilities for each colony for apportioning
+dist3 <- t(apply(dist2, 1, function(x) x/sum(x, na.rm=TRUE)))
+
+```
+
+
+
+## Select the untracked colonies which are not associated with any tracked colony due to exceeding the distance threshold & are present in the BDMPS 
+BDMPS will be used for these colonies.
+```{r distancebdmps, eval=inputs$BDMPS.uncertainty>1}
+
+untrackedcols.bdmps <- rownames(dist3[rowSums(is.na(dist3)) == ncol(dist3) & rownames(dist3) %in% dat_bdmpspopsizes$SPACODE[dat_bdmpspopsizes$SPACODE!=""],])  
+
+```
+
+
+## Select remaining untracked colonies that are in BDMPS and that will use GLS distributions
+```{r distanceuntracked, eval=inputs$BDMPS.uncertainty>1}
+
+
+  untrackedcols <- dist3[!(rownames(dist3) %in% untrackedcols.bdmps) & rownames(dist3) %in% dat_bdmpspopsizes$SPACODE[dat_bdmpspopsizes$SPACODE!=""],]
+
+    if(any(duplicated(rownames(untrackedcols))==TRUE)) {
+    print("There are duplicate untracked colonies. Duplicates will be deleted. The duplicates are")
+    print(rownames(untrackedcols)[duplicated(rownames(untrackedcols))])
+  
+    untrackedcols <- untrackedcols[!duplicated(rownames(untrackedcols)),]
+    }
+
+```
+
+
+## Creating utilisation distributions for the untracked colonies, where they are within the distance threshold of at least one tracked colony 
+```{r distanceuds, eval=inputs$BDMPS.uncertainty>1}
+
+
+  for(i in 1:dim(untrackedcols)[1]){
+  
+  #Create data.frame to with colony, iteration(1-100), and probability 
+  select.probs <- (untrackedcols[i,][!is.na(untrackedcols[i,])])/100
+  
+  if(length(select.probs)==0){next}
+  select.probs <- data.frame(colony=rep(names(select.probs),100), iteration=rep(1:100,each=length(names(select.probs))), prob=rep(select.probs,100))
+  
+  # Use a multinomial to select 100 colony/iteration combination
+  x <- rmultinom(n=100, prob=select.probs$prob, size=1)
+  
+  # Gather up sample of 100 iterations
+  sample <- select.probs[apply(x==1, 2, which),]
+  
+  # Create RasterStacks of 100 simulations for each untracked colony, based on randomly selecting 100 simulations from tracked colonies that the untracked 
+  # colony is associated with, based on the specified distance threshold. 
+  fn.process.makerasterstack(species=inputs$species, untrackedcolony=rownames(untrackedcols)[i], trackedcolony=sample$colony, iteration=sample$iteration)
+  
+  }
+
+```
+
+
+
+

@@ -1,0 +1,1413 @@
+Speccode,Species,Population,Season,Area,Propn.adults,Propn.immatures
+AC,Arctic Skua,Fair Isle,autumn migration season (August to October),UK North Sea and Channel waters,0.6,0.4
+AC,Arctic Skua,Fair Isle,autumn migration season (August to October),UK western waters,0.4,0.3
+AC,Arctic Skua,Fair Isle,spring migration season (April-May),UK North Sea and Channel waters,0.4,0.1
+AC,Arctic Skua,Fair Isle,spring migration season (April-May),UK western waters,0.6,0.5
+AC,Arctic Skua,Faroe,autumn migration season (August to October),UK North Sea and Channel waters,0.1,0.1
+AC,Arctic Skua,Faroe,autumn migration season (August to October),UK western waters,0.1,0.1
+AC,Arctic Skua,Faroe,spring migration season (April-May),UK North Sea and Channel waters,0.005,0.001
+AC,Arctic Skua,Faroe,spring migration season (April-May),UK western waters,0.05,0.02
+AC,Arctic Skua,Fennoscandia,autumn migration season (August to October),UK North Sea and Channel waters,0.1,0.1
+AC,Arctic Skua,Fennoscandia,autumn migration season (August to October),UK western waters,0.05,0.05
+AC,Arctic Skua,Fennoscandia,spring migration season (April-May),UK North Sea and Channel waters,0.01,0.005
+AC,Arctic Skua,Fennoscandia,spring migration season (April-May),UK western waters,0.05,0.03
+AC,Arctic Skua,Fetlar,autumn migration season (August to October),UK North Sea and Channel waters,0.6,0.4
+AC,Arctic Skua,Fetlar,autumn migration season (August to October),UK western waters,0.4,0.3
+AC,Arctic Skua,Fetlar,spring migration season (April-May),UK North Sea and Channel waters,0.4,0.1
+AC,Arctic Skua,Fetlar,spring migration season (April-May),UK western waters,0.6,0.5
+AC,Arctic Skua,Foula,autumn migration season (August to October),UK North Sea and Channel waters,0.6,0.4
+AC,Arctic Skua,Foula,autumn migration season (August to October),UK western waters,0.4,0.3
+AC,Arctic Skua,Foula,spring migration season (April-May),UK North Sea and Channel waters,0.4,0.1
+AC,Arctic Skua,Foula,spring migration season (April-May),UK western waters,0.6,0.5
+AC,Arctic Skua,High Arctic tundra,autumn migration season (August to October),UK North Sea and Channel waters,0.01,0.01
+AC,Arctic Skua,High Arctic tundra,autumn migration season (August to October),UK western waters,0.01,0.01
+AC,Arctic Skua,High Arctic tundra,spring migration season (April-May),UK North Sea and Channel waters,0.002,0.001
+AC,Arctic Skua,High Arctic tundra,spring migration season (April-May),UK western waters,0.01,0.01
+AC,Arctic Skua,Hoy,autumn migration season (August to October),UK North Sea and Channel waters,0.6,0.4
+AC,Arctic Skua,Hoy,autumn migration season (August to October),UK western waters,0.4,0.3
+AC,Arctic Skua,Hoy,spring migration season (April-May),UK North Sea and Channel waters,0.4,0.1
+AC,Arctic Skua,Hoy,spring migration season (April-May),UK western waters,0.6,0.5
+AC,Arctic Skua,Iceland,autumn migration season (August to October),UK North Sea and Channel waters,0.02,0.02
+AC,Arctic Skua,Iceland,autumn migration season (August to October),UK western waters,0.02,0.02
+AC,Arctic Skua,Iceland,spring migration season (April-May),UK North Sea and Channel waters,0.005,0.001
+AC,Arctic Skua,Iceland,spring migration season (April-May),UK western waters,0.01,0.01
+AC,Arctic Skua,Papa Westray,autumn migration season (August to October),UK North Sea and Channel waters,0.6,0.4
+AC,Arctic Skua,Papa Westray,autumn migration season (August to October),UK western waters,0.4,0.3
+AC,Arctic Skua,Papa Westray,spring migration season (April-May),UK North Sea and Channel waters,0.4,0.1
+AC,Arctic Skua,Papa Westray,spring migration season (April-May),UK western waters,0.6,0.5
+AC,Arctic Skua,Rousay,autumn migration season (August to October),UK North Sea and Channel waters,0.6,0.4
+AC,Arctic Skua,Rousay,autumn migration season (August to October),UK western waters,0.4,0.3
+AC,Arctic Skua,Rousay,spring migration season (April-May),UK North Sea and Channel waters,0.4,0.1
+AC,Arctic Skua,Rousay,spring migration season (April-May),UK western waters,0.6,0.5
+AC,Arctic Skua,UK non-SPA North Sea colonies,autumn migration season (August to October),UK North Sea and Channel waters,0.6,0.4
+AC,Arctic Skua,UK non-SPA North Sea colonies,autumn migration season (August to October),UK western waters,0.4,0.3
+AC,Arctic Skua,UK non-SPA North Sea colonies,spring migration season (April-May),UK North Sea and Channel waters,0.4,0.1
+AC,Arctic Skua,UK non-SPA North Sea colonies,spring migration season (April-May),UK western waters,0.6,0.5
+AC,Arctic Skua,UK non-SPA western colonies,autumn migration season (August to October),UK North Sea and Channel waters,0,0
+AC,Arctic Skua,UK non-SPA western colonies,autumn migration season (August to October),UK western waters,1,0.7
+AC,Arctic Skua,UK non-SPA western colonies,spring migration season (April-May),UK North Sea and Channel waters,0,0
+AC,Arctic Skua,UK non-SPA western colonies,spring migration season (April-May),UK western waters,1,0.7
+AC,Arctic Skua,West Westray,autumn migration season (August to October),UK North Sea and Channel waters,0.6,0.4
+AC,Arctic Skua,West Westray,autumn migration season (August to October),UK western waters,0.4,0.3
+AC,Arctic Skua,West Westray,spring migration season (April-May),UK North Sea and Channel waters,0.4,0.1
+AC,Arctic Skua,West Westray,spring migration season (April-May),UK western waters,0.6,0.5
+AE,Arctic Tern,Auskerry,migration seasons (July-early September and late April-May),UK North Sea and Channel waters,0.9,0.6
+AE,Arctic Tern,Auskerry,migration seasons (July-early September and late April-May),UK western waters,0.1,0.1
+AE,Arctic Tern,Baltic States,migration seasons (July-early September and late April-May),UK North Sea and Channel waters,0.1,0.1
+AE,Arctic Tern,Baltic States,migration seasons (July-early September and late April-May),UK western waters,0.02,0.02
+AE,Arctic Tern,Coquet Island,migration seasons (July-early September and late April-May),UK North Sea and Channel waters,1,0.7
+AE,Arctic Tern,Coquet Island,migration seasons (July-early September and late April-May),UK western waters,0,0.05
+AE,Arctic Tern,Fair Isle,migration seasons (July-early September and late April-May),UK North Sea and Channel waters,0.9,0.6
+AE,Arctic Tern,Fair Isle,migration seasons (July-early September and late April-May),UK western waters,0.1,0.1
+AE,Arctic Tern,Farne Islands,migration seasons (July-early September and late April-May),UK North Sea and Channel waters,1,0.7
+AE,Arctic Tern,Farne Islands,migration seasons (July-early September and late April-May),UK western waters,0,0.05
+AE,Arctic Tern,Faroe,migration seasons (July-early September and late April-May),UK North Sea and Channel waters,0.2,0.15
+AE,Arctic Tern,Faroe,migration seasons (July-early September and late April-May),UK western waters,0.1,0.1
+AE,Arctic Tern,Fennoscandia,migration seasons (July-early September and late April-May),UK North Sea and Channel waters,0.2,0.15
+AE,Arctic Tern,Fennoscandia,migration seasons (July-early September and late April-May),UK western waters,0.03,0.03
+AE,Arctic Tern,Fetlar,migration seasons (July-early September and late April-May),UK North Sea and Channel waters,0.9,0.6
+AE,Arctic Tern,Fetlar,migration seasons (July-early September and late April-May),UK western waters,0.1,0.1
+AE,Arctic Tern,Forth Islands,migration seasons (July-early September and late April-May),UK North Sea and Channel waters,1,0.7
+AE,Arctic Tern,Forth Islands,migration seasons (July-early September and late April-May),UK western waters,0,0.05
+AE,Arctic Tern,Foula,migration seasons (July-early September and late April-May),UK North Sea and Channel waters,0.9,0.6
+AE,Arctic Tern,Foula,migration seasons (July-early September and late April-May),UK western waters,0.1,0.1
+AE,Arctic Tern,Ireland,migration seasons (July-early September and late April-May),UK North Sea and Channel waters,0,0
+AE,Arctic Tern,Ireland,migration seasons (July-early September and late April-May),UK western waters,0.3,0.3
+AE,Arctic Tern,Mousa,migration seasons (July-early September and late April-May),UK North Sea and Channel waters,0.9,0.6
+AE,Arctic Tern,Mousa,migration seasons (July-early September and late April-May),UK western waters,0.1,0.1
+AE,Arctic Tern,Outer Ards,migration seasons (July-early September and late April-May),UK North Sea and Channel waters,0,0
+AE,Arctic Tern,Outer Ards,migration seasons (July-early September and late April-May),UK western waters,1,0.7
+AE,Arctic Tern,Papa Stour,migration seasons (July-early September and late April-May),UK North Sea and Channel waters,0.9,0.6
+AE,Arctic Tern,Papa Stour,migration seasons (July-early September and late April-May),UK western waters,0.1,0.1
+AE,Arctic Tern,Papa Westray,migration seasons (July-early September and late April-May),UK North Sea and Channel waters,0.9,0.6
+AE,Arctic Tern,Papa Westray,migration seasons (July-early September and late April-May),UK western waters,0.1,0.1
+AE,Arctic Tern,Pentland Firth Islands,migration seasons (July-early September and late April-May),UK North Sea and Channel waters,0.9,0.6
+AE,Arctic Tern,Pentland Firth Islands,migration seasons (July-early September and late April-May),UK western waters,0.1,0.1
+AE,Arctic Tern,Rousay,migration seasons (July-early September and late April-May),UK North Sea and Channel waters,0.9,0.6
+AE,Arctic Tern,Rousay,migration seasons (July-early September and late April-May),UK western waters,0.1,0.1
+AE,Arctic Tern,Strangford Lough,migration seasons (July-early September and late April-May),UK North Sea and Channel waters,0,0
+AE,Arctic Tern,Strangford Lough,migration seasons (July-early September and late April-May),UK western waters,1,0.7
+AE,Arctic Tern,Sumburgh Head,migration seasons (July-early September and late April-May),UK North Sea and Channel waters,0.9,0.6
+AE,Arctic Tern,Sumburgh Head,migration seasons (July-early September and late April-May),UK western waters,0.1,0.1
+AE,Arctic Tern,UK North Sea non-SPA colonies,migration seasons (July-early September and late April-May),UK North Sea and Channel waters,0.9,0.6
+AE,Arctic Tern,UK North Sea non-SPA colonies,migration seasons (July-early September and late April-May),UK western waters,0.1,0.1
+AE,Arctic Tern,UK western non-SPA colonies,migration seasons (July-early September and late April-May),UK North Sea and Channel waters,0,0
+AE,Arctic Tern,UK western non-SPA colonies,migration seasons (July-early September and late April-May),UK western waters,1,0.7
+AE,Arctic Tern,West Westray,migration seasons (July-early September and late April-May),UK North Sea and Channel waters,0.9,0.6
+AE,Arctic Tern,West Westray,migration seasons (July-early September and late April-May),UK western waters,0.1,0.1
+AE,Arctic Tern,Ynys Feurig; Cemlyn Bay; Skerries,migration seasons (July-early September and late April-May),UK North Sea and Channel waters,0,0
+AE,Arctic Tern,Ynys Feurig; Cemlyn Bay; Skerries,migration seasons (July-early September and late April-May),UK western waters,1,0.7
+PU,Atlantic Puffin,Canna and  Sanday,non-breeding season (mid-August to March),UK North Sea and Channel waters,0.001,0.001
+PU,Atlantic Puffin,Canna and  Sanday,non-breeding season (mid-August to March),UK western waters,0.18,0.02
+PU,Atlantic Puffin,Cape Wrath,non-breeding season (mid-August to March),UK North Sea and Channel waters,0.001,0.001
+PU,Atlantic Puffin,Cape Wrath,non-breeding season (mid-August to March),UK western waters,0.18,0.02
+PU,Atlantic Puffin,Coquet Island,non-breeding season (mid-August to March),UK North Sea and Channel waters,0.5,0.02
+PU,Atlantic Puffin,Coquet Island,non-breeding season (mid-August to March),UK western waters,0.07,0.02
+PU,Atlantic Puffin,East Caithness Cliffs,non-breeding season (mid-August to March),UK North Sea and Channel waters,0.15,0.02
+PU,Atlantic Puffin,East Caithness Cliffs,non-breeding season (mid-August to March),UK western waters,0.08,0.02
+PU,Atlantic Puffin,Fair Isle,non-breeding season (mid-August to March),UK North Sea and Channel waters,0.15,0.02
+PU,Atlantic Puffin,Fair Isle,non-breeding season (mid-August to March),UK western waters,0.08,0.02
+PU,Atlantic Puffin,Farne Islands,non-breeding season (mid-August to March),UK North Sea and Channel waters,0.5,0.02
+PU,Atlantic Puffin,Farne Islands,non-breeding season (mid-August to March),UK western waters,0.07,0.02
+PU,Atlantic Puffin,Faroe,non-breeding season (mid-August to March),UK North Sea and Channel waters,0.04,0.01
+PU,Atlantic Puffin,Faroe,non-breeding season (mid-August to March),UK western waters,0.07,0.02
+PU,Atlantic Puffin,Flamborough and  Filey,non-breeding season (mid-August to March),UK North Sea and Channel waters,0.5,0.02
+PU,Atlantic Puffin,Flamborough and  Filey,non-breeding season (mid-August to March),UK western waters,0.07,0.02
+PU,Atlantic Puffin,Flannan Isles,non-breeding season (mid-August to March),UK North Sea and Channel waters,0.001,0.001
+PU,Atlantic Puffin,Flannan Isles,non-breeding season (mid-August to March),UK western waters,0.18,0.02
+PU,Atlantic Puffin,Forth Islands,non-breeding season (mid-August to March),UK North Sea and Channel waters,0.5,0.02
+PU,Atlantic Puffin,Forth Islands,non-breeding season (mid-August to March),UK western waters,0.07,0.02
+PU,Atlantic Puffin,Foula,non-breeding season (mid-August to March),UK North Sea and Channel waters,0.15,0.02
+PU,Atlantic Puffin,Foula,non-breeding season (mid-August to March),UK western waters,0.08,0.02
+PU,Atlantic Puffin,France,non-breeding season (mid-August to March),UK North Sea and Channel waters,0.05,0.02
+PU,Atlantic Puffin,France,non-breeding season (mid-August to March),UK western waters,0.01,0.01
+PU,Atlantic Puffin,Hermaness; Saxavord,non-breeding season (mid-August to March),UK North Sea and Channel waters,0.15,0.02
+PU,Atlantic Puffin,Hermaness; Saxavord,non-breeding season (mid-August to March),UK western waters,0.08,0.02
+PU,Atlantic Puffin,Hoy,non-breeding season (mid-August to March),UK North Sea and Channel waters,0.15,0.02
+PU,Atlantic Puffin,Hoy,non-breeding season (mid-August to March),UK western waters,0.08,0.02
+PU,Atlantic Puffin,Ireland,non-breeding season (mid-August to March),UK North Sea and Channel waters,0,0
+PU,Atlantic Puffin,Ireland,non-breeding season (mid-August to March),UK western waters,0.1,0.1
+PU,Atlantic Puffin,Mingulay and  Berneray,non-breeding season (mid-August to March),UK North Sea and Channel waters,0.001,0.001
+PU,Atlantic Puffin,Mingulay and  Berneray,non-breeding season (mid-August to March),UK western waters,0.18,0.02
+PU,Atlantic Puffin,North Caithness Cliffs,non-breeding season (mid-August to March),UK North Sea and Channel waters,0.15,0.02
+PU,Atlantic Puffin,North Caithness Cliffs,non-breeding season (mid-August to March),UK western waters,0.08,0.02
+PU,Atlantic Puffin,North Rona and  Sula Sgeir,non-breeding season (mid-August to March),UK North Sea and Channel waters,0.001,0.001
+PU,Atlantic Puffin,North Rona and  Sula Sgeir,non-breeding season (mid-August to March),UK western waters,0.18,0.02
+PU,Atlantic Puffin,Norway,non-breeding season (mid-August to March),UK North Sea and Channel waters,0.001,0.003
+PU,Atlantic Puffin,Norway,non-breeding season (mid-August to March),UK western waters,0.002,0.001
+PU,Atlantic Puffin,Noss,non-breeding season (mid-August to March),UK North Sea and Channel waters,0.15,0.02
+PU,Atlantic Puffin,Noss,non-breeding season (mid-August to March),UK western waters,0.08,0.02
+PU,Atlantic Puffin,Rathlin Island,non-breeding season (mid-August to March),UK North Sea and Channel waters,0.001,0.001
+PU,Atlantic Puffin,Rathlin Island,non-breeding season (mid-August to March),UK western waters,0.18,0.02
+PU,Atlantic Puffin,Shiant Isles,non-breeding season (mid-August to March),UK North Sea and Channel waters,0.001,0.001
+PU,Atlantic Puffin,Shiant Isles,non-breeding season (mid-August to March),UK western waters,0.18,0.02
+PU,Atlantic Puffin,Skomer and Skokholm,non-breeding season (mid-August to March),UK North Sea and Channel waters,0.001,0.001
+PU,Atlantic Puffin,Skomer and Skokholm,non-breeding season (mid-August to March),UK western waters,0.18,0.02
+PU,Atlantic Puffin,St Kilda,non-breeding season (mid-August to March),UK North Sea and Channel waters,0.001,0.001
+PU,Atlantic Puffin,St Kilda,non-breeding season (mid-August to March),UK western waters,0.18,0.02
+PU,Atlantic Puffin,Sule Skerry and  Sule Stack,non-breeding season (mid-August to March),UK North Sea and Channel waters,0.001,0.001
+PU,Atlantic Puffin,Sule Skerry and  Sule Stack,non-breeding season (mid-August to March),UK western waters,0.18,0.02
+PU,Atlantic Puffin,UK N Sea non-SPA colonies,non-breeding season (mid-August to March),UK North Sea and Channel waters,0.25,0.02
+PU,Atlantic Puffin,UK N Sea non-SPA colonies,non-breeding season (mid-August to March),UK western waters,0.07,0.02
+PU,Atlantic Puffin,UK western non-SPA colonies,non-breeding season (mid-August to March),UK North Sea and Channel waters,0.001,0.001
+PU,Atlantic Puffin,UK western non-SPA colonies,non-breeding season (mid-August to March),UK western waters,0.18,0.02
+KI,Black-legged Kittiwake,Ailsa Craig,autumn migration (August to December),UK North Sea waters,0.01,0.05
+KI,Black-legged Kittiwake,Ailsa Craig,autumn migration (August to December),UK western waters and Channel,0.6,0.4
+KI,Black-legged Kittiwake,Ailsa Craig,spring migration (January to April),UK North Sea waters,0.01,0.02
+KI,Black-legged Kittiwake,Ailsa Craig,spring migration (January to April),UK western waters and Channel,0.8,0.4
+KI,Black-legged Kittiwake,Buchan Ness to Collieston,autumn migration (August to December),UK North Sea waters,0.6,0.4
+KI,Black-legged Kittiwake,Buchan Ness to Collieston,autumn migration (August to December),UK western waters and Channel,0.2,0.2
+KI,Black-legged Kittiwake,Buchan Ness to Collieston,spring migration (January to April),UK North Sea waters,0.6,0.3
+KI,Black-legged Kittiwake,Buchan Ness to Collieston,spring migration (January to April),UK western waters and Channel,0.3,0.2
+KI,Black-legged Kittiwake,Calf of Eday,autumn migration (August to December),UK North Sea waters,0.6,0.4
+KI,Black-legged Kittiwake,Calf of Eday,autumn migration (August to December),UK western waters and Channel,0.2,0.2
+KI,Black-legged Kittiwake,Calf of Eday,spring migration (January to April),UK North Sea waters,0.6,0.3
+KI,Black-legged Kittiwake,Calf of Eday,spring migration (January to April),UK western waters and Channel,0.3,0.2
+KI,Black-legged Kittiwake,Canna and  Sanday,autumn migration (August to December),UK North Sea waters,0.01,0.05
+KI,Black-legged Kittiwake,Canna and  Sanday,autumn migration (August to December),UK western waters and Channel,0.6,0.4
+KI,Black-legged Kittiwake,Canna and  Sanday,spring migration (January to April),UK North Sea waters,0.01,0.02
+KI,Black-legged Kittiwake,Canna and  Sanday,spring migration (January to April),UK western waters and Channel,0.8,0.4
+KI,Black-legged Kittiwake,Cape Wrath,autumn migration (August to December),UK North Sea waters,0.01,0.05
+KI,Black-legged Kittiwake,Cape Wrath,autumn migration (August to December),UK western waters and Channel,0.6,0.4
+KI,Black-legged Kittiwake,Cape Wrath,spring migration (January to April),UK North Sea waters,0.01,0.02
+KI,Black-legged Kittiwake,Cape Wrath,spring migration (January to April),UK western waters and Channel,0.8,0.4
+KI,Black-legged Kittiwake,Copinsay,autumn migration (August to December),UK North Sea waters,0.6,0.4
+KI,Black-legged Kittiwake,Copinsay,autumn migration (August to December),UK western waters and Channel,0.2,0.2
+KI,Black-legged Kittiwake,Copinsay,spring migration (January to April),UK North Sea waters,0.6,0.3
+KI,Black-legged Kittiwake,Copinsay,spring migration (January to April),UK western waters and Channel,0.3,0.2
+KI,Black-legged Kittiwake,East Caithness Cliffs,autumn migration (August to December),UK North Sea waters,0.6,0.4
+KI,Black-legged Kittiwake,East Caithness Cliffs,autumn migration (August to December),UK western waters and Channel,0.2,0.2
+KI,Black-legged Kittiwake,East Caithness Cliffs,spring migration (January to April),UK North Sea waters,0.6,0.3
+KI,Black-legged Kittiwake,East Caithness Cliffs,spring migration (January to April),UK western waters and Channel,0.3,0.2
+KI,Black-legged Kittiwake,Fair Isle,autumn migration (August to December),UK North Sea waters,0.6,0.4
+KI,Black-legged Kittiwake,Fair Isle,autumn migration (August to December),UK western waters and Channel,0.2,0.2
+KI,Black-legged Kittiwake,Fair Isle,spring migration (January to April),UK North Sea waters,0.6,0.3
+KI,Black-legged Kittiwake,Fair Isle,spring migration (January to April),UK western waters and Channel,0.3,0.2
+KI,Black-legged Kittiwake,Farne Islands,autumn migration (August to December),UK North Sea waters,0.6,0.4
+KI,Black-legged Kittiwake,Farne Islands,autumn migration (August to December),UK western waters and Channel,0.2,0.2
+KI,Black-legged Kittiwake,Farne Islands,spring migration (January to April),UK North Sea waters,0.6,0.3
+KI,Black-legged Kittiwake,Farne Islands,spring migration (January to April),UK western waters and Channel,0.3,0.2
+KI,Black-legged Kittiwake,Faroe,autumn migration (August to December),UK North Sea waters,0.1,0.1
+KI,Black-legged Kittiwake,Faroe,autumn migration (August to December),UK western waters and Channel,0.2,0.2
+KI,Black-legged Kittiwake,Faroe,spring migration (January to April),UK North Sea waters,0.05,0.07
+KI,Black-legged Kittiwake,Faroe,spring migration (January to April),UK western waters and Channel,0.1,0.1
+KI,Black-legged Kittiwake,Flamborough and Filey,autumn migration (August to December),UK North Sea waters,0.6,0.4
+KI,Black-legged Kittiwake,Flamborough and Filey,autumn migration (August to December),UK western waters and Channel,0.2,0.2
+KI,Black-legged Kittiwake,Flamborough and Filey,spring migration (January to April),UK North Sea waters,0.6,0.3
+KI,Black-legged Kittiwake,Flamborough and Filey,spring migration (January to April),UK western waters and Channel,0.3,0.2
+KI,Black-legged Kittiwake,Flannan Isles,autumn migration (August to December),UK North Sea waters,0.01,0.05
+KI,Black-legged Kittiwake,Flannan Isles,autumn migration (August to December),UK western waters and Channel,0.6,0.4
+KI,Black-legged Kittiwake,Flannan Isles,spring migration (January to April),UK North Sea waters,0.01,0.02
+KI,Black-legged Kittiwake,Flannan Isles,spring migration (January to April),UK western waters and Channel,0.8,0.4
+KI,Black-legged Kittiwake,Forth Islands,autumn migration (August to December),UK North Sea waters,0.6,0.4
+KI,Black-legged Kittiwake,Forth Islands,autumn migration (August to December),UK western waters and Channel,0.2,0.2
+KI,Black-legged Kittiwake,Forth Islands,spring migration (January to April),UK North Sea waters,0.6,0.3
+KI,Black-legged Kittiwake,Forth Islands,spring migration (January to April),UK western waters and Channel,0.3,0.2
+KI,Black-legged Kittiwake,Foula,autumn migration (August to December),UK North Sea waters,0.6,0.4
+KI,Black-legged Kittiwake,Foula,autumn migration (August to December),UK western waters and Channel,0.2,0.2
+KI,Black-legged Kittiwake,Foula,spring migration (January to April),UK North Sea waters,0.6,0.3
+KI,Black-legged Kittiwake,Foula,spring migration (January to April),UK western waters and Channel,0.3,0.2
+KI,Black-legged Kittiwake,Fowlsheugh,autumn migration (August to December),UK North Sea waters,0.6,0.4
+KI,Black-legged Kittiwake,Fowlsheugh,autumn migration (August to December),UK western waters and Channel,0.2,0.2
+KI,Black-legged Kittiwake,Fowlsheugh,spring migration (January to April),UK North Sea waters,0.6,0.3
+KI,Black-legged Kittiwake,Fowlsheugh,spring migration (January to April),UK western waters and Channel,0.3,0.2
+KI,Black-legged Kittiwake,France,autumn migration (August to December),UK North Sea waters,0.05,0.05
+KI,Black-legged Kittiwake,France,autumn migration (August to December),UK western waters and Channel,0.1,0.1
+KI,Black-legged Kittiwake,France,spring migration (January to April),UK North Sea waters,0.05,0.1
+KI,Black-legged Kittiwake,France,spring migration (January to April),UK western waters and Channel,0.1,0.1
+KI,Black-legged Kittiwake,Germany,autumn migration (August to December),UK North Sea waters,0.1,0.1
+KI,Black-legged Kittiwake,Germany,autumn migration (August to December),UK western waters and Channel,0.05,0.05
+KI,Black-legged Kittiwake,Germany,spring migration (January to April),UK North Sea waters,0.15,0.25
+KI,Black-legged Kittiwake,Germany,spring migration (January to April),UK western waters and Channel,0.05,0.05
+KI,Black-legged Kittiwake,Handa,autumn migration (August to December),UK North Sea waters,0.01,0.05
+KI,Black-legged Kittiwake,Handa,autumn migration (August to December),UK western waters and Channel,0.6,0.4
+KI,Black-legged Kittiwake,Handa,spring migration (January to April),UK North Sea waters,0.01,0.02
+KI,Black-legged Kittiwake,Handa,spring migration (January to April),UK western waters and Channel,0.8,0.4
+KI,Black-legged Kittiwake,Hermaness; Saxavord,autumn migration (August to December),UK North Sea waters,0.6,0.4
+KI,Black-legged Kittiwake,Hermaness; Saxavord,autumn migration (August to December),UK western waters and Channel,0.2,0.2
+KI,Black-legged Kittiwake,Hermaness; Saxavord,spring migration (January to April),UK North Sea waters,0.6,0.3
+KI,Black-legged Kittiwake,Hermaness; Saxavord,spring migration (January to April),UK western waters and Channel,0.3,0.2
+KI,Black-legged Kittiwake,Hoy,autumn migration (August to December),UK North Sea waters,0.6,0.4
+KI,Black-legged Kittiwake,Hoy,autumn migration (August to December),UK western waters and Channel,0.2,0.2
+KI,Black-legged Kittiwake,Hoy,spring migration (January to April),UK North Sea waters,0.6,0.3
+KI,Black-legged Kittiwake,Hoy,spring migration (January to April),UK western waters and Channel,0.3,0.2
+KI,Black-legged Kittiwake,Ireland,autumn migration (August to December),UK North Sea waters,0.05,0.05
+KI,Black-legged Kittiwake,Ireland,autumn migration (August to December),UK western waters and Channel,0.3,0.2
+KI,Black-legged Kittiwake,Ireland,spring migration (January to April),UK North Sea waters,0.01,0.01
+KI,Black-legged Kittiwake,Ireland,spring migration (January to April),UK western waters and Channel,0.3,0.2
+KI,Black-legged Kittiwake,Marwick Head,autumn migration (August to December),UK North Sea waters,0.6,0.4
+KI,Black-legged Kittiwake,Marwick Head,autumn migration (August to December),UK western waters and Channel,0.2,0.2
+KI,Black-legged Kittiwake,Marwick Head,spring migration (January to April),UK North Sea waters,0.6,0.3
+KI,Black-legged Kittiwake,Marwick Head,spring migration (January to April),UK western waters and Channel,0.3,0.2
+KI,Black-legged Kittiwake,Mingulay and  Berneray,autumn migration (August to December),UK North Sea waters,0.01,0.05
+KI,Black-legged Kittiwake,Mingulay and  Berneray,autumn migration (August to December),UK western waters and Channel,0.6,0.4
+KI,Black-legged Kittiwake,Mingulay and  Berneray,spring migration (January to April),UK North Sea waters,0.01,0.02
+KI,Black-legged Kittiwake,Mingulay and  Berneray,spring migration (January to April),UK western waters and Channel,0.8,0.4
+KI,Black-legged Kittiwake,North Caithness Cliffs,autumn migration (August to December),UK North Sea waters,0.6,0.4
+KI,Black-legged Kittiwake,North Caithness Cliffs,autumn migration (August to December),UK western waters and Channel,0.2,0.2
+KI,Black-legged Kittiwake,North Caithness Cliffs,spring migration (January to April),UK North Sea waters,0.6,0.3
+KI,Black-legged Kittiwake,North Caithness Cliffs,spring migration (January to April),UK western waters and Channel,0.3,0.2
+KI,Black-legged Kittiwake,North Colonsay and  Western Cliffs,autumn migration (August to December),UK North Sea waters,0.01,0.05
+KI,Black-legged Kittiwake,North Colonsay and  Western Cliffs,autumn migration (August to December),UK western waters and Channel,0.6,0.4
+KI,Black-legged Kittiwake,North Colonsay and  Western Cliffs,spring migration (January to April),UK North Sea waters,0.01,0.02
+KI,Black-legged Kittiwake,North Colonsay and  Western Cliffs,spring migration (January to April),UK western waters and Channel,0.8,0.4
+KI,Black-legged Kittiwake,North Rona and  Sula Sgeir,autumn migration (August to December),UK North Sea waters,0.01,0.05
+KI,Black-legged Kittiwake,North Rona and  Sula Sgeir,autumn migration (August to December),UK western waters and Channel,0.6,0.4
+KI,Black-legged Kittiwake,North Rona and  Sula Sgeir,spring migration (January to April),UK North Sea waters,0.01,0.02
+KI,Black-legged Kittiwake,North Rona and  Sula Sgeir,spring migration (January to April),UK western waters and Channel,0.8,0.4
+KI,Black-legged Kittiwake,Norway,autumn migration (August to December),UK North Sea waters,0.1,0.1
+KI,Black-legged Kittiwake,Norway,autumn migration (August to December),UK western waters and Channel,0.15,0.15
+KI,Black-legged Kittiwake,Norway,spring migration (January to April),UK North Sea waters,0.05,0.07
+KI,Black-legged Kittiwake,Norway,spring migration (January to April),UK western waters and Channel,0.05,0.1
+KI,Black-legged Kittiwake,Noss,autumn migration (August to December),UK North Sea waters,0.6,0.4
+KI,Black-legged Kittiwake,Noss,autumn migration (August to December),UK western waters and Channel,0.2,0.2
+KI,Black-legged Kittiwake,Noss,spring migration (January to April),UK North Sea waters,0.6,0.3
+KI,Black-legged Kittiwake,Noss,spring migration (January to April),UK western waters and Channel,0.3,0.2
+KI,Black-legged Kittiwake,Rathlin Island,autumn migration (August to December),UK North Sea waters,0.01,0.05
+KI,Black-legged Kittiwake,Rathlin Island,autumn migration (August to December),UK western waters and Channel,0.6,0.4
+KI,Black-legged Kittiwake,Rathlin Island,spring migration (January to April),UK North Sea waters,0.01,0.02
+KI,Black-legged Kittiwake,Rathlin Island,spring migration (January to April),UK western waters and Channel,0.8,0.4
+KI,Black-legged Kittiwake,Rousay,autumn migration (August to December),UK North Sea waters,0.6,0.4
+KI,Black-legged Kittiwake,Rousay,autumn migration (August to December),UK western waters and Channel,0.2,0.2
+KI,Black-legged Kittiwake,Rousay,spring migration (January to April),UK North Sea waters,0.6,0.3
+KI,Black-legged Kittiwake,Rousay,spring migration (January to April),UK western waters and Channel,0.3,0.2
+KI,Black-legged Kittiwake,Rum,autumn migration (August to December),UK North Sea waters,0.01,0.05
+KI,Black-legged Kittiwake,Rum,autumn migration (August to December),UK western waters and Channel,0.6,0.4
+KI,Black-legged Kittiwake,Rum,spring migration (January to April),UK North Sea waters,0.01,0.02
+KI,Black-legged Kittiwake,Rum,spring migration (January to April),UK western waters and Channel,0.8,0.4
+KI,Black-legged Kittiwake,Russia,autumn migration (August to December),UK North Sea waters,0.1,0.1
+KI,Black-legged Kittiwake,Russia,autumn migration (August to December),UK western waters and Channel,0.1,0.1
+KI,Black-legged Kittiwake,Russia,spring migration (January to April),UK North Sea waters,0.05,0.07
+KI,Black-legged Kittiwake,Russia,spring migration (January to April),UK western waters and Channel,0.05,0.1
+KI,Black-legged Kittiwake,Shiant Isles,autumn migration (August to December),UK North Sea waters,0.01,0.05
+KI,Black-legged Kittiwake,Shiant Isles,autumn migration (August to December),UK western waters and Channel,0.6,0.4
+KI,Black-legged Kittiwake,Shiant Isles,spring migration (January to April),UK North Sea waters,0.01,0.02
+KI,Black-legged Kittiwake,Shiant Isles,spring migration (January to April),UK western waters and Channel,0.8,0.4
+KI,Black-legged Kittiwake,Skomer; Skokholm; Middleholm,autumn migration (August to December),UK North Sea waters,0.01,0.05
+KI,Black-legged Kittiwake,Skomer; Skokholm; Middleholm,autumn migration (August to December),UK western waters and Channel,0.6,0.4
+KI,Black-legged Kittiwake,Skomer; Skokholm; Middleholm,spring migration (January to April),UK North Sea waters,0.01,0.02
+KI,Black-legged Kittiwake,Skomer; Skokholm; Middleholm,spring migration (January to April),UK western waters and Channel,0.8,0.4
+KI,Black-legged Kittiwake,St Abbs Head to Fast Castle,autumn migration (August to December),UK North Sea waters,0.6,0.4
+KI,Black-legged Kittiwake,St Abbs Head to Fast Castle,autumn migration (August to December),UK western waters and Channel,0.2,0.2
+KI,Black-legged Kittiwake,St Abbs Head to Fast Castle,spring migration (January to April),UK North Sea waters,0.6,0.3
+KI,Black-legged Kittiwake,St Abbs Head to Fast Castle,spring migration (January to April),UK western waters and Channel,0.3,0.2
+KI,Black-legged Kittiwake,St Kilda,autumn migration (August to December),UK North Sea waters,0.01,0.05
+KI,Black-legged Kittiwake,St Kilda,autumn migration (August to December),UK western waters and Channel,0.6,0.4
+KI,Black-legged Kittiwake,St Kilda,spring migration (January to April),UK North Sea waters,0.01,0.02
+KI,Black-legged Kittiwake,St Kilda,spring migration (January to April),UK western waters and Channel,0.8,0.4
+KI,Black-legged Kittiwake,Sumburgh Head,autumn migration (August to December),UK North Sea waters,0.6,0.4
+KI,Black-legged Kittiwake,Sumburgh Head,autumn migration (August to December),UK western waters and Channel,0.2,0.2
+KI,Black-legged Kittiwake,Sumburgh Head,spring migration (January to April),UK North Sea waters,0.6,0.3
+KI,Black-legged Kittiwake,Sumburgh Head,spring migration (January to April),UK western waters and Channel,0.3,0.2
+KI,Black-legged Kittiwake,Troup; Pennan and  Lions Heads,autumn migration (August to December),UK North Sea waters,0.6,0.4
+KI,Black-legged Kittiwake,Troup; Pennan and  Lions Heads,autumn migration (August to December),UK western waters and Channel,0.2,0.2
+KI,Black-legged Kittiwake,Troup; Pennan and  Lions Heads,spring migration (January to April),UK North Sea waters,0.6,0.3
+KI,Black-legged Kittiwake,Troup; Pennan and  Lions Heads,spring migration (January to April),UK western waters and Channel,0.3,0.2
+KI,Black-legged Kittiwake,UK North Sea non-SPA colonies,autumn migration (August to December),UK North Sea waters,0.6,0.4
+KI,Black-legged Kittiwake,UK North Sea non-SPA colonies,autumn migration (August to December),UK western waters and Channel,0.2,0.2
+KI,Black-legged Kittiwake,UK North Sea non-SPA colonies,spring migration (January to April),UK North Sea waters,0.6,0.3
+KI,Black-legged Kittiwake,UK North Sea non-SPA colonies,spring migration (January to April),UK western waters and Channel,0.3,0.2
+KI,Black-legged Kittiwake,UK Western non-SPA colonies,autumn migration (August to December),UK North Sea waters,0.01,0.05
+KI,Black-legged Kittiwake,UK Western non-SPA colonies,autumn migration (August to December),UK western waters and Channel,0.6,0.4
+KI,Black-legged Kittiwake,UK Western non-SPA colonies,spring migration (January to April),UK North Sea waters,0.01,0.02
+KI,Black-legged Kittiwake,UK Western non-SPA colonies,spring migration (January to April),UK western waters and Channel,0.8,0.4
+KI,Black-legged Kittiwake,West Westray,autumn migration (August to December),UK North Sea waters,0.6,0.4
+KI,Black-legged Kittiwake,West Westray,autumn migration (August to December),UK western waters and Channel,0.2,0.2
+KI,Black-legged Kittiwake,West Westray,spring migration (January to April),UK North Sea waters,0.6,0.3
+KI,Black-legged Kittiwake,West Westray,spring migration (January to April),UK western waters and Channel,0.3,0.2
+GU,Common Guillemot,Ailsa Craig SPA,non-breeding season (August to February),UK North Sea and Channel waters,0,0.05
+GU,Common Guillemot,Ailsa Craig SPA,non-breeding season (August to February),UK western waters,1,0.95
+GU,Common Guillemot,Buchan Ness to Collieston Coast SPA,non-breeding season (August to February),UK North Sea and Channel waters,0.8,0.7
+GU,Common Guillemot,Buchan Ness to Collieston Coast SPA,non-breeding season (August to February),UK western waters,0,0
+GU,Common Guillemot,Calf of Eday SPA,non-breeding season (August to February),UK North Sea and Channel waters,0.7,0.6
+GU,Common Guillemot,Calf of Eday SPA,non-breeding season (August to February),UK western waters,0.02,0.05
+GU,Common Guillemot,Canna and  Sanday SPA,non-breeding season (August to February),UK North Sea and Channel waters,0.05,0.1
+GU,Common Guillemot,Canna and  Sanday SPA,non-breeding season (August to February),UK western waters,0.95,0.9
+GU,Common Guillemot,Cape Wrath SPA,non-breeding season (August to February),UK North Sea and Channel waters,0.05,0.1
+GU,Common Guillemot,Cape Wrath SPA,non-breeding season (August to February),UK western waters,0.95,0.9
+GU,Common Guillemot,Copinsay SPA,non-breeding season (August to February),UK North Sea and Channel waters,0.7,0.6
+GU,Common Guillemot,Copinsay SPA,non-breeding season (August to February),UK western waters,0.02,0.05
+GU,Common Guillemot,East Caithness Cliffs SPA,non-breeding season (August to February),UK North Sea and Channel waters,0.7,0.6
+GU,Common Guillemot,East Caithness Cliffs SPA,non-breeding season (August to February),UK western waters,0,0
+GU,Common Guillemot,Fair Isle SPA,non-breeding season (August to February),UK North Sea and Channel waters,0.7,0.6
+GU,Common Guillemot,Fair Isle SPA,non-breeding season (August to February),UK western waters,0.02,0.05
+GU,Common Guillemot,Farne Islands SPA,non-breeding season (August to February),UK North Sea and Channel waters,0.9,0.8
+GU,Common Guillemot,Farne Islands SPA,non-breeding season (August to February),UK western waters,0,0
+GU,Common Guillemot,Faroe Islands,non-breeding season (August to February),UK North Sea and Channel waters,0.1,0.2
+GU,Common Guillemot,Faroe Islands,non-breeding season (August to February),UK western waters,0.05,0.1
+GU,Common Guillemot,Flamborough and Filey Coast pSPA,non-breeding season (August to February),UK North Sea and Channel waters,0.9,0.8
+GU,Common Guillemot,Flamborough and Filey Coast pSPA,non-breeding season (August to February),UK western waters,0,0
+GU,Common Guillemot,Flannan Isles SPA,non-breeding season (August to February),UK North Sea and Channel waters,0.05,0.1
+GU,Common Guillemot,Flannan Isles SPA,non-breeding season (August to February),UK western waters,0.95,0.9
+GU,Common Guillemot,Forth Islands SPA,non-breeding season (August to February),UK North Sea and Channel waters,0.9,0.8
+GU,Common Guillemot,Forth Islands SPA,non-breeding season (August to February),UK western waters,0,0
+GU,Common Guillemot,Foula SPA,non-breeding season (August to February),UK North Sea and Channel waters,0.7,0.6
+GU,Common Guillemot,Foula SPA,non-breeding season (August to February),UK western waters,0.02,0.05
+GU,Common Guillemot,Fowlsheugh SPA,non-breeding season (August to February),UK North Sea and Channel waters,0.8,0.7
+GU,Common Guillemot,Fowlsheugh SPA,non-breeding season (August to February),UK western waters,0,0
+GU,Common Guillemot,Germany and Denmark,non-breeding season (August to February),UK North Sea and Channel waters,0.2,0.4
+GU,Common Guillemot,Germany and Denmark,non-breeding season (August to February),UK western waters,0,0
+GU,Common Guillemot,Handa SPA,non-breeding season (August to February),UK North Sea and Channel waters,0.05,0.1
+GU,Common Guillemot,Handa SPA,non-breeding season (August to February),UK western waters,0.95,0.9
+GU,Common Guillemot,Hermaness; Saxavord and  Valla Field SPA,non-breeding season (August to February),UK North Sea and Channel waters,0.7,0.6
+GU,Common Guillemot,Hermaness; Saxavord and  Valla Field SPA,non-breeding season (August to February),UK western waters,0.02,0.05
+GU,Common Guillemot,Hoy SPA,non-breeding season (August to February),UK North Sea and Channel waters,0.7,0.6
+GU,Common Guillemot,Hoy SPA,non-breeding season (August to February),UK western waters,0.02,0.05
+GU,Common Guillemot,Marwick Head SPA,non-breeding season (August to February),UK North Sea and Channel waters,0.7,0.6
+GU,Common Guillemot,Marwick Head SPA,non-breeding season (August to February),UK western waters,0.02,0.05
+GU,Common Guillemot,Mingulay and  Berneray SPA,non-breeding season (August to February),UK North Sea and Channel waters,0.05,0.1
+GU,Common Guillemot,Mingulay and  Berneray SPA,non-breeding season (August to February),UK western waters,0.95,0.9
+GU,Common Guillemot,North Caithness Cliffs SPA,non-breeding season (August to February),UK North Sea and Channel waters,0.7,0.6
+GU,Common Guillemot,North Caithness Cliffs SPA,non-breeding season (August to February),UK western waters,0.02,0.05
+GU,Common Guillemot,North Colonsay and western cliffs SPA,non-breeding season (August to February),UK North Sea and Channel waters,0,0.05
+GU,Common Guillemot,North Colonsay and western cliffs SPA,non-breeding season (August to February),UK western waters,1,0.95
+GU,Common Guillemot,North Rona and  Sula Sgeir SPA,non-breeding season (August to February),UK North Sea and Channel waters,0.05,0.1
+GU,Common Guillemot,North Rona and  Sula Sgeir SPA,non-breeding season (August to February),UK western waters,0.95,0.9
+GU,Common Guillemot,North Sea UK non-SPA populations,non-breeding season (August to February),UK western waters,0.01,0.02
+GU,Common Guillemot,Norway,non-breeding season (August to February),UK North Sea and Channel waters,0.05,0.2
+GU,Common Guillemot,Norway,non-breeding season (August to February),UK western waters,0.01,0.05
+GU,Common Guillemot,Noss SPA,non-breeding season (August to February),UK North Sea and Channel waters,0.7,0.6
+GU,Common Guillemot,Noss SPA,non-breeding season (August to February),UK western waters,0.02,0.05
+GU,Common Guillemot,Rathlin Island SPA,non-breeding season (August to February),UK North Sea and Channel waters,0,0.05
+GU,Common Guillemot,Rathlin Island SPA,non-breeding season (August to February),UK western waters,1,0.95
+GU,Common Guillemot,Rousay SPA,non-breeding season (August to February),UK North Sea and Channel waters,0.7,0.6
+GU,Common Guillemot,Rousay SPA,non-breeding season (August to February),UK western waters,0.02,0.05
+GU,Common Guillemot,Rum SPA,non-breeding season (August to February),UK North Sea and Channel waters,0.05,0.1
+GU,Common Guillemot,Rum SPA,non-breeding season (August to February),UK western waters,0.95,0.9
+GU,Common Guillemot,Shiant Isles SPA,non-breeding season (August to February),UK North Sea and Channel waters,0.05,0.1
+GU,Common Guillemot,Shiant Isles SPA,non-breeding season (August to February),UK western waters,0.95,0.9
+GU,Common Guillemot,Skomer and  Skokholm SPA,non-breeding season (August to February),UK North Sea and Channel waters,0.05,0.1
+GU,Common Guillemot,Skomer and  Skokholm SPA,non-breeding season (August to February),UK western waters,0.9,0.8
+GU,Common Guillemot,St Abbs Head to Fast Castle SPA,non-breeding season (August to February),UK North Sea and Channel waters,0.9,0.8
+GU,Common Guillemot,St Abbs Head to Fast Castle SPA,non-breeding season (August to February),UK western waters,0,0
+GU,Common Guillemot,St Kilda SPA,non-breeding season (August to February),UK North Sea and Channel waters,0.05,0.1
+GU,Common Guillemot,St Kilda SPA,non-breeding season (August to February),UK western waters,0.95,0.9
+GU,Common Guillemot,Sule Skerry and  Sule Stack SPA,non-breeding season (August to February),UK North Sea and Channel waters,0.05,0.1
+GU,Common Guillemot,Sule Skerry and  Sule Stack SPA,non-breeding season (August to February),UK western waters,0.95,0.9
+GU,Common Guillemot,Sumburgh SPA,non-breeding season (August to February),UK North Sea and Channel waters,0.7,0.6
+GU,Common Guillemot,Sumburgh SPA,non-breeding season (August to February),UK western waters,0.02,0.05
+GU,Common Guillemot,Troup; Pennan and  Lions Heads SPS,non-breeding season (August to February),UK North Sea and Channel waters,0.7,0.6
+GU,Common Guillemot,Troup; Pennan and  Lions Heads SPS,non-breeding season (August to February),UK western waters,0,0
+GU,Common Guillemot,UK North Sea non-SPA populations,non-breeding season (August to February),UK North Sea and Channel waters,0.8,0.6
+GU,Common Guillemot,UK West coast non-SPA populations,non-breeding season (August to February),UK North Sea and Channel waters,0.03,0.08
+GU,Common Guillemot,West coast UK non-SPA populations,non-breeding season (August to February),UK western waters,0.95,0.9
+GU,Common Guillemot,West Westray SPA,non-breeding season (August to February),UK North Sea and Channel waters,0.7,0.6
+GU,Common Guillemot,West Westray SPA,non-breeding season (August to February),UK western waters,0.02,0.05
+CN,Common Tern,Baltic States,migration seasons (late July-early September and April-May),UK North Sea and Channel waters,0.3,0.3
+CN,Common Tern,Baltic States,migration seasons (late July-early September and April-May),UK western waters,0.1,0.1
+CN,Common Tern,Breydon Water,migration seasons (late July-early September and April-May),UK North Sea and Channel waters,0.7,0.5
+CN,Common Tern,Breydon Water,migration seasons (late July-early September and April-May),UK western waters,0.3,0.2
+CN,Common Tern,Carlingford Lough,migration seasons (late July-early September and April-May),UK North Sea and Channel waters,0.1,0.1
+CN,Common Tern,Carlingford Lough,migration seasons (late July-early September and April-May),UK western waters,0.9,0.6
+CN,Common Tern,Coquet Island,migration seasons (late July-early September and April-May),UK North Sea and Channel waters,0.7,0.5
+CN,Common Tern,Coquet Island,migration seasons (late July-early September and April-May),UK western waters,0.3,0.2
+CN,Common Tern,Cromarty Firth,migration seasons (late July-early September and April-May),UK North Sea and Channel waters,0.7,0.5
+CN,Common Tern,Cromarty Firth,migration seasons (late July-early September and April-May),UK western waters,0.3,0.2
+CN,Common Tern,Dungeness to Pett Level,migration seasons (late July-early September and April-May),UK North Sea and Channel waters,0.7,0.5
+CN,Common Tern,Dungeness to Pett Level,migration seasons (late July-early September and April-May),UK western waters,0.3,0.2
+CN,Common Tern,Farne Islands,migration seasons (late July-early September and April-May),UK North Sea and Channel waters,0.7,0.5
+CN,Common Tern,Farne Islands,migration seasons (late July-early September and April-May),UK western waters,0.3,0.2
+CN,Common Tern,Finland,migration seasons (late July-early September and April-May),UK North Sea and Channel waters,0.3,0.3
+CN,Common Tern,Finland,migration seasons (late July-early September and April-May),UK western waters,0.1,0.1
+CN,Common Tern,Forth Islands,migration seasons (late July-early September and April-May),UK North Sea and Channel waters,0.7,0.5
+CN,Common Tern,Forth Islands,migration seasons (late July-early September and April-May),UK western waters,0.3,0.2
+CN,Common Tern,Foulness,migration seasons (late July-early September and April-May),UK North Sea and Channel waters,0.7,0.5
+CN,Common Tern,Foulness,migration seasons (late July-early September and April-May),UK western waters,0.3,0.2
+CN,Common Tern,Germany and  Denmark,migration seasons (late July-early September and April-May),UK North Sea and Channel waters,0.25,0.25
+CN,Common Tern,Germany and  Denmark,migration seasons (late July-early September and April-May),UK western waters,0.1,0.1
+CN,Common Tern,Glas Eileanan,migration seasons (late July-early September and April-May),UK North Sea and Channel waters,0.1,0.1
+CN,Common Tern,Glas Eileanan,migration seasons (late July-early September and April-May),UK western waters,0.9,0.6
+CN,Common Tern,Imperial Dock Lock,migration seasons (late July-early September and April-May),UK North Sea and Channel waters,0.7,0.5
+CN,Common Tern,Imperial Dock Lock,migration seasons (late July-early September and April-May),UK western waters,0.3,0.2
+CN,Common Tern,Inner Moray Firth,migration seasons (late July-early September and April-May),UK North Sea and Channel waters,0.7,0.5
+CN,Common Tern,Inner Moray Firth,migration seasons (late July-early September and April-May),UK western waters,0.3,0.2
+CN,Common Tern,Ireland,migration seasons (late July-early September and April-May),UK North Sea and Channel waters,0.2,0.2
+CN,Common Tern,Ireland,migration seasons (late July-early September and April-May),UK western waters,0.4,0.4
+CN,Common Tern,Larne Lough,migration seasons (late July-early September and April-May),UK North Sea and Channel waters,0.1,0.1
+CN,Common Tern,Larne Lough,migration seasons (late July-early September and April-May),UK western waters,0.9,0.6
+CN,Common Tern,Lough Neagh and  Lough Beg,migration seasons (late July-early September and April-May),UK North Sea and Channel waters,0.1,0.1
+CN,Common Tern,Lough Neagh and  Lough Beg,migration seasons (late July-early September and April-May),UK western waters,0.9,0.6
+CN,Common Tern,Netherlands,migration seasons (late July-early September and April-May),UK North Sea and Channel waters,0.25,0.25
+CN,Common Tern,Netherlands,migration seasons (late July-early September and April-May),UK western waters,0.05,0.05
+CN,Common Tern,North Norfolk Coast,migration seasons (late July-early September and April-May),UK North Sea and Channel waters,0.7,0.5
+CN,Common Tern,North Norfolk Coast,migration seasons (late July-early September and April-May),UK western waters,0.3,0.2
+CN,Common Tern,Norway,migration seasons (late July-early September and April-May),UK North Sea and Channel waters,0.3,0.3
+CN,Common Tern,Norway,migration seasons (late July-early September and April-May),UK western waters,0.2,0.2
+CN,Common Tern,Poole Harbour,migration seasons (late July-early September and April-May),UK North Sea and Channel waters,0.7,0.5
+CN,Common Tern,Poole Harbour,migration seasons (late July-early September and April-May),UK western waters,0.3,0.2
+CN,Common Tern,Ribble and  Alt Estuaries,migration seasons (late July-early September and April-May),UK North Sea and Channel waters,0.1,0.1
+CN,Common Tern,Ribble and  Alt Estuaries,migration seasons (late July-early September and April-May),UK western waters,0.9,0.6
+CN,Common Tern,Solent and  Southampton Water,migration seasons (late July-early September and April-May),UK North Sea and Channel waters,0.7,0.5
+CN,Common Tern,Solent and  Southampton Water,migration seasons (late July-early September and April-May),UK western waters,0.3,0.2
+CN,Common Tern,Strangford Lough,migration seasons (late July-early September and April-May),UK North Sea and Channel waters,0.1,0.1
+CN,Common Tern,Strangford Lough,migration seasons (late July-early September and April-May),UK western waters,0.9,0.6
+CN,Common Tern,Sweden,migration seasons (late July-early September and April-May),UK North Sea and Channel waters,0.3,0.3
+CN,Common Tern,Sweden,migration seasons (late July-early September and April-May),UK western waters,0.1,0.1
+CN,Common Tern,The Dee Estuary,migration seasons (late July-early September and April-May),UK North Sea and Channel waters,0.1,0.1
+CN,Common Tern,The Dee Estuary,migration seasons (late July-early September and April-May),UK western waters,0.9,0.6
+CN,Common Tern,The Wash,migration seasons (late July-early September and April-May),UK North Sea and Channel waters,0.7,0.5
+CN,Common Tern,The Wash,migration seasons (late July-early September and April-May),UK western waters,0.3,0.2
+CN,Common Tern,UK North Sea non-SPA colonies,migration seasons (late July-early September and April-May),UK North Sea and Channel waters,0.7,0.5
+CN,Common Tern,UK North Sea non-SPA colonies,migration seasons (late July-early September and April-May),UK western waters,0.3,0.2
+CN,Common Tern,UK western non-SPA colonies,migration seasons (late July-early September and April-May),UK North Sea and Channel waters,0.1,0.1
+CN,Common Tern,UK western non-SPA colonies,migration seasons (late July-early September and April-May),UK western waters,0.9,0.6
+CN,Common Tern,Ynys Feurig; Cemlyn Bay and  Skerries,migration seasons (late July-early September and April-May),UK North Sea and Channel waters,0.1,0.1
+CN,Common Tern,Ynys Feurig; Cemlyn Bay and  Skerries,migration seasons (late July-early September and April-May),UK western waters,0.9,0.6
+CN,Common Tern,Ythan Estuary; Sands of Forvie,migration seasons (late July-early September and April-May),UK North Sea and Channel waters,0.7,0.5
+CN,Common Tern,Ythan Estuary; Sands of Forvie,migration seasons (late July-early September and April-May),UK western waters,0.3,0.2
+SA,European Shag,Buchan Ness to Collieston,non-breeding season (September to January),UK NW North Sea,1,1
+SA,European Shag,Buchan Ness to Collieston,non-breeding season (September to January),UK SW North Sea and Channel waters,0,0
+SA,European Shag,Buchan Ness to Collieston,non-breeding season (September to January),UK Wales and SW England waters,0,0
+SA,European Shag,Buchan Ness to Collieston,non-breeding season (September to January),UK West of Scotland waters,0,0
+SA,European Shag,Canna and  Sanday,non-breeding season (September to January),UK NW North Sea,0,0
+SA,European Shag,Canna and  Sanday,non-breeding season (September to January),UK SW North Sea and Channel waters,0,0
+SA,European Shag,Canna and  Sanday,non-breeding season (September to January),UK Wales and SW England waters,0,0
+SA,European Shag,Canna and  Sanday,non-breeding season (September to January),UK West of Scotland waters,1,1
+SA,European Shag,East Caithness Cliffs,non-breeding season (September to January),UK NW North Sea,1,1
+SA,European Shag,East Caithness Cliffs,non-breeding season (September to January),UK SW North Sea and Channel waters,0,0
+SA,European Shag,East Caithness Cliffs,non-breeding season (September to January),UK Wales and SW England waters,0,0
+SA,European Shag,East Caithness Cliffs,non-breeding season (September to January),UK West of Scotland waters,0,0
+SA,European Shag,Fair Isle,non-breeding season (September to January),UK NW North Sea,1,1
+SA,European Shag,Fair Isle,non-breeding season (September to January),UK SW North Sea and Channel waters,0,0
+SA,European Shag,Fair Isle,non-breeding season (September to January),UK Wales and SW England waters,0,0
+SA,European Shag,Fair Isle,non-breeding season (September to January),UK West of Scotland waters,0,0
+SA,European Shag,Farne Islands,non-breeding season (September to January),UK NW North Sea,0.3,0.4
+SA,European Shag,Farne Islands,non-breeding season (September to January),UK SW North Sea and Channel waters,0.7,0.6
+SA,European Shag,Farne Islands,non-breeding season (September to January),UK Wales and SW England waters,0,0
+SA,European Shag,Farne Islands,non-breeding season (September to January),UK West of Scotland waters,0,0
+SA,European Shag,Forth Islands,non-breeding season (September to January),UK NW North Sea,1,0.9
+SA,European Shag,Forth Islands,non-breeding season (September to January),UK SW North Sea and Channel waters,0,0.1
+SA,European Shag,Forth Islands,non-breeding season (September to January),UK Wales and SW England waters,0,0
+SA,European Shag,Forth Islands,non-breeding season (September to January),UK West of Scotland waters,0,0
+SA,European Shag,Foula,non-breeding season (September to January),UK NW North Sea,1,1
+SA,European Shag,Foula,non-breeding season (September to January),UK SW North Sea and Channel waters,0,0
+SA,European Shag,Foula,non-breeding season (September to January),UK Wales and SW England waters,0,0
+SA,European Shag,Foula,non-breeding season (September to January),UK West of Scotland waters,0,0
+SA,European Shag,Hermaness; Saxavord,non-breeding season (September to January),UK NW North Sea,1,1
+SA,European Shag,Hermaness; Saxavord,non-breeding season (September to January),UK SW North Sea and Channel waters,0,0
+SA,European Shag,Hermaness; Saxavord,non-breeding season (September to January),UK Wales and SW England waters,0,0
+SA,European Shag,Hermaness; Saxavord,non-breeding season (September to January),UK West of Scotland waters,0,0
+SA,European Shag,Ireland,non-breeding season (September to January),UK NW North Sea,0,0
+SA,European Shag,Ireland,non-breeding season (September to January),UK SW North Sea and Channel waters,0,0
+SA,European Shag,Ireland,non-breeding season (September to January),UK Wales and SW England waters,0,0.03
+SA,European Shag,Ireland,non-breeding season (September to January),UK West of Scotland waters,0,0.01
+SA,European Shag,Isles of Scilly,non-breeding season (September to January),UK NW North Sea,0,0
+SA,European Shag,Isles of Scilly,non-breeding season (September to January),UK SW North Sea and Channel waters,0,0
+SA,European Shag,Isles of Scilly,non-breeding season (September to January),UK Wales and SW England waters,1,1
+SA,European Shag,Isles of Scilly,non-breeding season (September to January),UK West of Scotland waters,0,0
+SA,European Shag,Mingulay and  Berneray,non-breeding season (September to January),UK NW North Sea,0,0
+SA,European Shag,Mingulay and  Berneray,non-breeding season (September to January),UK SW North Sea and Channel waters,0,0
+SA,European Shag,Mingulay and  Berneray,non-breeding season (September to January),UK Wales and SW England waters,0,0
+SA,European Shag,Mingulay and  Berneray,non-breeding season (September to January),UK West of Scotland waters,1,1
+SA,European Shag,Shiant Islands,non-breeding season (September to January),UK NW North Sea,0,0
+SA,European Shag,Shiant Islands,non-breeding season (September to January),UK SW North Sea and Channel waters,0,0
+SA,European Shag,Shiant Islands,non-breeding season (September to January),UK Wales and SW England waters,0,0
+SA,European Shag,Shiant Islands,non-breeding season (September to January),UK West of Scotland waters,1,1
+SA,European Shag,St Abbs Head to Fast Castle,non-breeding season (September to January),UK NW North Sea,1,0.8
+SA,European Shag,St Abbs Head to Fast Castle,non-breeding season (September to January),UK SW North Sea and Channel waters,0,0.2
+SA,European Shag,St Abbs Head to Fast Castle,non-breeding season (September to January),UK Wales and SW England waters,0,0
+SA,European Shag,St Abbs Head to Fast Castle,non-breeding season (September to January),UK West of Scotland waters,0,0
+SA,European Shag,Sule Skerry and  Sule Stack,non-breeding season (September to January),UK NW North Sea,0,0
+SA,European Shag,Sule Skerry and  Sule Stack,non-breeding season (September to January),UK SW North Sea and Channel waters,0,0
+SA,European Shag,Sule Skerry and  Sule Stack,non-breeding season (September to January),UK Wales and SW England waters,0,0
+SA,European Shag,Sule Skerry and  Sule Stack,non-breeding season (September to January),UK West of Scotland waters,1,1
+SA,European Shag,UK NW N Sea non-SPA,non-breeding season (September to January),UK NW North Sea,1,1
+SA,European Shag,UK NW N Sea non-SPA,non-breeding season (September to January),UK SW North Sea and Channel waters,0,0
+SA,European Shag,UK NW N Sea non-SPA,non-breeding season (September to January),UK Wales and SW England waters,0,0
+SA,European Shag,UK NW N Sea non-SPA,non-breeding season (September to January),UK West of Scotland waters,0,0
+SA,European Shag,UK SW N Sea non-SPA,non-breeding season (September to January),UK NW North Sea,0,0
+SA,European Shag,UK SW N Sea non-SPA,non-breeding season (September to January),UK SW North Sea and Channel waters,1,1
+SA,European Shag,UK SW N Sea non-SPA,non-breeding season (September to January),UK Wales and SW England waters,0,0
+SA,European Shag,UK SW N Sea non-SPA,non-breeding season (September to January),UK West of Scotland waters,0,0
+SA,European Shag,UK Wales and  SW E non-SPA,non-breeding season (September to January),UK NW North Sea,0,0
+SA,European Shag,UK Wales and  SW E non-SPA,non-breeding season (September to January),UK SW North Sea and Channel waters,0,0
+SA,European Shag,UK Wales and  SW E non-SPA,non-breeding season (September to January),UK Wales and SW England waters,1,1
+SA,European Shag,UK Wales and  SW E non-SPA,non-breeding season (September to January),UK West of Scotland waters,0,0
+SA,European Shag,UK West of Scotland non-SPA,non-breeding season (September to January),UK SW North Sea and Channel waters,0,0
+SA,European Shag,UK West of Scotland non-SPA,non-breeding season (September to January),UK Wales and SW England waters,0,0
+SA,European Shag,UK West of Scotland non-SPA,non-breeding season (September to January),UK West of Scotland waters,1,1
+SA,European Shag,UK West of Scotld non-SPA,non-breeding season (September to January),UK NW North Sea,0,0
+GB,Great Black-backed Gull,Barents Sea,non-breeding season (September to March),UK North Sea waters,0.3,0.5
+GB,Great Black-backed Gull,Barents Sea,non-breeding season (September to March),UK south-west and Channel waters,0,0.02
+GB,Great Black-backed Gull,Barents Sea,non-breeding season (September to March),UK west of Scotland waters,0.01,0.08
+GB,Great Black-backed Gull,Calf of Eday,non-breeding season (September to March),UK North Sea waters,1,1
+GB,Great Black-backed Gull,Calf of Eday,non-breeding season (September to March),UK south-west and Channel waters,0,0
+GB,Great Black-backed Gull,Calf of Eday,non-breeding season (September to March),UK west of Scotland waters,0,0
+GB,Great Black-backed Gull,Copinsay,non-breeding season (September to March),UK North Sea waters,1,1
+GB,Great Black-backed Gull,Copinsay,non-breeding season (September to March),UK south-west and Channel waters,0,0
+GB,Great Black-backed Gull,Copinsay,non-breeding season (September to March),UK west of Scotland waters,0,0
+GB,Great Black-backed Gull,East Caithness Cliffs,non-breeding season (September to March),UK North Sea waters,1,1
+GB,Great Black-backed Gull,East Caithness Cliffs,non-breeding season (September to March),UK south-west and Channel waters,0,0
+GB,Great Black-backed Gull,East Caithness Cliffs,non-breeding season (September to March),UK west of Scotland waters,0,0
+GB,Great Black-backed Gull,Faroe,non-breeding season (September to March),UK North Sea waters,0.3,0.3
+GB,Great Black-backed Gull,Faroe,non-breeding season (September to March),UK south-west and Channel waters,0,0.2
+GB,Great Black-backed Gull,Faroe,non-breeding season (September to March),UK west of Scotland waters,0.1,0.3
+GB,Great Black-backed Gull,Hoy,non-breeding season (September to March),UK North Sea waters,1,1
+GB,Great Black-backed Gull,Hoy,non-breeding season (September to March),UK south-west and Channel waters,0,0
+GB,Great Black-backed Gull,Hoy,non-breeding season (September to March),UK west of Scotland waters,0,0
+GB,Great Black-backed Gull,Ireland,non-breeding season (September to March),UK North Sea waters,0,0
+GB,Great Black-backed Gull,Ireland,non-breeding season (September to March),UK south-west and Channel waters,0.1,0.3
+GB,Great Black-backed Gull,Ireland,non-breeding season (September to March),UK west of Scotland waters,0.1,0.2
+GB,Great Black-backed Gull,Isles of Scilly,non-breeding season (September to March),UK North Sea waters,0.01,0.1
+GB,Great Black-backed Gull,Isles of Scilly,non-breeding season (September to March),UK south-west and Channel waters,0.9,0.7
+GB,Great Black-backed Gull,Isles of Scilly,non-breeding season (September to March),UK west of Scotland waters,0,0
+GB,Great Black-backed Gull,North Rona and  Sula Sgeir,non-breeding season (September to March),UK North Sea waters,0.01,0.1
+GB,Great Black-backed Gull,North Rona and  Sula Sgeir,non-breeding season (September to March),UK south-west and Channel waters,0,0.1
+GB,Great Black-backed Gull,North Rona and  Sula Sgeir,non-breeding season (September to March),UK west of Scotland waters,0.99,0.8
+GB,Great Black-backed Gull,UK North Sea non-SPA colonies,non-breeding season (September to March),UK North Sea waters,1,1
+GB,Great Black-backed Gull,UK North Sea non-SPA colonies,non-breeding season (September to March),UK south-west and Channel waters,0,0
+GB,Great Black-backed Gull,UK North Sea non-SPA colonies,non-breeding season (September to March),UK west of Scotland waters,0,0
+GB,Great Black-backed Gull,UK western non-SPA colonies,non-breeding season (September to March),UK North Sea waters,0.01,0.1
+GB,Great Black-backed Gull,UK western non-SPA colonies,non-breeding season (September to March),UK south-west and Channel waters,0.2,0.3
+GB,Great Black-backed Gull,UK western non-SPA colonies,non-breeding season (September to March),UK west of Scotland waters,0.7,0.5
+CA,Great Cormorant,Abberton Reservoir,non-breeding season (September to March),UK NW North Sea,0,0
+CA,Great Cormorant,Abberton Reservoir,non-breeding season (September to March),UK SW North Sea and Channel,0.8,0.7
+CA,Great Cormorant,Abberton Reservoir,non-breeding season (September to March),UK Wales and SW England waters,0,0
+CA,Great Cormorant,Abberton Reservoir,non-breeding season (September to March),UK West of Scotland waters,0,0
+CA,Great Cormorant,Calf of Eday,non-breeding season (September to March),UK NW North Sea,1,1
+CA,Great Cormorant,Calf of Eday,non-breeding season (September to March),UK SW North Sea and Channel,0,0
+CA,Great Cormorant,Calf of Eday,non-breeding season (September to March),UK Wales and SW England waters,0,0
+CA,Great Cormorant,Calf of Eday,non-breeding season (September to March),UK West of Scotland waters,0,0
+CA,Great Cormorant,Denmark,non-breeding season (September to March),UK NW North Sea,0,0.001
+CA,Great Cormorant,Denmark,non-breeding season (September to March),UK SW North Sea and Channel,0,0.005
+CA,Great Cormorant,Denmark,non-breeding season (September to March),UK Wales and SW England waters,0,1.00E-04
+CA,Great Cormorant,Denmark,non-breeding season (September to March),UK West of Scotland waters,0,5.00E-04
+CA,Great Cormorant,East Caithness Cliffs,non-breeding season (September to March),UK NW North Sea,1,1
+CA,Great Cormorant,East Caithness Cliffs,non-breeding season (September to March),UK SW North Sea and Channel,0,0
+CA,Great Cormorant,East Caithness Cliffs,non-breeding season (September to March),UK Wales and SW England waters,0,0
+CA,Great Cormorant,East Caithness Cliffs,non-breeding season (September to March),UK West of Scotland waters,0,0
+CA,Great Cormorant,Farne Islands,non-breeding season (September to March),UK NW North Sea,0.1,0.2
+CA,Great Cormorant,Farne Islands,non-breeding season (September to March),UK SW North Sea and Channel,0.9,0.8
+CA,Great Cormorant,Farne Islands,non-breeding season (September to March),UK Wales and SW England waters,0,0
+CA,Great Cormorant,Farne Islands,non-breeding season (September to March),UK West of Scotland waters,0,0
+CA,Great Cormorant,Forth Islands,non-breeding season (September to March),UK NW North Sea,0.6,0.5
+CA,Great Cormorant,Forth Islands,non-breeding season (September to March),UK SW North Sea and Channel,0.4,0.5
+CA,Great Cormorant,Forth Islands,non-breeding season (September to March),UK Wales and SW England waters,0,0
+CA,Great Cormorant,Forth Islands,non-breeding season (September to March),UK West of Scotland waters,0,0
+CA,Great Cormorant,France,non-breeding season (September to March),UK NW North Sea,0,0
+CA,Great Cormorant,France,non-breeding season (September to March),UK SW North Sea and Channel,0,0.01
+CA,Great Cormorant,France,non-breeding season (September to March),UK Wales and SW England waters,0,0.001
+CA,Great Cormorant,France,non-breeding season (September to March),UK West of Scotland waters,0,0
+CA,Great Cormorant,Ireland,non-breeding season (September to March),UK NW North Sea,0,0
+CA,Great Cormorant,Ireland,non-breeding season (September to March),UK SW North Sea and Channel,0,0.01
+CA,Great Cormorant,Ireland,non-breeding season (September to March),UK Wales and SW England waters,0,0.02
+CA,Great Cormorant,Ireland,non-breeding season (September to March),UK West of Scotland waters,0,0.001
+CA,Great Cormorant,Netherlands,non-breeding season (September to March),UK NW North Sea,0,1.00E-04
+CA,Great Cormorant,Netherlands,non-breeding season (September to March),UK SW North Sea and Channel,0.001,0.01
+CA,Great Cormorant,Netherlands,non-breeding season (September to March),UK Wales and SW England waters,0,1.00E-04
+CA,Great Cormorant,Netherlands,non-breeding season (September to March),UK West of Scotland waters,0,0
+CA,Great Cormorant,Puffin Island Wales,non-breeding season (September to March),UK NW North Sea,0,0.001
+CA,Great Cormorant,Puffin Island Wales,non-breeding season (September to March),UK SW North Sea and Channel,0,0.001
+CA,Great Cormorant,Puffin Island Wales,non-breeding season (September to March),UK Wales and SW England waters,0.6,0.4
+CA,Great Cormorant,Puffin Island Wales,non-breeding season (September to March),UK West of Scotland waters,0,0.01
+CA,Great Cormorant,Sheep Island NI,non-breeding season (September to March),UK NW North Sea,0,0.001
+CA,Great Cormorant,Sheep Island NI,non-breeding season (September to March),UK SW North Sea and Channel,0,0.001
+CA,Great Cormorant,Sheep Island NI,non-breeding season (September to March),UK Wales and SW England waters,0.2,0.4
+CA,Great Cormorant,Sheep Island NI,non-breeding season (September to March),UK West of Scotland waters,0.8,0.6
+CA,Great Cormorant,UK non-SPA NW N S,non-breeding season (September to March),UK NW North Sea,0.8,0.8
+CA,Great Cormorant,UK non-SPA NW N S,non-breeding season (September to March),UK SW North Sea and Channel,0.2,0.2
+CA,Great Cormorant,UK non-SPA NW N S,non-breeding season (September to March),UK Wales and SW England waters,0,0
+CA,Great Cormorant,UK non-SPA NW N S,non-breeding season (September to March),UK West of Scotland waters,0,0
+CA,Great Cormorant,UK non-SPA SW N S,non-breeding season (September to March),UK NW North Sea,0.05,0.05
+CA,Great Cormorant,UK non-SPA SW N S,non-breeding season (September to March),UK SW North Sea and Channel,0.8,0.7
+CA,Great Cormorant,UK non-SPA SW N S,non-breeding season (September to March),UK Wales and SW England waters,0,0
+CA,Great Cormorant,UK non-SPA SW N S,non-breeding season (September to March),UK West of Scotland waters,0,0
+CA,Great Cormorant,UK non-SPA W Scotland,non-breeding season (September to March),UK NW North Sea,0,0.001
+CA,Great Cormorant,UK non-SPA W Scotland,non-breeding season (September to March),UK SW North Sea and Channel,0,0.001
+CA,Great Cormorant,UK non-SPA W Scotland,non-breeding season (September to March),UK Wales and SW England waters,0.3,0.5
+CA,Great Cormorant,UK non-SPA W Scotland,non-breeding season (September to March),UK West of Scotland waters,0.7,0.5
+CA,Great Cormorant,UK non-SPA Wales SW E,non-breeding season (September to March),UK NW North Sea,0,0.001
+CA,Great Cormorant,UK non-SPA Wales SW E,non-breeding season (September to March),UK SW North Sea and Channel,0,0.001
+CA,Great Cormorant,UK non-SPA Wales SW E,non-breeding season (September to March),UK Wales and SW England waters,0.6,0.4
+CA,Great Cormorant,UK non-SPA Wales SW E,non-breeding season (September to March),UK West of Scotland waters,0,0.01
+NX,Great Skua,Fair Isle,autumn migration season (August to October),UK North Sea and Channel waters,0.6,0.3
+NX,Great Skua,Fair Isle,autumn migration season (August to October),UK western waters,0.4,0.2
+NX,Great Skua,Fair Isle,spring migration (March-April),UK North Sea and Channel waters,0.3,0.1
+NX,Great Skua,Fair Isle,spring migration (March-April),UK western waters,0.7,0.3
+NX,Great Skua,Fair Isle,winter (November to February),UK North Sea and Channel waters,0,0
+NX,Great Skua,Fair Isle,winter (November to February),UK western waters,0.01,0
+NX,Great Skua,Faroe,autumn migration season (August to October),UK North Sea and Channel waters,0.1,0.05
+NX,Great Skua,Faroe,autumn migration season (August to October),UK western waters,0.3,0.05
+NX,Great Skua,Faroe,spring migration (March-April),UK North Sea and Channel waters,0.05,0.02
+NX,Great Skua,Faroe,spring migration (March-April),UK western waters,0.4,0.05
+NX,Great Skua,Faroe,winter (November to February),UK North Sea and Channel waters,0.01,0.001
+NX,Great Skua,Faroe,winter (November to February),UK western waters,0.05,0.001
+NX,Great Skua,Fetlar,autumn migration season (August to October),UK North Sea and Channel waters,0.6,0.3
+NX,Great Skua,Fetlar,autumn migration season (August to October),UK western waters,0.4,0.2
+NX,Great Skua,Fetlar,spring migration (March-April),UK North Sea and Channel waters,0.3,0.1
+NX,Great Skua,Fetlar,spring migration (March-April),UK western waters,0.7,0.3
+NX,Great Skua,Fetlar,winter (November to February),UK North Sea and Channel waters,0,0
+NX,Great Skua,Fetlar,winter (November to February),UK western waters,0.01,0
+NX,Great Skua,Foula,autumn migration season (August to October),UK North Sea and Channel waters,0.6,0.3
+NX,Great Skua,Foula,autumn migration season (August to October),UK western waters,0.4,0.2
+NX,Great Skua,Foula,spring migration (March-April),UK North Sea and Channel waters,0.3,0.1
+NX,Great Skua,Foula,spring migration (March-April),UK western waters,0.7,0.3
+NX,Great Skua,Foula,winter (November to February),UK North Sea and Channel waters,0,0
+NX,Great Skua,Foula,winter (November to February),UK western waters,0.01,0
+NX,Great Skua,Handa,autumn migration season (August to October),UK North Sea and Channel waters,0,0
+NX,Great Skua,Handa,autumn migration season (August to October),UK western waters,1,0.4
+NX,Great Skua,Handa,spring migration (March-April),UK North Sea and Channel waters,0,0
+NX,Great Skua,Handa,spring migration (March-April),UK western waters,1,0.4
+NX,Great Skua,Handa,winter (November to February),UK North Sea and Channel waters,0,0
+NX,Great Skua,Handa,winter (November to February),UK western waters,0.01,0
+NX,Great Skua,Hermaness; Saxavord,autumn migration season (August to October),UK North Sea and Channel waters,0.6,0.3
+NX,Great Skua,Hermaness; Saxavord,autumn migration season (August to October),UK western waters,0.4,0.2
+NX,Great Skua,Hermaness; Saxavord,spring migration (March-April),UK North Sea and Channel waters,0.3,0.1
+NX,Great Skua,Hermaness; Saxavord,spring migration (March-April),UK western waters,0.7,0.3
+NX,Great Skua,Hermaness; Saxavord,winter (November to February),UK North Sea and Channel waters,0,0
+NX,Great Skua,Hermaness; Saxavord,winter (November to February),UK western waters,0.01,0
+NX,Great Skua,Hoy,autumn migration season (August to October),UK North Sea and Channel waters,0.6,0.3
+NX,Great Skua,Hoy,autumn migration season (August to October),UK western waters,0.4,0.2
+NX,Great Skua,Hoy,spring migration (March-April),UK North Sea and Channel waters,0.3,0.1
+NX,Great Skua,Hoy,spring migration (March-April),UK western waters,0.7,0.3
+NX,Great Skua,Hoy,winter (November to February),UK North Sea and Channel waters,0,0
+NX,Great Skua,Hoy,winter (November to February),UK western waters,0.01,0
+NX,Great Skua,Iceland,autumn migration season (August to October),UK North Sea and Channel waters,0.1,0.05
+NX,Great Skua,Iceland,autumn migration season (August to October),UK western waters,0.2,0.05
+NX,Great Skua,Iceland,spring migration (March-April),UK North Sea and Channel waters,0.05,0.02
+NX,Great Skua,Iceland,spring migration (March-April),UK western waters,0.3,0.05
+NX,Great Skua,Iceland,winter (November to February),UK North Sea and Channel waters,0.01,0.001
+NX,Great Skua,Iceland,winter (November to February),UK western waters,0.1,0.001
+NX,Great Skua,Norway,autumn migration season (August to October),UK North Sea and Channel waters,0.1,0.05
+NX,Great Skua,Norway,autumn migration season (August to October),UK western waters,0.1,0.05
+NX,Great Skua,Norway,spring migration (March-April),UK North Sea and Channel waters,0.05,0.02
+NX,Great Skua,Norway,spring migration (March-April),UK western waters,0.2,0.05
+NX,Great Skua,Norway,winter (November to February),UK North Sea and Channel waters,0.01,0.001
+NX,Great Skua,Norway,winter (November to February),UK western waters,0.1,0.001
+NX,Great Skua,Noss,autumn migration season (August to October),UK North Sea and Channel waters,0.6,0.3
+NX,Great Skua,Noss,autumn migration season (August to October),UK western waters,0.4,0.2
+NX,Great Skua,Noss,spring migration (March-April),UK North Sea and Channel waters,0.3,0.1
+NX,Great Skua,Noss,spring migration (March-April),UK western waters,0.7,0.3
+NX,Great Skua,Noss,winter (November to February),UK North Sea and Channel waters,0,0
+NX,Great Skua,Noss,winter (November to February),UK western waters,0.01,0
+NX,Great Skua,Ronas Hill; North Roe,autumn migration season (August to October),UK North Sea and Channel waters,0.6,0.3
+NX,Great Skua,Ronas Hill; North Roe,autumn migration season (August to October),UK western waters,0.4,0.2
+NX,Great Skua,Ronas Hill; North Roe,spring migration (March-April),UK North Sea and Channel waters,0.3,0.1
+NX,Great Skua,Ronas Hill; North Roe,spring migration (March-April),UK western waters,0.7,0.3
+NX,Great Skua,Ronas Hill; North Roe,winter (November to February),UK North Sea and Channel waters,0,0
+NX,Great Skua,Ronas Hill; North Roe,winter (November to February),UK western waters,0.01,0
+NX,Great Skua,St Kilda,autumn migration season (August to October),UK North Sea and Channel waters,0,0
+NX,Great Skua,St Kilda,autumn migration season (August to October),UK western waters,1,0.4
+NX,Great Skua,St Kilda,spring migration (March-April),UK North Sea and Channel waters,0,0
+NX,Great Skua,St Kilda,spring migration (March-April),UK western waters,1,0.4
+NX,Great Skua,St Kilda,winter (November to February),UK North Sea and Channel waters,0,0
+NX,Great Skua,St Kilda,winter (November to February),UK western waters,0.01,0
+NX,Great Skua,UK Non-SPA North Sea colonies,autumn migration season (August to October),UK North Sea and Channel waters,0.6,0.3
+NX,Great Skua,UK Non-SPA North Sea colonies,autumn migration season (August to October),UK western waters,0.4,0.2
+NX,Great Skua,UK Non-SPA North Sea colonies,spring migration (March-April),UK North Sea and Channel waters,0.3,0.1
+NX,Great Skua,UK Non-SPA North Sea colonies,spring migration (March-April),UK western waters,0.7,0.3
+NX,Great Skua,UK Non-SPA North Sea colonies,winter (November to February),UK North Sea and Channel waters,0,0
+NX,Great Skua,UK Non-SPA North Sea colonies,winter (November to February),UK western waters,0.01,0
+NX,Great Skua,UK Non-SPA western colonies,autumn migration season (August to October),UK North Sea and Channel waters,0,0
+NX,Great Skua,UK Non-SPA western colonies,autumn migration season (August to October),UK western waters,1,0.4
+NX,Great Skua,UK Non-SPA western colonies,spring migration (March-April),UK North Sea and Channel waters,0,0
+NX,Great Skua,UK Non-SPA western colonies,spring migration (March-April),UK western waters,1,0.4
+NX,Great Skua,UK Non-SPA western colonies,winter (November to February),UK North Sea and Channel waters,0,0
+NX,Great Skua,UK Non-SPA western colonies,winter (November to February),UK western waters,0.01,0
+HG,Herring Gull,Ailsa Craig,non-breeding season (September to February),UK North Sea and Channel waters,0.05,0.1
+HG,Herring Gull,Ailsa Craig,non-breeding season (September to February),UK western waters,0.8,0.7
+HG,Herring Gull,Alde-Ore Estuary,non-breeding season (September to February),UK North Sea and Channel waters,0.99,0.95
+HG,Herring Gull,Alde-Ore Estuary,non-breeding season (September to February),UK western waters,0.001,0.001
+HG,Herring Gull,Barents Sea,non-breeding season (September to February),UK North Sea and Channel waters,0.2,0.3
+HG,Herring Gull,Barents Sea,non-breeding season (September to February),UK western waters,0.001,0.005
+HG,Herring Gull,Buchan Ness to Collieston,non-breeding season (September to February),UK North Sea and Channel waters,0.99,0.95
+HG,Herring Gull,Buchan Ness to Collieston,non-breeding season (September to February),UK western waters,0.001,0.001
+HG,Herring Gull,Canna and  Sanday,non-breeding season (September to February),UK North Sea and Channel waters,0.05,0.1
+HG,Herring Gull,Canna and  Sanday,non-breeding season (September to February),UK western waters,0.8,0.7
+HG,Herring Gull,East Caithness Cliffs,non-breeding season (September to February),UK North Sea and Channel waters,0.99,0.95
+HG,Herring Gull,East Caithness Cliffs,non-breeding season (September to February),UK western waters,0.001,0.001
+HG,Herring Gull,Faroe,non-breeding season (September to February),UK North Sea and Channel waters,0.2,0.3
+HG,Herring Gull,Faroe,non-breeding season (September to February),UK western waters,0.2,0.3
+HG,Herring Gull,Flamborough and  Filey Coast,non-breeding season (September to February),UK North Sea and Channel waters,0.99,0.95
+HG,Herring Gull,Flamborough and  Filey Coast,non-breeding season (September to February),UK western waters,0.001,0.001
+HG,Herring Gull,Forth Islands,non-breeding season (September to February),UK North Sea and Channel waters,0.99,0.95
+HG,Herring Gull,Forth Islands,non-breeding season (September to February),UK western waters,0.001,0.001
+HG,Herring Gull,Fowlsheugh,non-breeding season (September to February),UK North Sea and Channel waters,0.99,0.95
+HG,Herring Gull,Fowlsheugh,non-breeding season (September to February),UK western waters,0.001,0.001
+HG,Herring Gull,Ireland,non-breeding season (September to February),UK North Sea and Channel waters,0.02,0.05
+HG,Herring Gull,Ireland,non-breeding season (September to February),UK western waters,0.3,0.4
+HG,Herring Gull,Morecambe Bay,non-breeding season (September to February),UK North Sea and Channel waters,0.05,0.1
+HG,Herring Gull,Morecambe Bay,non-breeding season (September to February),UK western waters,0.8,0.7
+HG,Herring Gull,Rathlin Island,non-breeding season (September to February),UK North Sea and Channel waters,0.05,0.1
+HG,Herring Gull,Rathlin Island,non-breeding season (September to February),UK western waters,0.8,0.7
+HG,Herring Gull,St Abbs Head/ Fast Castle,non-breeding season (September to February),UK North Sea and Channel waters,0.99,0.95
+HG,Herring Gull,St Abbs Head/ Fast Castle,non-breeding season (September to February),UK western waters,0.001,0.001
+HG,Herring Gull,Troup; Pennan and  Lions,non-breeding season (September to February),UK North Sea and Channel waters,0.99,0.95
+HG,Herring Gull,Troup; Pennan and  Lions,non-breeding season (September to February),UK western waters,0.001,0.001
+HG,Herring Gull,UK North Sea non-SPA cols,non-breeding season (September to February),UK North Sea and Channel waters,0.99,0.95
+HG,Herring Gull,UK North Sea non-SPA cols,non-breeding season (September to February),UK western waters,0.001,0.001
+HG,Herring Gull,UK western non-SPA cols,non-breeding season (September to February),UK North Sea and Channel waters,0.05,0.1
+HG,Herring Gull,UK western non-SPA cols,non-breeding season (September to February),UK western waters,0.8,0.7
+LB,Lesser Black-backed Gull,Ailsa Craig,autumn migration (August-October),UK North Sea and Channel waters,0.5,0.4
+LB,Lesser Black-backed Gull,Ailsa Craig,autumn migration (August-October),UK western waters,0.5,0.4
+LB,Lesser Black-backed Gull,Ailsa Craig,spring migration (March-April),UK North Sea and Channel waters,0.5,0.4
+LB,Lesser Black-backed Gull,Ailsa Craig,spring migration (March-April),UK western waters,0.5,0.4
+LB,Lesser Black-backed Gull,Ailsa Craig,winter (November to February),UK North Sea and Channel waters,0.1,0.01
+LB,Lesser Black-backed Gull,Ailsa Craig,winter (November to February),UK western waters,0.2,0.05
+LB,Lesser Black-backed Gull,Alde-Ore Estuary,autumn migration (August-October),UK North Sea and Channel waters,1,0.7
+LB,Lesser Black-backed Gull,Alde-Ore Estuary,autumn migration (August-October),UK western waters,0,0.1
+LB,Lesser Black-backed Gull,Alde-Ore Estuary,spring migration (March-April),UK North Sea and Channel waters,1,0.7
+LB,Lesser Black-backed Gull,Alde-Ore Estuary,spring migration (March-April),UK western waters,0,0.1
+LB,Lesser Black-backed Gull,Alde-Ore Estuary,winter (November to February),UK North Sea and Channel waters,0.5,0.05
+LB,Lesser Black-backed Gull,Alde-Ore Estuary,winter (November to February),UK western waters,0,0
+LB,Lesser Black-backed Gull,Bowland Fells,autumn migration (August-October),UK North Sea and Channel waters,0.5,0.4
+LB,Lesser Black-backed Gull,Bowland Fells,autumn migration (August-October),UK western waters,0.5,0.4
+LB,Lesser Black-backed Gull,Bowland Fells,spring migration (March-April),UK North Sea and Channel waters,0.5,0.4
+LB,Lesser Black-backed Gull,Bowland Fells,spring migration (March-April),UK western waters,0.5,0.4
+LB,Lesser Black-backed Gull,Bowland Fells,winter (November to February),UK North Sea and Channel waters,0.1,0.01
+LB,Lesser Black-backed Gull,Bowland Fells,winter (November to February),UK western waters,0.2,0.05
+LB,Lesser Black-backed Gull,Denmark,autumn migration (August-October),UK North Sea and Channel waters,0.1,0.05
+LB,Lesser Black-backed Gull,Denmark,autumn migration (August-October),UK western waters,0.05,0.02
+LB,Lesser Black-backed Gull,Denmark,spring migration (March-April),UK North Sea and Channel waters,0.1,0.05
+LB,Lesser Black-backed Gull,Denmark,spring migration (March-April),UK western waters,0.05,0.02
+LB,Lesser Black-backed Gull,Denmark,winter (November to February),UK North Sea and Channel waters,0.01,0
+LB,Lesser Black-backed Gull,Denmark,winter (November to February),UK western waters,0.01,0
+LB,Lesser Black-backed Gull,Faroe,autumn migration (August-October),UK North Sea and Channel waters,0.4,0.2
+LB,Lesser Black-backed Gull,Faroe,autumn migration (August-October),UK western waters,0.4,0.2
+LB,Lesser Black-backed Gull,Faroe,spring migration (March-April),UK North Sea and Channel waters,0.2,0.1
+LB,Lesser Black-backed Gull,Faroe,spring migration (March-April),UK western waters,0.4,0.2
+LB,Lesser Black-backed Gull,Faroe,winter (November to February),UK North Sea and Channel waters,0.05,0
+LB,Lesser Black-backed Gull,Faroe,winter (November to February),UK western waters,0.05,0
+LB,Lesser Black-backed Gull,Forth Islands,autumn migration (August-October),UK North Sea and Channel waters,1,0.7
+LB,Lesser Black-backed Gull,Forth Islands,autumn migration (August-October),UK western waters,0,0.1
+LB,Lesser Black-backed Gull,Forth Islands,spring migration (March-April),UK North Sea and Channel waters,1,0.7
+LB,Lesser Black-backed Gull,Forth Islands,spring migration (March-April),UK western waters,0,0.1
+LB,Lesser Black-backed Gull,Forth Islands,winter (November to February),UK North Sea and Channel waters,0.5,0.05
+LB,Lesser Black-backed Gull,Forth Islands,winter (November to February),UK western waters,0,0
+LB,Lesser Black-backed Gull,Iceland,autumn migration (August-October),UK North Sea and Channel waters,0.2,0.1
+LB,Lesser Black-backed Gull,Iceland,autumn migration (August-October),UK western waters,0.2,0.1
+LB,Lesser Black-backed Gull,Iceland,spring migration (March-April),UK North Sea and Channel waters,0.1,0.05
+LB,Lesser Black-backed Gull,Iceland,spring migration (March-April),UK western waters,0.2,0.1
+LB,Lesser Black-backed Gull,Iceland,winter (November to February),UK North Sea and Channel waters,0.05,0
+LB,Lesser Black-backed Gull,Iceland,winter (November to February),UK western waters,0.05,0
+LB,Lesser Black-backed Gull,Ireland,autumn migration (August-October),UK North Sea and Channel waters,0.1,0.05
+LB,Lesser Black-backed Gull,Ireland,autumn migration (August-October),UK western waters,0.4,0.2
+LB,Lesser Black-backed Gull,Ireland,spring migration (March-April),UK North Sea and Channel waters,0.1,0.05
+LB,Lesser Black-backed Gull,Ireland,spring migration (March-April),UK western waters,0.4,0.2
+LB,Lesser Black-backed Gull,Ireland,winter (November to February),UK North Sea and Channel waters,0.01,0
+LB,Lesser Black-backed Gull,Ireland,winter (November to February),UK western waters,0.2,0.05
+LB,Lesser Black-backed Gull,Isles of Scilly,autumn migration (August-October),UK North Sea and Channel waters,0.1,0.05
+LB,Lesser Black-backed Gull,Isles of Scilly,autumn migration (August-October),UK western waters,0.9,0.6
+LB,Lesser Black-backed Gull,Isles of Scilly,spring migration (March-April),UK North Sea and Channel waters,0.1,0.05
+LB,Lesser Black-backed Gull,Isles of Scilly,spring migration (March-April),UK western waters,0.9,0.6
+LB,Lesser Black-backed Gull,Isles of Scilly,winter (November to February),UK North Sea and Channel waters,0.1,0.01
+LB,Lesser Black-backed Gull,Isles of Scilly,winter (November to February),UK western waters,0.2,0.05
+LB,Lesser Black-backed Gull,Lough Neagh and  L. Beg,spring migration (March-April),UK western waters,0.5,0.4
+LB,Lesser Black-backed Gull,Lough Neagh and  Lough Beg,autumn migration (August-October),UK North Sea and Channel waters,0.5,0.4
+LB,Lesser Black-backed Gull,Lough Neagh and  Lough Beg,autumn migration (August-October),UK western waters,0.5,0.4
+LB,Lesser Black-backed Gull,Lough Neagh and  Lough Beg,spring migration (March-April),UK North Sea and Channel waters,0.5,0.4
+LB,Lesser Black-backed Gull,Lough Neagh and  Lough Beg,winter (November to February),UK North Sea and Channel waters,0.1,0.01
+LB,Lesser Black-backed Gull,Lough Neagh and  Lough Beg,winter (November to February),UK western waters,0.2,0.05
+LB,Lesser Black-backed Gull,Morcambe Bay,autumn migration (August-October),UK North Sea and Channel waters,0.5,0.4
+LB,Lesser Black-backed Gull,Morcambe Bay,autumn migration (August-October),UK western waters,0.5,0.4
+LB,Lesser Black-backed Gull,Morcambe Bay,spring migration (March-April),UK North Sea and Channel waters,0.5,0.4
+LB,Lesser Black-backed Gull,Morcambe Bay,spring migration (March-April),UK western waters,0.5,0.4
+LB,Lesser Black-backed Gull,Morcambe Bay,winter (November to February),UK North Sea and Channel waters,0.1,0.01
+LB,Lesser Black-backed Gull,Morcambe Bay,winter (November to February),UK western waters,0.2,0.05
+LB,Lesser Black-backed Gull,Netherlands,autumn migration (August-October),UK North Sea and Channel waters,0.05,0.025
+LB,Lesser Black-backed Gull,Netherlands,autumn migration (August-October),UK western waters,0.025,0.01
+LB,Lesser Black-backed Gull,Netherlands,spring migration (March-April),UK North Sea and Channel waters,0.05,0.025
+LB,Lesser Black-backed Gull,Netherlands,spring migration (March-April),UK western waters,0.025,0.01
+LB,Lesser Black-backed Gull,Netherlands,winter (November to February),UK North Sea and Channel waters,0.005,0
+LB,Lesser Black-backed Gull,Netherlands,winter (November to February),UK western waters,0.005,0
+LB,Lesser Black-backed Gull,Norway,autumn migration (August-October),UK North Sea and Channel waters,0.3,0.1
+LB,Lesser Black-backed Gull,Norway,autumn migration (August-October),UK western waters,0.1,0.05
+LB,Lesser Black-backed Gull,Norway,spring migration (March-April),UK North Sea and Channel waters,0.3,0.1
+LB,Lesser Black-backed Gull,Norway,spring migration (March-April),UK western waters,0.1,0.05
+LB,Lesser Black-backed Gull,Norway,winter (November to February),UK North Sea and Channel waters,0.05,0
+LB,Lesser Black-backed Gull,Norway,winter (November to February),UK western waters,0.02,0
+LB,Lesser Black-backed Gull,Rathlin Island,autumn migration (August-October),UK North Sea and Channel waters,0.5,0.4
+LB,Lesser Black-backed Gull,Rathlin Island,autumn migration (August-October),UK western waters,0.5,0.4
+LB,Lesser Black-backed Gull,Rathlin Island,spring migration (March-April),UK North Sea and Channel waters,0.5,0.4
+LB,Lesser Black-backed Gull,Rathlin Island,spring migration (March-April),UK western waters,0.5,0.4
+LB,Lesser Black-backed Gull,Rathlin Island,winter (November to February),UK North Sea and Channel waters,0.1,0.01
+LB,Lesser Black-backed Gull,Rathlin Island,winter (November to February),UK western waters,0.2,0.05
+LB,Lesser Black-backed Gull,Ribble and  Alt Estuaries,autumn migration (August-October),UK North Sea and Channel waters,0.5,0.4
+LB,Lesser Black-backed Gull,Ribble and  Alt Estuaries,autumn migration (August-October),UK western waters,0.5,0.4
+LB,Lesser Black-backed Gull,Ribble and  Alt Estuaries,spring migration (March-April),UK North Sea and Channel waters,0.5,0.4
+LB,Lesser Black-backed Gull,Ribble and  Alt Estuaries,spring migration (March-April),UK western waters,0.5,0.4
+LB,Lesser Black-backed Gull,Ribble and  Alt Estuaries,winter (November to February),UK North Sea and Channel waters,0.1,0.01
+LB,Lesser Black-backed Gull,Ribble and  Alt Estuaries,winter (November to February),UK western waters,0.2,0.05
+LB,Lesser Black-backed Gull,Skokholm; Skomer; Mholm,autumn migration (August-October),UK North Sea and Channel waters,0.3,0.3
+LB,Lesser Black-backed Gull,Skokholm; Skomer; Mholm,autumn migration (August-October),UK western waters,0.7,0.4
+LB,Lesser Black-backed Gull,Skokholm; Skomer; Mholm,spring migration (March-April),UK North Sea and Channel waters,0.3,0.3
+LB,Lesser Black-backed Gull,Skokholm; Skomer; Mholm,spring migration (March-April),UK western waters,0.7,0.4
+LB,Lesser Black-backed Gull,Skokholm; Skomer; Mholm,winter (November to February),UK North Sea and Channel waters,0.1,0.01
+LB,Lesser Black-backed Gull,Skokholm; Skomer; Mholm,winter (November to February),UK western waters,0.2,0.05
+LB,Lesser Black-backed Gull,Sweden,autumn migration (August-October),UK North Sea and Channel waters,0.1,0.05
+LB,Lesser Black-backed Gull,Sweden,autumn migration (August-October),UK western waters,0.05,0.02
+LB,Lesser Black-backed Gull,Sweden,spring migration (March-April),UK North Sea and Channel waters,0.1,0.05
+LB,Lesser Black-backed Gull,Sweden,spring migration (March-April),UK western waters,0.05,0.02
+LB,Lesser Black-backed Gull,Sweden,winter (November to February),UK North Sea and Channel waters,0.01,0
+LB,Lesser Black-backed Gull,Sweden,winter (November to February),UK western waters,0.01,0
+LB,Lesser Black-backed Gull,UK North Sea non-SPA,spring migration (March-April),UK western waters,0,0.1
+LB,Lesser Black-backed Gull,UK North Sea non-SPA cols,autumn migration (August-October),UK North Sea and Channel waters,1,0.7
+LB,Lesser Black-backed Gull,UK North Sea non-SPA cols,autumn migration (August-October),UK western waters,0,0.1
+LB,Lesser Black-backed Gull,UK North Sea non-SPA cols,spring migration (March-April),UK North Sea and Channel waters,1,0.7
+LB,Lesser Black-backed Gull,UK North Sea non-SPA cols,winter (November to February),UK North Sea and Channel waters,0.5,0.05
+LB,Lesser Black-backed Gull,UK North Sea non-SPA cols,winter (November to February),UK western waters,0,0
+LB,Lesser Black-backed Gull,UK Western non-SPA colonies,autumn migration (August-October),UK North Sea and Channel waters,0.5,0.4
+LB,Lesser Black-backed Gull,UK Western non-SPA cols,autumn migration (August-October),UK western waters,0.5,0.4
+LB,Lesser Black-backed Gull,UK Western non-SPA cols,spring migration (March-April),UK North Sea and Channel waters,0.5,0.4
+LB,Lesser Black-backed Gull,UK Western non-SPA cols,spring migration (March-April),UK western waters,0.5,0.4
+LB,Lesser Black-backed Gull,UK Western non-SPA cols,winter (November to February),UK North Sea and Channel waters,0.1,0.01
+LB,Lesser Black-backed Gull,UK Western non-SPA cols,winter (November to February),UK western waters,0.2,0.05
+AF,Little Tern,Alde-Ore Estuary,migration seasons (late July to early September; and mid-April to May),UK North Sea and Channel waters,1,0.6
+AF,Little Tern,Alde-Ore Estuary,migration seasons (late July to early September; and mid-April to May),UK western waters,0,0
+AF,Little Tern,Benacre to Easton Bavents,migration seasons (late July to early September; and mid-April to May),UK North Sea and Channel waters,1,0.6
+AF,Little Tern,Benacre to Easton Bavents,migration seasons (late July to early September; and mid-April to May),UK western waters,0,0
+AF,Little Tern,Blackwater Estuary,migration seasons (late July to early September; and mid-April to May),UK North Sea and Channel waters,1,0.6
+AF,Little Tern,Blackwater Estuary,migration seasons (late July to early September; and mid-April to May),UK western waters,0,0
+AF,Little Tern,Chesil Beach,migration seasons (late July to early September; and mid-April to May),UK North Sea and Channel waters,1,0.6
+AF,Little Tern,Chesil Beach,migration seasons (late July to early September; and mid-April to May),UK western waters,0,0
+AF,Little Tern,Chichester Harbour,migration seasons (late July to early September; and mid-April to May),UK North Sea and Channel waters,1,0.6
+AF,Little Tern,Chichester Harbour,migration seasons (late July to early September; and mid-April to May),UK western waters,0,0
+AF,Little Tern,Colne Estuary,migration seasons (late July to early September; and mid-April to May),UK North Sea and Channel waters,1,0.6
+AF,Little Tern,Colne Estuary,migration seasons (late July to early September; and mid-April to May),UK western waters,0,0
+AF,Little Tern,Dungeness to Pett Level,migration seasons (late July to early September; and mid-April to May),UK North Sea and Channel waters,1,0.6
+AF,Little Tern,Dungeness to Pett Level,migration seasons (late July to early September; and mid-April to May),UK western waters,0,0
+AF,Little Tern,Firth of Tay and  Eden Estuary,migration seasons (late July to early September; and mid-April to May),UK North Sea and Channel waters,1,0.6
+AF,Little Tern,Firth of Tay and  Eden Estuary,migration seasons (late July to early September; and mid-April to May),UK western waters,0,0
+AF,Little Tern,Foulness,migration seasons (late July to early September; and mid-April to May),UK North Sea and Channel waters,1,0.6
+AF,Little Tern,Foulness,migration seasons (late July to early September; and mid-April to May),UK western waters,0,0
+AF,Little Tern,Gibraltar point,migration seasons (late July to early September; and mid-April to May),UK North Sea and Channel waters,1,0.6
+AF,Little Tern,Gibraltar point,migration seasons (late July to early September; and mid-April to May),UK western waters,0,0
+AF,Little Tern,Great Yarmouth North Denes,migration seasons (late July to early September; and mid-April to May),UK North Sea and Channel waters,1,0.6
+AF,Little Tern,Great Yarmouth North Denes,migration seasons (late July to early September; and mid-April to May),UK western waters,0,0
+AF,Little Tern,Hamford Water,migration seasons (late July to early September; and mid-April to May),UK North Sea and Channel waters,1,0.6
+AF,Little Tern,Hamford Water,migration seasons (late July to early September; and mid-April to May),UK western waters,0,0
+AF,Little Tern,Humber Flats; Marshes and  Coast,migration seasons (late July to early September; and mid-April to May),UK North Sea and Channel waters,1,0.6
+AF,Little Tern,Humber Flats; Marshes and  Coast,migration seasons (late July to early September; and mid-April to May),UK western waters,0,0
+AF,Little Tern,Ireland,migration seasons (late July to early September; and mid-April to May),UK North Sea and Channel waters,0,0
+AF,Little Tern,Ireland,migration seasons (late July to early September; and mid-April to May),UK western waters,0.95,0.6
+AF,Little Tern,Lindisfarne,migration seasons (late July to early September; and mid-April to May),UK North Sea and Channel waters,1,0.6
+AF,Little Tern,Lindisfarne,migration seasons (late July to early September; and mid-April to May),UK western waters,0,0
+AF,Little Tern,Medway Estuary and  Marshes,migration seasons (late July to early September; and mid-April to May),UK North Sea and Channel waters,1,0.6
+AF,Little Tern,Medway Estuary and  Marshes,migration seasons (late July to early September; and mid-April to May),UK western waters,0,0
+AF,Little Tern,Minsmere-Walberswick,migration seasons (late July to early September; and mid-April to May),UK North Sea and Channel waters,1,0.6
+AF,Little Tern,Minsmere-Walberswick,migration seasons (late July to early September; and mid-April to May),UK western waters,0,0
+AF,Little Tern,Monach Isles,migration seasons (late July to early September; and mid-April to May),UK North Sea and Channel waters,0,0
+AF,Little Tern,Monach Isles,migration seasons (late July to early September; and mid-April to May),UK western waters,1,0.6
+AF,Little Tern,Morecambe Bay,migration seasons (late July to early September; and mid-April to May),UK North Sea and Channel waters,0,0
+AF,Little Tern,Morecambe Bay,migration seasons (late July to early September; and mid-April to May),UK western waters,1,0.6
+AF,Little Tern,North Norfolk Coast,migration seasons (late July to early September; and mid-April to May),UK North Sea and Channel waters,1,0.6
+AF,Little Tern,North Norfolk Coast,migration seasons (late July to early September; and mid-April to May),UK western waters,0,0
+AF,Little Tern,Northumbria Coast,migration seasons (late July to early September; and mid-April to May),UK North Sea and Channel waters,1,0.6
+AF,Little Tern,Northumbria Coast,migration seasons (late July to early September; and mid-April to May),UK western waters,0,0
+AF,Little Tern,Pagham Harbour,migration seasons (late July to early September; and mid-April to May),UK North Sea and Channel waters,1,0.6
+AF,Little Tern,Pagham Harbour,migration seasons (late July to early September; and mid-April to May),UK western waters,0,0
+AF,Little Tern,Solent and  Southampton Water,migration seasons (late July to early September; and mid-April to May),UK North Sea and Channel waters,1,0.6
+AF,Little Tern,Solent and  Southampton Water,migration seasons (late July to early September; and mid-April to May),UK western waters,0,0
+AF,Little Tern,South Uist Machair and  Lochs,migration seasons (late July to early September; and mid-April to May),UK North Sea and Channel waters,0,0
+AF,Little Tern,South Uist Machair and  Lochs,migration seasons (late July to early September; and mid-April to May),UK western waters,1,0.6
+AF,Little Tern,Teesmouth and  Cleveland Est,migration seasons (late July to early September; and mid-April to May),UK North Sea and Channel waters,1,0.6
+AF,Little Tern,Teesmouth and  Cleveland Est,migration seasons (late July to early September; and mid-April to May),UK western waters,0,0
+AF,Little Tern,The Dee Estuary,migration seasons (late July to early September; and mid-April to May),UK North Sea and Channel waters,0,0
+AF,Little Tern,The Dee Estuary,migration seasons (late July to early September; and mid-April to May),UK western waters,1,0.6
+AF,Little Tern,The Wash,migration seasons (late July to early September; and mid-April to May),UK North Sea and Channel waters,1,0.6
+AF,Little Tern,The Wash,migration seasons (late July to early September; and mid-April to May),UK western waters,0,0
+AF,Little Tern,UK N Sea and  Channel non-SPA colonies,migration seasons (late July to early September; and mid-April to May),UK North Sea and Channel waters,1,0.6
+AF,Little Tern,UK N Sea and  Channel non-SPA colonies,migration seasons (late July to early September; and mid-April to May),UK western waters,0,0
+AF,Little Tern,UK western non-SPA colonies,migration seasons (late July to early September; and mid-April to May),UK North Sea and Channel waters,0,0
+AF,Little Tern,UK western non-SPA colonies,migration seasons (late July to early September; and mid-April to May),UK western waters,1,0.6
+AF,Little Tern,Ythan Estuary; Sands of Forvie,migration seasons (late July to early September; and mid-April to May),UK North Sea and Channel waters,1,0.6
+AF,Little Tern,Ythan Estuary; Sands of Forvie,migration seasons (late July to early September; and mid-April to May),UK western waters,0,0
+MX,Manx Shearwater,Aberdaron Coast and  Bardsey,migration seasons (August to early October; late March to May),UK North Sea waters,0,0.01
+MX,Manx Shearwater,Aberdaron Coast and  Bardsey,migration seasons (August to early October; late March to May),UK western waters and Channel,1,0.7
+MX,Manx Shearwater,Faroe,migration seasons (August to early October; late March to May),UK North Sea waters,0,0.001
+MX,Manx Shearwater,Faroe,migration seasons (August to early October; late March to May),UK western waters and Channel,0.01,0.03
+MX,Manx Shearwater,Iceland,migration seasons (August to early October; late March to May),UK North Sea waters,0,0.001
+MX,Manx Shearwater,Iceland,migration seasons (August to early October; late March to May),UK western waters and Channel,0.01,0.03
+MX,Manx Shearwater,Ireland,migration seasons (August to early October; late March to May),UK North Sea waters,0,0.001
+MX,Manx Shearwater,Ireland,migration seasons (August to early October; late March to May),UK western waters and Channel,0.05,0.1
+MX,Manx Shearwater,Rum,migration seasons (August to early October; late March to May),UK North Sea waters,0,0.01
+MX,Manx Shearwater,Rum,migration seasons (August to early October; late March to May),UK western waters and Channel,1,0.7
+MX,Manx Shearwater,Skomer; Skokholm and  Middleh,migration seasons (August to early October; late March to May),UK North Sea waters,0,0.01
+MX,Manx Shearwater,Skomer; Skokholm and  Middleh,migration seasons (August to early October; late March to May),UK western waters and Channel,1,0.7
+MX,Manx Shearwater,St Kilda,migration seasons (August to early October; late March to May),UK North Sea waters,0,0.01
+MX,Manx Shearwater,St Kilda,migration seasons (August to early October; late March to May),UK western waters and Channel,1,0.7
+MX,Manx Shearwater,UK non-SPA colonies,migration seasons (August to early October; late March to May),UK North Sea waters,0.01,0.01
+MX,Manx Shearwater,UK non-SPA colonies,migration seasons (August to early October; late March to May),UK western waters and Channel,0.8,0.6
+F.,Northern Fulmar,Buchan Ness to Collieston,migration seasons (September & October; December to March),UK North sea waters,1,0.8
+F.,Northern Fulmar,Buchan Ness to Collieston,migration seasons (September & October; December to March),UK western waters and Channel,0,0.1
+F.,Northern Fulmar,Buchan Ness to Collieston,winter (November),UK North Sea waters,0.7,0.3
+F.,Northern Fulmar,Buchan Ness to Collieston,winter (November),UK western waters and Channel,0.1,0.2
+F.,Northern Fulmar,Calf of Eday,migration seasons (September & October; December to March),UK North sea waters,0.9,0.8
+F.,Northern Fulmar,Calf of Eday,migration seasons (September & October; December to March),UK western waters and Channel,0.1,0.1
+F.,Northern Fulmar,Calf of Eday,winter (November),UK North Sea waters,0.7,0.3
+F.,Northern Fulmar,Calf of Eday,winter (November),UK western waters and Channel,0.1,0.2
+F.,Northern Fulmar,Cape Wrath,migration seasons (September & October; December to March),UK North sea waters,0,0.06
+F.,Northern Fulmar,Cape Wrath,migration seasons (September & October; December to March),UK western waters and Channel,1,0.8
+F.,Northern Fulmar,Cape Wrath,winter (November),UK North Sea waters,0.02,0.03
+F.,Northern Fulmar,Cape Wrath,winter (November),UK western waters and Channel,0.7,0.3
+F.,Northern Fulmar,Copinsay,migration seasons (September & October; December to March),UK North sea waters,0.9,0.8
+F.,Northern Fulmar,Copinsay,migration seasons (September & October; December to March),UK western waters and Channel,0.1,0.1
+F.,Northern Fulmar,Copinsay,winter (November),UK North Sea waters,0.7,0.3
+F.,Northern Fulmar,Copinsay,winter (November),UK western waters and Channel,0.1,0.2
+F.,Northern Fulmar,East Caithness Cliffs,migration seasons (September & October; December to March),UK North sea waters,1,0.8
+F.,Northern Fulmar,East Caithness Cliffs,migration seasons (September & October; December to March),UK western waters and Channel,0,0.1
+F.,Northern Fulmar,East Caithness Cliffs,winter (November),UK North Sea waters,0.7,0.3
+F.,Northern Fulmar,East Caithness Cliffs,winter (November),UK western waters and Channel,0.1,0.2
+F.,Northern Fulmar,Fair Isle,migration seasons (September & October; December to March),UK North sea waters,0.9,0.8
+F.,Northern Fulmar,Fair Isle,migration seasons (September & October; December to March),UK western waters and Channel,0.1,0.1
+F.,Northern Fulmar,Fair Isle,winter (November),UK North Sea waters,0.7,0.3
+F.,Northern Fulmar,Fair Isle,winter (November),UK western waters and Channel,0.1,0.2
+F.,Northern Fulmar,Faroe,migration seasons (September & October; December to March),UK North sea waters,0.02,0.06
+F.,Northern Fulmar,Faroe,migration seasons (September & October; December to March),UK western waters and Channel,0.02,0.06
+F.,Northern Fulmar,Faroe,winter (November),UK North Sea waters,0.01,0.03
+F.,Northern Fulmar,Faroe,winter (November),UK western waters and Channel,0.01,0.03
+F.,Northern Fulmar,Fetlar,migration seasons (September & October; December to March),UK North sea waters,0.9,0.8
+F.,Northern Fulmar,Fetlar,migration seasons (September & October; December to March),UK western waters and Channel,0.1,0.1
+F.,Northern Fulmar,Fetlar,winter (November),UK North Sea waters,0.7,0.3
+F.,Northern Fulmar,Fetlar,winter (November),UK western waters and Channel,0.1,0.2
+F.,Northern Fulmar,Flamborough and  Filey Coast,migration seasons (September & October; December to March),UK North sea waters,1,0.8
+F.,Northern Fulmar,Flamborough and  Filey Coast,migration seasons (September & October; December to March),UK western waters and Channel,0,0.1
+F.,Northern Fulmar,Flamborough and  Filey Coast,winter (November),UK North Sea waters,0.7,0.3
+F.,Northern Fulmar,Flamborough and  Filey Coast,winter (November),UK western waters and Channel,0.1,0.2
+F.,Northern Fulmar,Flannan Isles,migration seasons (September & October; December to March),UK North sea waters,0,0.06
+F.,Northern Fulmar,Flannan Isles,migration seasons (September & October; December to March),UK western waters and Channel,1,0.8
+F.,Northern Fulmar,Flannan Isles,winter (November),UK North Sea waters,0.02,0.03
+F.,Northern Fulmar,Flannan Isles,winter (November),UK western waters and Channel,0.7,0.3
+F.,Northern Fulmar,Forth Islands,migration seasons (September & October; December to March),UK North sea waters,1,0.8
+F.,Northern Fulmar,Forth Islands,migration seasons (September & October; December to March),UK western waters and Channel,0,0.1
+F.,Northern Fulmar,Forth Islands,winter (November),UK North Sea waters,0.7,0.3
+F.,Northern Fulmar,Forth Islands,winter (November),UK western waters and Channel,0.1,0.2
+F.,Northern Fulmar,Foula,migration seasons (September & October; December to March),UK North sea waters,0.9,0.8
+F.,Northern Fulmar,Foula,migration seasons (September & October; December to March),UK western waters and Channel,0.1,0.1
+F.,Northern Fulmar,Foula,winter (November),UK North Sea waters,0.7,0.3
+F.,Northern Fulmar,Foula,winter (November),UK western waters and Channel,0.1,0.2
+F.,Northern Fulmar,Fowlsheugh,migration seasons (September & October; December to March),UK North sea waters,1,0.8
+F.,Northern Fulmar,Fowlsheugh,migration seasons (September & October; December to March),UK western waters and Channel,0,0.1
+F.,Northern Fulmar,Fowlsheugh,winter (November),UK North Sea waters,0.7,0.3
+F.,Northern Fulmar,Fowlsheugh,winter (November),UK western waters and Channel,0.1,0.2
+F.,Northern Fulmar,Handa,migration seasons (September & October; December to March),UK North sea waters,0,0.06
+F.,Northern Fulmar,Handa,migration seasons (September & October; December to March),UK western waters and Channel,1,0.8
+F.,Northern Fulmar,Handa,winter (November),UK North Sea waters,0.02,0.03
+F.,Northern Fulmar,Handa,winter (November),UK western waters and Channel,0.7,0.3
+F.,Northern Fulmar,Hermaness; Saxavord,migration seasons (September & October; December to March),UK North sea waters,0.9,0.8
+F.,Northern Fulmar,Hermaness; Saxavord,migration seasons (September & October; December to March),UK western waters and Channel,0.1,0.1
+F.,Northern Fulmar,Hermaness; Saxavord,winter (November),UK North Sea waters,0.7,0.3
+F.,Northern Fulmar,Hermaness; Saxavord,winter (November),UK western waters and Channel,0.1,0.2
+F.,Northern Fulmar,Hoy,migration seasons (September & October; December to March),UK North sea waters,0.9,0.8
+F.,Northern Fulmar,Hoy,migration seasons (September & October; December to March),UK western waters and Channel,0.1,0.1
+F.,Northern Fulmar,Hoy,winter (November),UK North Sea waters,0.7,0.3
+F.,Northern Fulmar,Hoy,winter (November),UK western waters and Channel,0.1,0.2
+F.,Northern Fulmar,Iceland,migration seasons (September & October; December to March),UK North sea waters,0.02,0.04
+F.,Northern Fulmar,Iceland,migration seasons (September & October; December to March),UK western waters and Channel,0.02,0.04
+F.,Northern Fulmar,Iceland,winter (November),UK North Sea waters,0.01,0.02
+F.,Northern Fulmar,Iceland,winter (November),UK western waters and Channel,0.01,0.02
+F.,Northern Fulmar,Mingulay and  Berneray,migration seasons (September & October; December to March),UK North sea waters,0,0.06
+F.,Northern Fulmar,Mingulay and  Berneray,migration seasons (September & October; December to March),UK western waters and Channel,1,0.8
+F.,Northern Fulmar,Mingulay and  Berneray,winter (November),UK North Sea waters,0.02,0.03
+F.,Northern Fulmar,Mingulay and  Berneray,winter (November),UK western waters and Channel,0.7,0.3
+F.,Northern Fulmar,North Caithness Cliffs,migration seasons (September & October; December to March),UK North sea waters,0.9,0.8
+F.,Northern Fulmar,North Caithness Cliffs,migration seasons (September & October; December to March),UK western waters and Channel,0.1,0.1
+F.,Northern Fulmar,North Caithness Cliffs,winter (November),UK North Sea waters,0.7,0.3
+F.,Northern Fulmar,North Caithness Cliffs,winter (November),UK western waters and Channel,0.1,0.2
+F.,Northern Fulmar,North Rona and  Sula Sgeir,migration seasons (September & October; December to March),UK North sea waters,0,0.06
+F.,Northern Fulmar,North Rona and  Sula Sgeir,migration seasons (September & October; December to March),UK western waters and Channel,1,0.8
+F.,Northern Fulmar,North Rona and  Sula Sgeir,winter (November),UK North Sea waters,0.02,0.03
+F.,Northern Fulmar,North Rona and  Sula Sgeir,winter (November),UK western waters and Channel,0.7,0.3
+F.,Northern Fulmar,Norway,migration seasons (September & October; December to March),UK North sea waters,0.02,0.04
+F.,Northern Fulmar,Norway,migration seasons (September & October; December to March),UK western waters and Channel,0.02,0.04
+F.,Northern Fulmar,Norway,winter (November),UK North Sea waters,0.01,0.02
+F.,Northern Fulmar,Norway,winter (November),UK western waters and Channel,0.01,0.02
+F.,Northern Fulmar,Noss,migration seasons (September & October; December to March),UK North sea waters,0.9,0.8
+F.,Northern Fulmar,Noss,migration seasons (September & October; December to March),UK western waters and Channel,0.1,0.1
+F.,Northern Fulmar,Noss,winter (November),UK North Sea waters,0.7,0.3
+F.,Northern Fulmar,Noss,winter (November),UK western waters and Channel,0.1,0.2
+F.,Northern Fulmar,Rathlin Island,migration seasons (September & October; December to March),UK North sea waters,0,0.06
+F.,Northern Fulmar,Rathlin Island,migration seasons (September & October; December to March),UK western waters and Channel,1,0.8
+F.,Northern Fulmar,Rathlin Island,winter (November),UK North Sea waters,0.02,0.03
+F.,Northern Fulmar,Rathlin Island,winter (November),UK western waters and Channel,0.7,0.3
+F.,Northern Fulmar,Rousay,migration seasons (September & October; December to March),UK North sea waters,0.9,0.8
+F.,Northern Fulmar,Rousay,migration seasons (September & October; December to March),UK western waters and Channel,0.1,0.1
+F.,Northern Fulmar,Rousay,winter (November),UK North Sea waters,0.7,0.3
+F.,Northern Fulmar,Rousay,winter (November),UK western waters and Channel,0.1,0.2
+F.,Northern Fulmar,Shiant Isles,migration seasons (September & October; December to March),UK North sea waters,0,0.06
+F.,Northern Fulmar,Shiant Isles,migration seasons (September & October; December to March),UK western waters and Channel,1,0.8
+F.,Northern Fulmar,Shiant Isles,winter (November),UK North Sea waters,0.02,0.03
+F.,Northern Fulmar,Shiant Isles,winter (November),UK western waters and Channel,0.7,0.3
+F.,Northern Fulmar,St Kilda,migration seasons (September & October; December to March),UK North sea waters,0,0.06
+F.,Northern Fulmar,St Kilda,migration seasons (September & October; December to March),UK western waters and Channel,1,0.8
+F.,Northern Fulmar,St Kilda,winter (November),UK North Sea waters,0.02,0.03
+F.,Northern Fulmar,St Kilda,winter (November),UK western waters and Channel,0.7,0.3
+F.,Northern Fulmar,Sumburgh Head,migration seasons (September & October; December to March),UK North sea waters,0.9,0.8
+F.,Northern Fulmar,Sumburgh Head,migration seasons (September & October; December to March),UK western waters and Channel,0.1,0.1
+F.,Northern Fulmar,Sumburgh Head,winter (November),UK North Sea waters,0.7,0.3
+F.,Northern Fulmar,Sumburgh Head,winter (November),UK western waters and Channel,0.1,0.2
+F.,Northern Fulmar,Troup; Pennan and  Lions Heads,migration seasons (September & October; December to March),UK North sea waters,1,0.8
+F.,Northern Fulmar,Troup; Pennan and  Lions Heads,migration seasons (September & October; December to March),UK western waters and Channel,0,0.1
+F.,Northern Fulmar,Troup; Pennan and  Lions Heads,winter (November),UK North Sea waters,0.7,0.3
+F.,Northern Fulmar,Troup; Pennan and  Lions Heads,winter (November),UK western waters and Channel,0.1,0.2
+F.,Northern Fulmar,UK North Sea non-SPA,migration seasons (September & October; December to March),UK North sea waters,1,0.8
+F.,Northern Fulmar,UK North Sea non-SPA,migration seasons (September & October; December to March),UK western waters and Channel,0,0.1
+F.,Northern Fulmar,UK North Sea non-SPA,winter (November),UK North Sea waters,0.7,0.3
+F.,Northern Fulmar,UK North Sea non-SPA,winter (November),UK western waters and Channel,0.1,0.2
+F.,Northern Fulmar,UK Western non-SPA,migration seasons (September & October; December to March),UK North sea waters,0,0.06
+F.,Northern Fulmar,UK Western non-SPA,migration seasons (September & October; December to March),UK western waters and Channel,1,0.8
+F.,Northern Fulmar,UK Western non-SPA,winter (November),UK North Sea waters,0.02,0.03
+F.,Northern Fulmar,UK Western non-SPA,winter (November),UK western waters and Channel,0.7,0.3
+F.,Northern Fulmar,West Westray,migration seasons (September & October; December to March),UK North sea waters,0.9,0.8
+F.,Northern Fulmar,West Westray,migration seasons (September & October; December to March),UK western waters and Channel,0.1,0.1
+F.,Northern Fulmar,West Westray,winter (November),UK North Sea waters,0.7,0.3
+F.,Northern Fulmar,West Westray,winter (November),UK western waters and Channel,0.1,0.2
+GX,Northern Gannet,Ailsa Craig,autumn (September to November),UK North Sea and Channel waters,0,0.1
+GX,Northern Gannet,Ailsa Craig,autumn (September to November),UK western waters,1,0.8
+GX,Northern Gannet,Ailsa Craig,spring (December to March),UK North Sea and Channel waters,0,0
+GX,Northern Gannet,Ailsa Craig,spring (December to March),UK western waters,1,0.8
+GX,Northern Gannet,Fair Isle,autumn (September to November),UK North Sea and Channel waters,0.8,0.8
+GX,Northern Gannet,Fair Isle,autumn (September to November),UK western waters,0.2,0.1
+GX,Northern Gannet,Fair Isle,spring (December to March),UK North Sea and Channel waters,0.7,0.4
+GX,Northern Gannet,Fair Isle,spring (December to March),UK western waters,0.3,0.3
+GX,Northern Gannet,Faroe,autumn (September to November),UK North Sea and Channel waters,0.3,0.3
+GX,Northern Gannet,Faroe,autumn (September to November),UK western waters,0.2,0.3
+GX,Northern Gannet,Faroe,spring (December to March),UK North Sea and Channel waters,0.2,0.2
+GX,Northern Gannet,Faroe,spring (December to March),UK western waters,0.3,0.3
+GX,Northern Gannet,Flamborough and  Filey,autumn (September to November),UK North Sea and Channel waters,1,0.9
+GX,Northern Gannet,Flamborough and  Filey,autumn (September to November),UK western waters,0,0.1
+GX,Northern Gannet,Flamborough and  Filey,spring (December to March),UK North Sea and Channel waters,0.7,0.4
+GX,Northern Gannet,Flamborough and  Filey,spring (December to March),UK western waters,0.3,0.3
+GX,Northern Gannet,Forth Islands,autumn (September to November),UK North Sea and Channel waters,1,0.9
+GX,Northern Gannet,Forth Islands,autumn (September to November),UK western waters,0,0.1
+GX,Northern Gannet,Forth Islands,spring (December to March),UK North Sea and Channel waters,0.7,0.4
+GX,Northern Gannet,Forth Islands,spring (December to March),UK western waters,0.3,0.3
+GX,Northern Gannet,Germany,autumn (September to November),UK North Sea and Channel waters,0.3,0.4
+GX,Northern Gannet,Germany,autumn (September to November),UK western waters,0,0
+GX,Northern Gannet,Germany,spring (December to March),UK North Sea and Channel waters,0.3,0.3
+GX,Northern Gannet,Germany,spring (December to March),UK western waters,0,0
+GX,Northern Gannet,Grassholm,autumn (September to November),UK North Sea and Channel waters,0,0.1
+GX,Northern Gannet,Grassholm,autumn (September to November),UK western waters,1,0.8
+GX,Northern Gannet,Grassholm,spring (December to March),UK North Sea and Channel waters,0,0
+GX,Northern Gannet,Grassholm,spring (December to March),UK western waters,1,0.8
+GX,Northern Gannet,Hermaness; Saxavord,autumn (September to November),UK North Sea and Channel waters,0.8,0.8
+GX,Northern Gannet,Hermaness; Saxavord,autumn (September to November),UK western waters,0.2,0.1
+GX,Northern Gannet,Hermaness; Saxavord,spring (December to March),UK North Sea and Channel waters,0.7,0.4
+GX,Northern Gannet,Hermaness; Saxavord,spring (December to March),UK western waters,0.3,0.3
+GX,Northern Gannet,Iceland,autumn (September to November),UK North Sea and Channel waters,0.3,0.3
+GX,Northern Gannet,Iceland,autumn (September to November),UK western waters,0.2,0.3
+GX,Northern Gannet,Iceland,spring (December to March),UK North Sea and Channel waters,0.1,0.1
+GX,Northern Gannet,Iceland,spring (December to March),UK western waters,0.2,0.2
+GX,Northern Gannet,Ireland,autumn (September to November),UK North Sea and Channel waters,0,0.1
+GX,Northern Gannet,Ireland,autumn (September to November),UK western waters,0.2,0.3
+GX,Northern Gannet,Ireland,spring (December to March),UK North Sea and Channel waters,0,0.1
+GX,Northern Gannet,Ireland,spring (December to March),UK western waters,0.3,0.3
+GX,Northern Gannet,North Rona and  Sula Sgeir,autumn (September to November),UK North Sea and Channel waters,0.1,0.2
+GX,Northern Gannet,North Rona and  Sula Sgeir,autumn (September to November),UK western waters,0.9,0.7
+GX,Northern Gannet,North Rona and  Sula Sgeir,spring (December to March),UK North Sea and Channel waters,0,0
+GX,Northern Gannet,North Rona and  Sula Sgeir,spring (December to March),UK western waters,1,0.8
+GX,Northern Gannet,Norway,autumn (September to November),UK North Sea and Channel waters,0.3,0.3
+GX,Northern Gannet,Norway,autumn (September to November),UK western waters,0.2,0.3
+GX,Northern Gannet,Norway,spring (December to March),UK North Sea and Channel waters,0.2,0.2
+GX,Northern Gannet,Norway,spring (December to March),UK western waters,0.2,0.2
+GX,Northern Gannet,Noss,autumn (September to November),UK North Sea and Channel waters,0.8,0.8
+GX,Northern Gannet,Noss,autumn (September to November),UK western waters,0.2,0.1
+GX,Northern Gannet,Noss,spring (December to March),UK North Sea and Channel waters,0.7,0.4
+GX,Northern Gannet,Noss,spring (December to March),UK western waters,0.3,0.3
+GX,Northern Gannet,St Kilda,autumn (September to November),UK North Sea and Channel waters,0.1,0.2
+GX,Northern Gannet,St Kilda,autumn (September to November),UK western waters,0.9,0.7
+GX,Northern Gannet,St Kilda,spring (December to March),UK North Sea and Channel waters,0,0
+GX,Northern Gannet,St Kilda,spring (December to March),UK western waters,1,0.8
+GX,Northern Gannet,Sule Skerry and  Sule Stack,autumn (September to November),UK North Sea and Channel waters,0.1,0.2
+GX,Northern Gannet,Sule Skerry and  Sule Stack,autumn (September to November),UK western waters,0.9,0.7
+GX,Northern Gannet,Sule Skerry and  Sule Stack,spring (December to March),UK North Sea and Channel waters,0,0
+GX,Northern Gannet,Sule Skerry and  Sule Stack,spring (December to March),UK western waters,1,0.8
+GX,Northern Gannet,UK North Sea non-SPA colonies,autumn (September to November),UK North Sea and Channel waters,1,0.9
+GX,Northern Gannet,UK North Sea non-SPA cols,autumn (September to November),UK western waters,0,0.1
+GX,Northern Gannet,UK North Sea non-SPA cols,spring (December to March),UK North Sea and Channel waters,0.7,0.4
+GX,Northern Gannet,UK North Sea non-SPA cols,spring (December to March),UK western waters,0.3,0.3
+GX,Northern Gannet,UK western non-SPA colonies,autumn (September to November),UK North Sea and Channel waters,0,0.1
+GX,Northern Gannet,UK western non-SPA cols,autumn (September to November),UK western waters,1,0.8
+GX,Northern Gannet,UK western non-SPA cols,spring (December to March),UK North Sea and Channel waters,0,0
+GX,Northern Gannet,UK western non-SPA cols,spring (December to March),UK western waters,1,0.8
+RA,Razorbill,Cape Wrath,migration seasons (August to October; and January to March),UK North Sea and Channel waters,0.02,0.05
+RA,Razorbill,Cape Wrath,migration seasons (August to October; and January to March),UK western waters,0.98,0.9
+RA,Razorbill,Cape Wrath,winter (November and December),UK North Sea and Channel waters,0.1,0.05
+RA,Razorbill,Cape Wrath,winter (November and December),UK western waters,0.4,0.1
+RA,Razorbill,Denmark; Finland; Sweden,migration seasons (August to October; and January to March),UK North Sea and Channel waters,0.1,0.3
+RA,Razorbill,Denmark; Finland; Sweden,migration seasons (August to October; and January to March),UK western waters,0.05,0.1
+RA,Razorbill,Denmark; Finland; Sweden,winter (November and December),UK North Sea and Channel waters,0.02,0.05
+RA,Razorbill,Denmark; Finland; Sweden,winter (November and December),UK western waters,0.02,0.05
+RA,Razorbill,East Caithness Cliffs,migration seasons (August to October; and January to March),UK North Sea and Channel waters,1,0.9
+RA,Razorbill,East Caithness Cliffs,migration seasons (August to October; and January to March),UK western waters,0,0.02
+RA,Razorbill,East Caithness Cliffs,winter (November and December),UK North Sea and Channel waters,0.3,0.1
+RA,Razorbill,East Caithness Cliffs,winter (November and December),UK western waters,0.01,0.02
+RA,Razorbill,Fair Isle,migration seasons (August to October; and January to March),UK North Sea and Channel waters,0.95,0.9
+RA,Razorbill,Fair Isle,migration seasons (August to October; and January to March),UK western waters,0.05,0.05
+RA,Razorbill,Fair Isle,winter (November and December),UK North Sea and Channel waters,0.3,0.1
+RA,Razorbill,Fair Isle,winter (November and December),UK western waters,0.01,0.02
+RA,Razorbill,Faroe,migration seasons (August to October; and January to March),UK North Sea and Channel waters,0.5,0.5
+RA,Razorbill,Faroe,migration seasons (August to October; and January to March),UK western waters,0.5,0.5
+RA,Razorbill,Faroe,winter (November and December),UK North Sea and Channel waters,0.3,0.3
+RA,Razorbill,Faroe,winter (November and December),UK western waters,0.3,0.3
+RA,Razorbill,Flamborough and  Filey,migration seasons (August to October; and January to March),UK North Sea and Channel waters,1,0.9
+RA,Razorbill,Flamborough and  Filey,migration seasons (August to October; and January to March),UK western waters,0,0.02
+RA,Razorbill,Flamborough and  Filey,winter (November and December),UK North Sea and Channel waters,0.3,0.1
+RA,Razorbill,Flamborough and  Filey,winter (November and December),UK western waters,0.01,0.02
+RA,Razorbill,Flannan Islands,migration seasons (August to October; and January to March),UK North Sea and Channel waters,0.02,0.05
+RA,Razorbill,Flannan Islands,migration seasons (August to October; and January to March),UK western waters,0.98,0.9
+RA,Razorbill,Flannan Islands,winter (November and December),UK North Sea and Channel waters,0.1,0.05
+RA,Razorbill,Flannan Islands,winter (November and December),UK western waters,0.4,0.1
+RA,Razorbill,Forth Islands,migration seasons (August to October; and January to March),UK North Sea and Channel waters,1,0.9
+RA,Razorbill,Forth Islands,migration seasons (August to October; and January to March),UK western waters,0,0.02
+RA,Razorbill,Forth Islands,winter (November and December),UK North Sea and Channel waters,0.3,0.1
+RA,Razorbill,Forth Islands,winter (November and December),UK western waters,0.01,0.02
+RA,Razorbill,Foula,migration seasons (August to October; and January to March),UK North Sea and Channel waters,0.95,0.9
+RA,Razorbill,Foula,migration seasons (August to October; and January to March),UK western waters,0.05,0.05
+RA,Razorbill,Foula,winter (November and December),UK North Sea and Channel waters,0.3,0.1
+RA,Razorbill,Foula,winter (November and December),UK western waters,0.01,0.02
+RA,Razorbill,Fowlsheugh,migration seasons (August to October; and January to March),UK North Sea and Channel waters,1,0.9
+RA,Razorbill,Fowlsheugh,migration seasons (August to October; and January to March),UK western waters,0,0.02
+RA,Razorbill,Fowlsheugh,winter (November and December),UK North Sea and Channel waters,0.3,0.1
+RA,Razorbill,Fowlsheugh,winter (November and December),UK western waters,0.01,0.02
+RA,Razorbill,France,migration seasons (August to October; and January to March),UK North Sea and Channel waters,0.01,0.02
+RA,Razorbill,France,migration seasons (August to October; and January to March),UK western waters,0.05,0.05
+RA,Razorbill,France,winter (November and December),UK North Sea and Channel waters,0.05,0.05
+RA,Razorbill,France,winter (November and December),UK western waters,0.05,0.05
+RA,Razorbill,Handa,migration seasons (August to October; and January to March),UK North Sea and Channel waters,0.02,0.05
+RA,Razorbill,Handa,migration seasons (August to October; and January to March),UK western waters,0.98,0.9
+RA,Razorbill,Handa,winter (November and December),UK North Sea and Channel waters,0.1,0.05
+RA,Razorbill,Handa,winter (November and December),UK western waters,0.4,0.1
+RA,Razorbill,Iceland,migration seasons (August to October; and January to March),UK North Sea and Channel waters,0.3,0.4
+RA,Razorbill,Iceland,migration seasons (August to October; and January to March),UK western waters,0.3,0.4
+RA,Razorbill,Iceland,winter (November and December),UK North Sea and Channel waters,0.1,0.2
+RA,Razorbill,Iceland,winter (November and December),UK western waters,0.2,0.3
+RA,Razorbill,Ireland,migration seasons (August to October; and January to March),UK North Sea and Channel waters,0.02,0.05
+RA,Razorbill,Ireland,migration seasons (August to October; and January to March),UK western waters,0.1,0.1
+RA,Razorbill,Ireland,winter (November and December),UK North Sea and Channel waters,0.01,0.02
+RA,Razorbill,Ireland,winter (November and December),UK western waters,0.1,0.1
+RA,Razorbill,Mingulay and  Berneray,migration seasons (August to October; and January to March),UK North Sea and Channel waters,0.02,0.05
+RA,Razorbill,Mingulay and  Berneray,migration seasons (August to October; and January to March),UK western waters,0.98,0.9
+RA,Razorbill,Mingulay and  Berneray,winter (November and December),UK North Sea and Channel waters,0.1,0.05
+RA,Razorbill,Mingulay and  Berneray,winter (November and December),UK western waters,0.4,0.1
+RA,Razorbill,North Caithness Cliffs,migration seasons (August to October; and January to March),UK North Sea and Channel waters,0.95,0.9
+RA,Razorbill,North Caithness Cliffs,migration seasons (August to October; and January to March),UK western waters,0.05,0.05
+RA,Razorbill,North Caithness Cliffs,winter (November and December),UK North Sea and Channel waters,0.3,0.1
+RA,Razorbill,North Caithness Cliffs,winter (November and December),UK western waters,0.01,0.02
+RA,Razorbill,North Rona and  Sula Sgeir,migration seasons (August to October; and January to March),UK North Sea and Channel waters,0.02,0.05
+RA,Razorbill,North Rona and  Sula Sgeir,migration seasons (August to October; and January to March),UK western waters,0.98,0.9
+RA,Razorbill,North Rona and  Sula Sgeir,winter (November and December),UK North Sea and Channel waters,0.1,0.05
+RA,Razorbill,North Rona and  Sula Sgeir,winter (November and December),UK western waters,0.4,0.1
+RA,Razorbill,Norway,migration seasons (August to October; and January to March),UK North Sea and Channel waters,0.2,0.5
+RA,Razorbill,Norway,migration seasons (August to October; and January to March),UK western waters,0.1,0.3
+RA,Razorbill,Norway,winter (November and December),UK North Sea and Channel waters,0.05,0.1
+RA,Razorbill,Norway,winter (November and December),UK western waters,0.05,0.1
+RA,Razorbill,Rathlin Island,migration seasons (August to October; and January to March),UK North Sea and Channel waters,0.02,0.05
+RA,Razorbill,Rathlin Island,migration seasons (August to October; and January to March),UK western waters,0.98,0.9
+RA,Razorbill,Rathlin Island,winter (November and December),UK North Sea and Channel waters,0.05,0
+RA,Razorbill,Rathlin Island,winter (November and December),UK western waters,0.4,0.1
+RA,Razorbill,Russia,migration seasons (August to October; and January to March),UK North Sea and Channel waters,0.05,0.1
+RA,Razorbill,Russia,migration seasons (August to October; and January to March),UK western waters,0.05,0.1
+RA,Razorbill,Russia,winter (November and December),UK North Sea and Channel waters,0.01,0.02
+RA,Razorbill,Russia,winter (November and December),UK western waters,0.01,0.02
+RA,Razorbill,Shiants,migration seasons (August to October; and January to March),UK North Sea and Channel waters,0.02,0.05
+RA,Razorbill,Shiants,migration seasons (August to October; and January to March),UK western waters,0.98,0.9
+RA,Razorbill,Shiants,winter (November and December),UK North Sea and Channel waters,0.1,0.05
+RA,Razorbill,Shiants,winter (November and December),UK western waters,0.4,0.1
+RA,Razorbill,Skomer and  Skokholm,migration seasons (August to October; and January to March),UK North Sea and Channel waters,0.02,0.05
+RA,Razorbill,Skomer and  Skokholm,migration seasons (August to October; and January to March),UK western waters,0.98,0.9
+RA,Razorbill,Skomer and  Skokholm,winter (November and December),UK North Sea and Channel waters,0.05,0
+RA,Razorbill,Skomer and  Skokholm,winter (November and December),UK western waters,0.3,0.1
+RA,Razorbill,St Abbs to Fast Castle,migration seasons (August to October; and January to March),UK North Sea and Channel waters,1,0.9
+RA,Razorbill,St Abbs to Fast Castle,migration seasons (August to October; and January to March),UK western waters,0,0.02
+RA,Razorbill,St Abbs to Fast Castle,winter (November and December),UK North Sea and Channel waters,0.3,0.1
+RA,Razorbill,St Abbs to Fast Castle,winter (November and December),UK western waters,0.01,0.02
+RA,Razorbill,St Kilda,migration seasons (August to October; and January to March),UK North Sea and Channel waters,0.02,0.05
+RA,Razorbill,St Kilda,migration seasons (August to October; and January to March),UK western waters,0.98,0.9
+RA,Razorbill,St Kilda,winter (November and December),UK North Sea and Channel waters,0.1,0.05
+RA,Razorbill,St Kilda,winter (November and December),UK western waters,0.4,0.1
+RA,Razorbill,Troup; Pennan and  Lions,migration seasons (August to October; and January to March),UK North Sea and Channel waters,1,0.9
+RA,Razorbill,Troup; Pennan and  Lions,migration seasons (August to October; and January to March),UK western waters,0,0.02
+RA,Razorbill,Troup; Pennan and  Lions,winter (November and December),UK North Sea and Channel waters,0.3,0.1
+RA,Razorbill,Troup; Pennan and  Lions,winter (November and December),UK western waters,0.01,0.02
+RA,Razorbill,UK North Sea non-SPA colonies,migration seasons (August to October; and January to March),UK North Sea and Channel waters,1,0.9
+RA,Razorbill,UK North Sea non-SPA colonies,migration seasons (August to October; and January to March),UK western waters,0,0.02
+RA,Razorbill,UK North Sea non-SPA colonies,winter (November and December),UK North Sea and Channel waters,0.3,0.1
+RA,Razorbill,UK North Sea non-SPA colonies,winter (November and December),UK western waters,0.01,0.02
+RA,Razorbill,UK Western non-SPA colonies,migration seasons (August to October; and January to March),UK North Sea and Channel waters,0.02,0.05
+RA,Razorbill,UK Western non-SPA colonies,migration seasons (August to October; and January to March),UK western waters,0.98,0.9
+RA,Razorbill,UK Western non-SPA colonies,winter (November and December),UK North Sea and Channel waters,0.1,0.05
+RA,Razorbill,UK Western non-SPA colonies,winter (November and December),UK western waters,0.3,0.1
+RA,Razorbill,West Westray,migration seasons (August to October; and January to March),UK North Sea and Channel waters,0.95,0.9
+RA,Razorbill,West Westray,migration seasons (August to October; and January to March),UK western waters,0.05,0.05
+RA,Razorbill,West Westray,winter (November and December),UK North Sea and Channel waters,0.3,0.1
+RA,Razorbill,West Westray,winter (November and December),UK western waters,0.01,0.02
+RH,Red-throated Diver,Caithness and  Sutherland,migration seasons (September-November and February-April),UK North Sea waters,0.95,0.8
+RH,Red-throated Diver,Caithness and  Sutherland,migration seasons (September-November and February-April),UK western watersplus Channel,0.05,0.2
+RH,Red-throated Diver,Caithness and  Sutherland,winter season (December and January),NW England and Wales area,0.02,0.05
+RH,Red-throated Diver,Caithness and  Sutherland,winter season (December and January),NW North Sea area,0.5,0.2
+RH,Red-throated Diver,Caithness and  Sutherland,winter season (December and January),SW England and Channel area,0.02,0.05
+RH,Red-throated Diver,Caithness and  Sutherland,winter season (December and January),SW North Sea area,0.2,0.3
+RH,Red-throated Diver,Caithness and  Sutherland,winter season (December and January),West of Scotland area,0.05,0.1
+RH,Red-throated Diver,Fennoscandia,migration seasons (September-November and February-April),UK North Sea waters,0.45,0.65
+RH,Red-throated Diver,Fennoscandia,migration seasons (September-November and February-April),UK western watersplus Channel,0.05,0.1
+RH,Red-throated Diver,Fennoscandia,winter season (December and January),NW England and Wales area,0.02,0.05
+RH,Red-throated Diver,Fennoscandia,winter season (December and January),NW North Sea area,0.01,0.01
+RH,Red-throated Diver,Fennoscandia,winter season (December and January),SW England and Channel area,0.01,0.03
+RH,Red-throated Diver,Fennoscandia,winter season (December and January),SW North Sea area,0.4,0.6
+RH,Red-throated Diver,Fennoscandia,winter season (December and January),West of Scotland area,0,0.01
+RH,Red-throated Diver,Foula,migration seasons (September-November and February-April),UK North Sea waters,0.95,0.8
+RH,Red-throated Diver,Foula,migration seasons (September-November and February-April),UK western watersplus Channel,0.05,0.2
+RH,Red-throated Diver,Foula,winter season (December and January),NW England and Wales area,0.02,0.05
+RH,Red-throated Diver,Foula,winter season (December and January),NW North Sea area,0.5,0.2
+RH,Red-throated Diver,Foula,winter season (December and January),SW England and Channel area,0.02,0.05
+RH,Red-throated Diver,Foula,winter season (December and January),SW North Sea area,0.2,0.3
+RH,Red-throated Diver,Foula,winter season (December and January),West of Scotland area,0.05,0.1
+RH,Red-throated Diver,Greenland,migration seasons (September-November and February-April),UK North Sea waters,0.08,0.15
+RH,Red-throated Diver,Greenland,migration seasons (September-November and February-April),UK western watersplus Channel,0.25,0.6
+RH,Red-throated Diver,Greenland,winter season (December and January),NW England and Wales area,0.1,0.3
+RH,Red-throated Diver,Greenland,winter season (December and January),NW North Sea area,0.05,0.05
+RH,Red-throated Diver,Greenland,winter season (December and January),SW England and Channel area,0.1,0.2
+RH,Red-throated Diver,Greenland,winter season (December and January),SW North Sea area,0.02,0.05
+RH,Red-throated Diver,Greenland,winter season (December and January),West of Scotland area,0.02,0.05
+RH,Red-throated Diver,Hermaness; Saxavord,migration seasons (September-November and February-April),UK North Sea waters,0.95,0.8
+RH,Red-throated Diver,Hermaness; Saxavord,migration seasons (September-November and February-April),UK western watersplus Channel,0.05,0.2
+RH,Red-throated Diver,Hermaness; Saxavord,winter season (December and January),NW England and Wales area,0.02,0.05
+RH,Red-throated Diver,Hermaness; Saxavord,winter season (December and January),NW North Sea area,0.5,0.2
+RH,Red-throated Diver,Hermaness; Saxavord,winter season (December and January),SW England and Channel area,0.02,0.05
+RH,Red-throated Diver,Hermaness; Saxavord,winter season (December and January),SW North Sea area,0.2,0.3
+RH,Red-throated Diver,Hermaness; Saxavord,winter season (December and January),West of Scotland area,0.05,0.1
+RH,Red-throated Diver,Hoy,migration seasons (September-November and February-April),UK North Sea waters,0.95,0.8
+RH,Red-throated Diver,Hoy,migration seasons (September-November and February-April),UK western watersplus Channel,0.05,0.2
+RH,Red-throated Diver,Hoy,winter season (December and January),NW England and Wales area,0.02,0.05
+RH,Red-throated Diver,Hoy,winter season (December and January),NW North Sea area,0.5,0.2
+RH,Red-throated Diver,Hoy,winter season (December and January),SW England and Channel area,0.02,0.05
+RH,Red-throated Diver,Hoy,winter season (December and January),SW North Sea area,0.2,0.3
+RH,Red-throated Diver,Hoy,winter season (December and January),West of Scotland area,0.05,0.1
+RH,Red-throated Diver,Lewis Peatlands,migration seasons (September-November and February-April),UK North Sea waters,0.05,0.05
+RH,Red-throated Diver,Lewis Peatlands,migration seasons (September-November and February-April),UK western watersplus Channel,0.95,0.8
+RH,Red-throated Diver,Lewis Peatlands,winter season (December and January),NW England and Wales area,0.2,0.2
+RH,Red-throated Diver,Lewis Peatlands,winter season (December and January),NW North Sea area,0.05,0.05
+RH,Red-throated Diver,Lewis Peatlands,winter season (December and January),SW England and Channel area,0.1,0.2
+RH,Red-throated Diver,Lewis Peatlands,winter season (December and January),SW North Sea area,0.05,0.05
+RH,Red-throated Diver,Lewis Peatlands,winter season (December and January),West of Scotland area,0.4,0.2
+RH,Red-throated Diver,Mointeach Scadabhaigh,migration seasons (September-November and February-April),UK North Sea waters,0.05,0.05
+RH,Red-throated Diver,Mointeach Scadabhaigh,migration seasons (September-November and February-April),UK western watersplus Channel,0.95,0.8
+RH,Red-throated Diver,Mointeach Scadabhaigh,winter season (December and January),NW England and Wales area,0.2,0.2
+RH,Red-throated Diver,Mointeach Scadabhaigh,winter season (December and January),NW North Sea area,0.05,0.05
+RH,Red-throated Diver,Mointeach Scadabhaigh,winter season (December and January),SW England and Channel area,0.1,0.2
+RH,Red-throated Diver,Mointeach Scadabhaigh,winter season (December and January),SW North Sea area,0.05,0.05
+RH,Red-throated Diver,Mointeach Scadabhaigh,winter season (December and January),West of Scotland area,0.4,0.2
+RH,Red-throated Diver,Non-SPA UK North Sea,migration seasons (September-November and February-April),UK North Sea waters,0.95,0.8
+RH,Red-throated Diver,Non-SPA UK North Sea,migration seasons (September-November and February-April),UK western watersplus Channel,0.05,0.2
+RH,Red-throated Diver,Non-SPA UK North Sea,winter season (December and January),NW England and Wales area,0.02,0.05
+RH,Red-throated Diver,Non-SPA UK North Sea,winter season (December and January),NW North Sea area,0.5,0.2
+RH,Red-throated Diver,Non-SPA UK North Sea,winter season (December and January),SW England and Channel area,0.02,0.05
+RH,Red-throated Diver,Non-SPA UK North Sea,winter season (December and January),SW North Sea area,0.2,0.3
+RH,Red-throated Diver,Non-SPA UK North Sea,winter season (December and January),West of Scotland area,0.05,0.1
+RH,Red-throated Diver,Non-SPA UK western,migration seasons (September-November and February-April),UK North Sea waters,0.05,0.05
+RH,Red-throated Diver,Non-SPA UK western,migration seasons (September-November and February-April),UK western watersplus Channel,0.95,0.8
+RH,Red-throated Diver,Non-SPA UK western,winter season (December and January),NW England and Wales area,0.2,0.2
+RH,Red-throated Diver,Non-SPA UK western,winter season (December and January),NW North Sea area,0.05,0.05
+RH,Red-throated Diver,Non-SPA UK western,winter season (December and January),SW England and Channel area,0.1,0.2
+RH,Red-throated Diver,Non-SPA UK western,winter season (December and January),SW North Sea area,0.05,0.05
+RH,Red-throated Diver,Non-SPA UK western,winter season (December and January),West of Scotland area,0.4,0.2
+RH,Red-throated Diver,Orkney Mainland Moors,migration seasons (September-November and February-April),UK North Sea waters,0.95,0.8
+RH,Red-throated Diver,Orkney Mainland Moors,migration seasons (September-November and February-April),UK western watersplus Channel,0.05,0.2
+RH,Red-throated Diver,Orkney Mainland Moors,winter season (December and January),NW England and Wales area,0.02,0.05
+RH,Red-throated Diver,Orkney Mainland Moors,winter season (December and January),NW North Sea area,0.5,0.2
+RH,Red-throated Diver,Orkney Mainland Moors,winter season (December and January),SW England and Channel area,0.02,0.05
+RH,Red-throated Diver,Orkney Mainland Moors,winter season (December and January),SW North Sea area,0.2,0.3
+RH,Red-throated Diver,Orkney Mainland Moors,winter season (December and January),West of Scotland area,0.05,0.1
+RH,Red-throated Diver,Otterswick and  Graveland,migration seasons (September-November and February-April),UK North Sea waters,0.95,0.8
+RH,Red-throated Diver,Otterswick and  Graveland,migration seasons (September-November and February-April),UK western watersplus Channel,0.05,0.2
+RH,Red-throated Diver,Otterswick and  Graveland,winter season (December and January),NW England and Wales area,0.02,0.05
+RH,Red-throated Diver,Otterswick and  Graveland,winter season (December and January),NW North Sea area,0.5,0.2
+RH,Red-throated Diver,Otterswick and  Graveland,winter season (December and January),SW England and Channel area,0.02,0.05
+RH,Red-throated Diver,Otterswick and  Graveland,winter season (December and January),SW North Sea area,0.2,0.3
+RH,Red-throated Diver,Otterswick and  Graveland,winter season (December and January),West of Scotland area,0.05,0.1
+RH,Red-throated Diver,Ronas Hill; North Roe,migration seasons (September-November and February-April),UK North Sea waters,0.95,0.8
+RH,Red-throated Diver,Ronas Hill; North Roe,migration seasons (September-November and February-April),UK western watersplus Channel,0.05,0.2
+RH,Red-throated Diver,Ronas Hill; North Roe,winter season (December and January),NW England and Wales area,0.02,0.05
+RH,Red-throated Diver,Ronas Hill; North Roe,winter season (December and January),NW North Sea area,0.5,0.2
+RH,Red-throated Diver,Ronas Hill; North Roe,winter season (December and January),SW England and Channel area,0.02,0.05
+RH,Red-throated Diver,Ronas Hill; North Roe,winter season (December and January),SW North Sea area,0.2,0.3
+RH,Red-throated Diver,Ronas Hill; North Roe,winter season (December and January),West of Scotland area,0.05,0.1
+RH,Red-throated Diver,Rum,migration seasons (September-November and February-April),UK North Sea waters,0.05,0.05
+RH,Red-throated Diver,Rum,migration seasons (September-November and February-April),UK western watersplus Channel,0.95,0.8
+RH,Red-throated Diver,Rum,winter season (December and January),NW England and Wales area,0.2,0.2
+RH,Red-throated Diver,Rum,winter season (December and January),NW North Sea area,0.05,0.05
+RH,Red-throated Diver,Rum,winter season (December and January),SW England and Channel area,0.1,0.2
+RH,Red-throated Diver,Rum,winter season (December and January),SW North Sea area,0.05,0.05
+RH,Red-throated Diver,Rum,winter season (December and January),West of Scotland area,0.4,0.2
+RS,Roseate Tern,Coquet Island,migration seasons (August-September and late-April-May),north and west Scottish waters,0,0
+RS,Roseate Tern,Coquet Island,migration seasons (August-September and late-April-May),UK East Coast and Channel waters,1,0.6
+RS,Roseate Tern,Coquet Island,migration seasons (August-September and late-April-May),Wales and west England waters,0,0
+RS,Roseate Tern,Farne Islands,migration seasons (August-September and late-April-May),north and west Scottish waters,0,0
+RS,Roseate Tern,Farne Islands,migration seasons (August-September and late-April-May),UK East Coast and Channel waters,1,0.6
+RS,Roseate Tern,Farne Islands,migration seasons (August-September and late-April-May),Wales and west England waters,0,0
+RS,Roseate Tern,Forth Islands,migration seasons (August-September and late-April-May),north and west Scottish waters,0,0
+RS,Roseate Tern,Forth Islands,migration seasons (August-September and late-April-May),UK East Coast and Channel waters,1,0.6
+RS,Roseate Tern,Forth Islands,migration seasons (August-September and late-April-May),Wales and west England waters,0,0
+RS,Roseate Tern,Germany; Netherlands; Belgium,migration seasons (August-September and late-April-May),north and west Scottish waters,0,0.001
+RS,Roseate Tern,Germany; Netherlands; Belgium,migration seasons (August-September and late-April-May),UK East Coast and Channel waters,0.05,0.1
+RS,Roseate Tern,Germany; Netherlands; Belgium,migration seasons (August-September and late-April-May),Wales and west England waters,0,0.001
+RS,Roseate Tern,Ireland,migration seasons (August-September and late-April-May),north and west Scottish waters,5.00E-04,0.003
+RS,Roseate Tern,Ireland,migration seasons (August-September and late-April-May),UK East Coast and Channel waters,0.002,0.003
+RS,Roseate Tern,Ireland,migration seasons (August-September and late-April-May),Wales and west England waters,0.95,0.6
+RS,Roseate Tern,Larne Lough,migration seasons (August-September and late-April-May),north and west Scottish waters,0,0
+RS,Roseate Tern,Larne Lough,migration seasons (August-September and late-April-May),UK East Coast and Channel waters,0,0
+RS,Roseate Tern,Larne Lough,migration seasons (August-September and late-April-May),Wales and west England waters,1,0.6
+RS,Roseate Tern,North Norfolk Coast,migration seasons (August-September and late-April-May),north and west Scottish waters,0,0
+RS,Roseate Tern,North Norfolk Coast,migration seasons (August-September and late-April-May),UK East Coast and Channel waters,1,0.6
+RS,Roseate Tern,North Norfolk Coast,migration seasons (August-September and late-April-May),Wales and west England waters,0,0
+RS,Roseate Tern,Solent and  Southampton Water,migration seasons (August-September and late-April-May),north and west Scottish waters,0,0
+RS,Roseate Tern,Solent and  Southampton Water,migration seasons (August-September and late-April-May),UK East Coast and Channel waters,1,0.6
+RS,Roseate Tern,Solent and  Southampton Water,migration seasons (August-September and late-April-May),Wales and west England waters,0,0
+RS,Roseate Tern,UK North Sea non-SPA colonies,migration seasons (August-September and late-April-May),north and west Scottish waters,0,0
+RS,Roseate Tern,UK North Sea non-SPA colonies,migration seasons (August-September and late-April-May),UK East Coast and Channel waters,1,0.6
+RS,Roseate Tern,UK North Sea non-SPA colonies,migration seasons (August-September and late-April-May),Wales and west England waters,0,0
+RS,Roseate Tern,UK western non-SPA colonies,migration seasons (August-September and late-April-May),north and west Scottish waters,0,0
+RS,Roseate Tern,UK western non-SPA colonies,migration seasons (August-September and late-April-May),UK East Coast and Channel waters,0,0
+RS,Roseate Tern,UK western non-SPA colonies,migration seasons (August-September and late-April-May),Wales and west England waters,1,0.6
+RS,Roseate Tern,Ynys Feurig; Cemlyn Bay and  Skerries,migration seasons (August-September and late-April-May),north and west Scottish waters,0,0
+RS,Roseate Tern,Ynys Feurig; Cemlyn Bay and  Skerries,migration seasons (August-September and late-April-May),UK East Coast and Channel waters,0,0
+RS,Roseate Tern,Ynys Feurig; Cemlyn Bay and  Skerries,migration seasons (August-September and late-April-May),Wales and west England waters,1,0.6
+TE,Sandwich Tern,Alde-Ore Estuary,migration seasons (July-September and March-May),UK North Sea and Channel waters,1,0.7
+TE,Sandwich Tern,Alde-Ore Estuary,migration seasons (July-September and March-May),UK western waters,0,0
+TE,Sandwich Tern,Belgium,migration seasons (July-September and March-May),UK North Sea and Channel waters,0.1,0.1
+TE,Sandwich Tern,Belgium,migration seasons (July-September and March-May),UK western waters,0.01,0.01
+TE,Sandwich Tern,Carlingford Lough,migration seasons (July-September and March-May),UK North Sea and Channel waters,0,0
+TE,Sandwich Tern,Carlingford Lough,migration seasons (July-September and March-May),UK western waters,1,0.7
+TE,Sandwich Tern,Chichester and  Langstone Harb,migration seasons (July-September and March-May),UK North Sea and Channel waters,1,0.7
+TE,Sandwich Tern,Chichester and  Langstone Harb,migration seasons (July-September and March-May),UK western waters,0,0
+TE,Sandwich Tern,Coquet Island,migration seasons (July-September and March-May),UK North Sea and Channel waters,1,0.7
+TE,Sandwich Tern,Coquet Island,migration seasons (July-September and March-May),UK western waters,0,0
+TE,Sandwich Tern,Denmark,migration seasons (July-September and March-May),UK North Sea and Channel waters,0.1,0.1
+TE,Sandwich Tern,Denmark,migration seasons (July-September and March-May),UK western waters,0.03,0.03
+TE,Sandwich Tern,Duddon Estuary,migration seasons (July-September and March-May),UK North Sea and Channel waters,0,0
+TE,Sandwich Tern,Duddon Estuary,migration seasons (July-September and March-May),UK western waters,1,0.7
+TE,Sandwich Tern,Farne Islands,migration seasons (July-September and March-May),UK North Sea and Channel waters,1,0.7
+TE,Sandwich Tern,Farne Islands,migration seasons (July-September and March-May),UK western waters,0,0
+TE,Sandwich Tern,Forth Islands,migration seasons (July-September and March-May),UK North Sea and Channel waters,1,0.7
+TE,Sandwich Tern,Forth Islands,migration seasons (July-September and March-May),UK western waters,0,0
+TE,Sandwich Tern,Foulness,migration seasons (July-September and March-May),UK North Sea and Channel waters,1,0.7
+TE,Sandwich Tern,Foulness,migration seasons (July-September and March-May),UK western waters,0,0
+TE,Sandwich Tern,Germany,migration seasons (July-September and March-May),UK North Sea and Channel waters,0.1,0.1
+TE,Sandwich Tern,Germany,migration seasons (July-September and March-May),UK western waters,0.02,0.02
+TE,Sandwich Tern,Ireland,migration seasons (July-September and March-May),UK North Sea and Channel waters,0,0
+TE,Sandwich Tern,Ireland,migration seasons (July-September and March-May),UK western waters,0.3,0.3
+TE,Sandwich Tern,Larne Lough,migration seasons (July-September and March-May),UK North Sea and Channel waters,0,0
+TE,Sandwich Tern,Larne Lough,migration seasons (July-September and March-May),UK western waters,1,0.7
+TE,Sandwich Tern,Loch of Strathbeg,migration seasons (July-September and March-May),UK North Sea and Channel waters,1,0.7
+TE,Sandwich Tern,Loch of Strathbeg,migration seasons (July-September and March-May),UK western waters,0,0
+TE,Sandwich Tern,Morecambe Bay,migration seasons (July-September and March-May),UK North Sea and Channel waters,0,0
+TE,Sandwich Tern,Morecambe Bay,migration seasons (July-September and March-May),UK western waters,1,0.7
+TE,Sandwich Tern,Netherlands,migration seasons (July-September and March-May),UK North Sea and Channel waters,0.1,0.1
+TE,Sandwich Tern,Netherlands,migration seasons (July-September and March-May),UK western waters,0.01,0.01
+TE,Sandwich Tern,North Norfolk Coast,migration seasons (July-September and March-May),UK North Sea and Channel waters,1,0.7
+TE,Sandwich Tern,North Norfolk Coast,migration seasons (July-September and March-May),UK western waters,0,0
+TE,Sandwich Tern,Norway and  Sweden,migration seasons (July-September and March-May),UK North Sea and Channel waters,0.1,0.1
+TE,Sandwich Tern,Norway and  Sweden,migration seasons (July-September and March-May),UK western waters,0.05,0.05
+TE,Sandwich Tern,Solent and  Southampton Water,migration seasons (July-September and March-May),UK North Sea and Channel waters,1,0.7
+TE,Sandwich Tern,Solent and  Southampton Water,migration seasons (July-September and March-May),UK western waters,0,0
+TE,Sandwich Tern,Strangford Lough,migration seasons (July-September and March-May),UK North Sea and Channel waters,0,0
+TE,Sandwich Tern,Strangford Lough,migration seasons (July-September and March-May),UK western waters,1,0.7
+TE,Sandwich Tern,UK North Sea non-SPA colonies,migration seasons (July-September and March-May),UK North Sea and Channel waters,1,0.7
+TE,Sandwich Tern,UK North Sea non-SPA colonies,migration seasons (July-September and March-May),UK western waters,0,0
+TE,Sandwich Tern,UK Western non-SPA colonies,migration seasons (July-September and March-May),UK North Sea and Channel waters,0,0
+TE,Sandwich Tern,UK Western non-SPA colonies,migration seasons (July-September and March-May),UK western waters,1,0.7
+TE,Sandwich Tern,Ynys Feurig; Cemlyn Bay,migration seasons (July-September and March-May),UK North Sea and Channel waters,0,0
+TE,Sandwich Tern,Ynys Feurig; Cemlyn Bay,migration seasons (July-September and March-May),UK western waters,1,0.7
+TE,Sandwich Tern,Ythan Estuary,migration seasons (July-September and March-May),UK North Sea and Channel waters,1,0.7
+TE,Sandwich Tern,Ythan Estuary,migration seasons (July-September and March-May),UK western waters,0,0

@@ -1,0 +1,47 @@
+
+## SPA List {#spalist}
+
+### Summary {-}
+Definitive list of SPAs to be included within the CEF, including names, codes, a summary of data availablility (SMP and BDMPS) for each SPA, and an indication of how the SPA should be treated within the CEF tools
+
+### Provenance {-}
+This data was created by BioSS by using an R script to extract SPA sites names and codes from the file "uk-natura2000-2020-12-18-SPA-site-details.csv", and then matching these, by name, against SPAs in the JNCC SPA species designations and in the SMP and BDMPS data. This automated process provides a draft version of this file, indicating which SPAs are to be included in the CEF and how, but the final version is then created by JNCC by manually modifying this file, to adjust situations where the automated rules do not yield the best decision. This final step is not yet complete, so current rough draft version is just derived from the R script.
+
+### Terms of Use {-}
+To be checked with JNCC, but should be openly available
+
+### Data set attribution {-}
+You must cite: 
+
+### Versions Available {-}
+```{r spalist, echo=FALSE, message=FALSE, warning=FALSE, paged.print=TRUE, results='asis'}
+library(readr)
+library(knitr)
+vers <- readr::read_csv('/data/DataStore/02_Colony/201_SPAList/vers_spalist.csv')
+knitr::kable(vers)
+
+```
+
+#### Update information {-}
+* july2021 - INITIAL ROUGH DRAFT.
+
+#### Data Store Location {-}
+* Section: 02_Colony
+* Folder: 201_SPAList
+* Default version: july2021
+
+### Field Descriptions for july2021 {-}
+```{r spalistfields, echo=FALSE, message=FALSE, warning=FALSE, paged.print=TRUE, results='asis'}
+fields <- readr::read_csv('/data/DataStore/02_Colony/201_SPAList/july2021/fields_spalist.csv')
+knitr::kable(fields)
+
+```
+
+### Supplemental information {-}
+SPAs can be included in the CEF in three ways, in terms of functionality: (a) in the normal way (all tools relevant to the species are available for this SPA, in all seasons); (b) without NB apportioning (non-breeding season apportioning is unavailable, so apportioning percentages are fixed [TO BE CHECKED WITH PSG] at zero in non-breeding season; (c) as a marine-only SPA, in which case apportioning is not performed, and the CEF can only be run for a single population, with user-specified population size (as in an EIA).
+
+### Keywords {-}
+seabirds; SPA; breeding colony; SMP; BDMPS
+
+----
+

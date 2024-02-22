@@ -1,0 +1,96 @@
+```{r setup}
+knitr::opts_chunk$set(error=TRUE)
+```
+
+## Produce a RAG map for the report. Users will be able to see which colonies were used in the apportioning calculations. 
+ - Red = BDMPS colonies
+ - Amber = untracked colonies within the distance threshold of (at least one) tracked colony that the user specified (default is 270km)
+ - Green  = tracked colonies using GLS tags
+- ligh green = tracked colonies that are not SPAs for the chosen species
+
+
+
+## Prep data set for plotting
+```{r ragdf}
+
+  # Load colonies
+  rag.cols <-
+    merge(
+      all.cols[,c("SPACODE","Population","source")],
+      dat_coords[, c("SITECODE", "t.coordx", "t.coordy")],
+      by.x = "SPACODE",
+      by.y = "SITECODE",
+      all.x = TRUE
+    )
+
+
+df <- rag.cols[!is.na(rag.cols$t.coordx),c("SPACODE","Population","source","t.coordx","t.coordy")]
+colnames(df) <- c("SPACODE", "Population","Source","X","Y")
+
+```
+
+```{r ragappend, eval=inputs$BDMPS.uncertainty>1}
+
+temp <- trackedcols[!trackedcols$SITECODE %in% df$SPACODE,c("SITECODE", "SITE_NAME","t.coordx","t.coordy")]
+temp$source <- "GLS tracked non-SPA"
+temp <- temp[,c(1,2,5,3,4)]
+colnames(temp) <- c("SPACODE", "Population","Source","X","Y")
+df <- rbind(df,temp)
+```
+
+
+
+## Plotting
+```{r ragplot}
+
+#get map limits in correct coordinate system
+temp_df<-data.frame("x"=c(-9.5,2), "y"=c(49, 61))
+coordinates(temp_df)<-~x+y
+crs(temp_df)<- "+proj=longlat +datum=WGS84 +units=m +no_defs"
+temp_df<-spTransform(temp_df,"+proj=laea +lat_0=90 +lon_0=0 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs") 
+
+if(inputs$mode=="footprint"){
+  
+# create figure
+colonymapRAG<-ggplot()+ 
+  geom_sf(data=UKmap[2:150,], aes(fill="lightgrey")) + 
+  geom_sf(data=fp.shp, aes(fill="black")) + 
+  coord_sf(xlim = c(temp_df@coords[1],temp_df@coords[2]), ylim = c(temp_df@coords[3], temp_df@coords[4])) +
+  geom_point(data=df, mapping=aes(X,Y, color= Source),size=3)+
+  scale_color_manual(values=c("darkred", "darkorange", "darkgreen","lightgreen"),
+                       breaks=c("BDMPS", "GLS untracked", "GLS tracked","GLS tracked non-SPA"))+
+  scale_fill_manual(values=c("black", "lightgrey"), label=c("ORE footprint", "UK"),name="")+
+  theme_bw()+
+  labs(x="Longitude", y="Latitude")+
+     annotation_scale(location = "bl")+
+annotation_north_arrow(location = "bl", which_north = "true",
+    pad_x = unit(0.3, "in"), pad_y = unit(0.3, "in"),
+    height = unit(0.8, "cm"), 
+    width = unit(0.8, "cm"),
+    style= north_arrow_orienteering(text_size = 8))
+
+} else {
+  
+# create figure
+colonymapRAG<-ggplot()+ 
+  geom_sf(data=UKmap[2:150,], aes(fill="lightgrey")) + 
+  coord_sf(xlim = c(temp_df@coords[1],temp_df@coords[2]), ylim = c(temp_df@coords[3], temp_df@coords[4])) +
+  geom_point(data=df, mapping=aes(X,Y, color= Source),size=3)+
+  scale_color_manual(values=c("darkred", "darkorange", "darkgreen","lightgreen"),
+                       breaks=c("BDMPS", "GLS untracked", "GLS tracked","GLS tracked non-SPA"))+
+  scale_fill_manual(values=c("lightgrey"), label=c("UK"),name="")+
+  theme_bw()+
+  labs(x="Longitude", y="Latitude")+
+     annotation_scale(location = "bl")+
+annotation_north_arrow(location = "bl", which_north = "true",
+    pad_x = unit(0.3, "in"), pad_y = unit(0.3, "in"),
+    height = unit(0.8, "cm"), 
+    width = unit(0.8, "cm"),
+    style= north_arrow_orienteering(text_size = 8))
+  
+}
+
+   ggsave("colonymapRAG.png",plot=colonymapRAG, width=6, height=6, units="in", dpi=300, pointsize=5)
+   
+   
+```
