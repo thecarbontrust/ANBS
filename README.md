@@ -1,2 +1,3 @@
 # ANBS
-Apportioning in the Non-Breeding Season (ANBS) tool for razorbill and guillemot
+The Apportioning in the Non-Breeding Season (ANBS) tool is designed to apportion breeding adult common guillemot (Uria aalge) and razorbill (Alca torda) in the non-breeding season within the UK EEZ. The approach uses geolocator tag information collected from both species over three field seasons between 2017 and 2020 from up to 12 colonies. Utilisation distributions were derived from the geolocators and simulations were generated based on locational uncertainty, producing 100 simulations for each species, colony, and month. The tool propagates locational uncertainty through the analysis to give mean estimates of apportioning along with estimates of uncertainty. The tool uses populations defined in BDMPS, including UK SPAs, UK non-SPAs, and non-UK non-SPAs (Furness, 2015).
+Please refer to the user guide in the documentation folder for further information.
